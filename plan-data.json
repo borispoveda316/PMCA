@@ -3,7 +3,7 @@
     "sourceName": "Plan_de_Mejoras_Cualificacion_v2.xlsx",
     "sheetName": "Plan de Mejoras",
     "range": "Tabla PlanMejoras",
-    "generatedAt": "2026-09-21T05:11:43.656Z",
+    "generatedAt": "2026-09-21T05:13:48.114Z",
     "totalActivities": 93,
     "totalColumns": 27,
     "minDate": "2026-10-01",
@@ -130,7 +130,7 @@
       "Criterio de aceptación (evidencia de cumplimiento)": "",
       "Prioridad": "Crítica",
       "Estado": "No iniciada",
-      "Avance (%)": 100,
+      "Avance (%)": 0,
       "Carga de Evidencias": "G-1",
       "Nivel de Cumplimiento": "",
       "Observaciones": ""
@@ -160,7 +160,7 @@
       "Criterio de aceptación (evidencia de cumplimiento)": "Resolución de aprobación emitida",
       "Prioridad": "Crítica",
       "Estado": "No iniciada",
-      "Avance (%)": 100,
+      "Avance (%)": 0,
       "Carga de Evidencias": "G-2",
       "Nivel de Cumplimiento": "",
       "Observaciones": ""
