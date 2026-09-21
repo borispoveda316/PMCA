@@ -2,17 +2,18 @@
   "metadata": {
     "sourceName": "Plan_de_Mejoras_Cualificacion_v2.xlsx",
     "sheetName": "Plan de Mejoras",
-    "range": "A1:AA94",
+    "range": "Tabla PlanMejoras",
+    "generatedAt": "2026-09-21T04:49:35.882Z",
     "totalActivities": 93,
-    "totalColumns": 27,
+    "totalColumns": 28,
     "minDate": "2026-10-01",
     "maxDate": "2027-04-30",
-    "averageAdvance": 0.10752688172043011,
     "duplicateIds": [],
     "blankHeaderColumns": [],
     "formulaIssue": "Las fórmulas de Plazo (días) usan una referencia externa [1]Parametros y deben corregirse a Parametros!$A$2:$A$9."
   },
   "headers": [
+    "ItemInternalId",
     "ID",
     "Fase",
     "Criterio",
@@ -42,6 +43,7 @@
     "Observaciones"
   ],
   "originalHeaders": [
+    "ItemInternalId",
     "ID",
     "Fase",
     "Criterio",
@@ -70,512 +72,6 @@
     "Nivel de Cumplimiento",
     "Observaciones"
   ],
-  "columnProfiles": [
-    {
-      "header": "ID",
-      "populated": 93,
-      "missing": 0,
-      "distinct": 93,
-      "sample": [
-        "G-01",
-        "G-02",
-        "G-03",
-        "G-04",
-        "G-05",
-        "G-07",
-        "G-08",
-        "G-09"
-      ]
-    },
-    {
-      "header": "Fase",
-      "populated": 93,
-      "missing": 0,
-      "distinct": 41,
-      "sample": [
-        "F0. Diagnóstico y arranque (oct 2026)",
-        "F0. Diagnóstico y arranque (oct - nov 2026)",
-        "F1. Diseño y aprobación normativa (nov-feb 2026)",
-        "F1. Diseño y aprobación normativa (nov-may 2026)",
-        "F3. Consolidación y postulación (abril 2027)",
-        "F3. Consolidación y postulación (mar-may 2027)",
-        "F3. Consolidación y postulación (may - jun 2027)",
-        "F3. Consolidación y postulación (feb -marz 2027)"
-      ]
-    },
-    {
-      "header": "Criterio",
-      "populated": 93,
-      "missing": 0,
-      "distinct": 3,
-      "sample": [
-        "Gestión Interna - Gobernanza del proceso",
-        "CCI - Criterio de Carácter Institucional",
-        "CCE - Criterio de Carácter Específico"
-      ]
-    },
-    {
-      "header": "Indicador",
-      "populated": 93,
-      "missing": 0,
-      "distinct": 11,
-      "sample": [
-        "Gestión del proceso de cualificación",
-        "Indicador 1: Estructura institucional",
-        "Indicador 2: Gestión de la investigación",
-        "Indicador 3: Líneas de investigación",
-        "Indicador 4: Ética",
-        "Indicador 5: Internacionalización",
-        "Indicador 6: Infraestructura y ambientes de aprendizaje",
-        "Indicador 7: Personal académico"
-      ]
-    },
-    {
-      "header": "Tipo de indicador",
-      "populated": 93,
-      "missing": 0,
-      "distinct": 3,
-      "sample": [
-        "Propio",
-        "Cualitativo",
-        "Mixto (cualitativo y cuantitativo)"
-      ]
-    },
-    {
-      "header": "Elemento fundamental",
-      "populated": 93,
-      "missing": 0,
-      "distinct": 48,
-      "sample": [
-        "NA",
-        "EF1.1",
-        "EF1.2",
-        "EF1.3",
-        "EF1.4",
-        "EF2.1",
-        "EF2.2",
-        "EF2.3"
-      ]
-    },
-    {
-      "header": "Descripción del EF",
-      "populated": 93,
-      "missing": 0,
-      "distinct": 49,
-      "sample": [
-        "No corresponde a un elemento fundamental del modelo; permite iniciar el cumplimiento del proceso de cualificación.",
-        "La institución articula en su filosofía institucional y modelo educativo el desarrollo de la investigación en cumplimiento de sus objetivos estratégicos.",
-        "La institución define la estructura de investigación institucional y establece una unidad y un responsable del diseño y ejecución de políticas que contribuyen al logro de la filosofía institucional.",
-        "La institución gestiona la investigación, a través de políticas o estrategias, alineadas al Plan Nacional de Desarrollo (PND) y a los planes de desarrollo local.",
-        "Las políticas de investigación establecen objetivos para el desarrollo de la formación doctoral.",
-        "La institución establece los lineamientos o procedimientos para el desarrollo de la investigación, difusión de los resultados, la gestión de transferencia de conocimiento o tecnología y derechos de propiedad intelectual, a través de la normativa expedida para el efecto.",
-        "La institución cuenta con una unidad y un responsable que se encarga de la planificación, seguimiento, evaluación e implementa acciones de mejora en las actividades, procesos y proyectos de investigación.",
-        "La institución cuenta con un sistema de gestión informático, administrativo y académico para el desarrollo de las actividades de investigación asociada a la ejecución de los programas de posgrado."
-      ]
-    },
-    {
-      "header": "Fuente de información",
-      "populated": 93,
-      "missing": 0,
-      "distinct": 66,
-      "sample": [
-        "No corresponde a un elemento fundamental del modelo; permite iniciar el cumplimiento del proceso de cualificación.",
-        "FI1 Estatuto y FI2 Modelo Educativo",
-        "FI5 Planificación Estratégica de Desarrollo Institucional PEDI",
-        "FIDocumento que evidencie la unidad con la designación del responsable del diseño y \nejecución de políticas ",
-        "FI4 Documento que evidencia la designación del responsable",
-        "FI3 Política institucional de investigación y FI6 Documento que evidencia la articulación con los planes de desarrollo\n",
-        "FI7 Documento que evidencia la política para el desarrollo de la formación doctoral",
-        "FI1 Normativa de investigación"
-      ]
-    },
-    {
-      "header": "Valoración según el modelo",
-      "populated": 93,
-      "missing": 0,
-      "distinct": 1,
-      "sample": [
-        "NO CUMPLE"
-      ]
-    },
-    {
-      "header": "Tipo de Actividad",
-      "populated": 93,
-      "missing": 0,
-      "distinct": 2,
-      "sample": [
-        "INSTITUCIONAL",
-        "ESPECÍFICA"
-      ]
-    },
-    {
-      "header": "Descripción del Hallazgo",
-      "populated": 93,
-      "missing": 0,
-      "distinct": 93,
-      "sample": [
-        "El proceso no cuenta con una instancia formal que articule a las unidades responsables de los diez indicadores; sin ella la ejecución queda dispersa entre direcciones, sin coordinación ni rendición de cuentas.",
-        "El plan carece de acto administrativo de aprobación y de compromisos formales por unidad, por lo que sus metas no son exigibles.",
-        "La institución no ha declarado formalmente el campo de conocimiento específico ni el programa doctoral a postular; sin esa decisión no puede delimitarse el alcance de los indicadores del Criterio de Carácter Específico.",
-        "No existe verificación documentada y vigente de los requisitos habilitantes que exige el Reglamento de Cualificación Académica y su reforma.",
-        "La evidencia de los elementos fundamentales está dispersa en las unidades, sin estructura común, control de versiones ni trazabilidad hacia las fuentes de información del modelo.",
-        "Las unidades responsables no han sido capacitadas en la estructura del modelo ni en la valoración dicotómica, lo que genera evidencia mal orientada respecto de lo que cada elemento exige.",
-        "No existe un mecanismo de seguimiento periódico del plan con alertas tempranas y reprogramación documentada.",
-        "El expediente no ha sido sometido a evaluación previa con criterio externo, por lo que las observaciones se conocerían recién en la evaluación oficial."
-      ]
-    },
-    {
-      "header": "Actividad",
-      "populated": 93,
-      "missing": 0,
-      "distinct": 93,
-      "sample": [
-        "Conformar el Equipo de Cualificación Académica",
-        "Aprobar y socializar el Plan de Mejoras",
-        "Definir el campo de conocimiento específico y el programa doctoral a postular",
-        "Verificar los requisitos habilitantes de postulación",
-        "Implementar el repositorio digital de evidencias",
-        "Ejecutar el plan de capacitación interna sobre el Modelo de Cualificación",
-        "Operar el seguimiento mensual del plan de mejoras",
-        "Realizar el simulacro de evaluación documental"
-      ]
-    },
-    {
-      "header": "Descripción de la actividad",
-      "populated": 93,
-      "missing": 0,
-      "distinct": 93,
-      "sample": [
-        "Integrar el equipo gestor del proceso con delegados de investigación, posgrado, aseguramiento de la calidad, jurídico, TTHH, planificación y financiero.",
-        "Someter el plan a conocimiento y aprobación de autoridades, difundirlo a facultades y grupos de investigación, y comprometer metas por unidad.",
-        "Analizar dominios académicos, fortalezas de producción científica y planta doctoral para seleccionar el campo específico (CAMPO ESPECÍFICO), contar con el número de cortes requeridas conforme reglamento para la cualificación de UEP",
-        "Comprobar acreditación institucional vigente, ausencia de sanciones, cumplimiento de la normativa del CES y la CACES, y demás condiciones exigidas por el Reglamento de Cualificación Académica y su reforma.",
-        "Diseñar y poner en operación un repositorio con estructura de carpetas por criterio, indicador, elemento fundamental y fuente de información, con control de versiones, permisos y trazabilidad.",
-        "Capacitar a autoridades, directores, coordinadores de grupos de investigación y personal académico en criterios, indicadores, elementos fundamentales, fuentes de información y valoración dicotómica.",
-        "Mantener un tablero de avance por indicador y actividad, sesionar mensualmente el Comité, levantar alertas tempranas y aprobar reprogramaciones con justificación técnica.",
-        "Someter el expediente completo a una evaluación interna tipo par, con evaluadores externos con experiencia CACES, aplicando la valoración dicotómica por indicador."
-      ]
-    },
-    {
-      "header": "Medida de mitigación",
-      "populated": 92,
-      "missing": 1,
-      "distinct": 92,
-      "sample": [
-        "Firmar actas de compromiso por facultades con metas nominales y responsables identificados",
-        "Aplicar matriz de decisión ponderada con datos de planta doctoral, publicaciones WoS y Scopus, grupos y proyectos de los últimos 5 años",
-        "Verificar el requisito al inicio del plan y repetir la verificación 30 días antes de postular",
-        "Designar un custodio de evidencias por indicador y auditar la carga mensualmente",
-        "Programar sesiones por facultad en horarios protegidos y registrar la participación como mérito académico",
-        "Definir umbral de alerta al 15% de retraso y activar plan de contingencia por actividad",
-        "Ejecutar el simulacro con al menos 60 días de anticipación a la postulación",
-        "Aplicar la matriz de trazabilidad elemento fundamental a fuente de información antes del cierre"
-      ]
-    },
-    {
-      "header": "Responsable principal",
-      "populated": 93,
-      "missing": 0,
-      "distinct": 47,
-      "sample": [
-        "Cancilleria\nRectorado",
-        "Cancilleria\nRectorado\nVicerrectorado de Investigación",
-        "Dirección de Aseguramiento de la Calidad",
-        "Comité de Cualificación",
-        "Rectorado",
-        "Procuraduría",
-        "Cancielleria\nVicerrectorado de Investigación\nVicerrectorado de Docencia\nDirección de Posgrado",
-        "Vicerrectorado de Investigación\nDirección de Investigación\nDirección de Planificación"
-      ]
-    },
-    {
-      "header": "Fecha de inicio",
-      "populated": 93,
-      "missing": 0,
-      "distinct": 22,
-      "sample": [
-        "2026-10-01",
-        "2026-10-12",
-        "2026-11-02",
-        "2027-04-01",
-        "2027-03-01",
-        "2027-04-20",
-        "2027-02-04",
-        "2026-12-04"
-      ]
-    },
-    {
-      "header": "Fecha de fin",
-      "populated": 93,
-      "missing": 0,
-      "distinct": 65,
-      "sample": [
-        "2026-10-15",
-        "2026-10-27",
-        "2026-10-10",
-        "2026-11-16",
-        "2027-02-16",
-        "2027-04-30",
-        "2027-04-20",
-        "2027-03-19"
-      ]
-    },
-    {
-      "header": "Plazo (días)",
-      "populated": 93,
-      "missing": 0,
-      "distinct": 2,
-      "sample": [
-        "#NAME?",
-        "53"
-      ]
-    },
-    {
-      "header": "Producto / Entregable",
-      "populated": 93,
-      "missing": 0,
-      "distinct": 93,
-      "sample": [
-        "Conformación del Equipocon nómina, roles y cronograma de sesiones",
-        "Plan de Mejoras aprobado por resolución y acta de socialización institucional",
-        "Informe técnico de selección del campo específico y resolución de decisión institucional",
-        "Informe de verificación de requisitos habilitantes con documentos de respaldo",
-        "Repositorio operativo con nomenclatura estandarizada y manual de carga de evidencias",
-        "Plan de capacitación ejecutado con registros de asistencia y evaluación de aprendizaje",
-        "Actas mensuales de seguimiento e informes trimestrales de avance del plan",
-        "Informe de simulacro con valoración Cumple o No cumple por indicador y observaciones de mejora"
-      ]
-    },
-    {
-      "header": "Medio de verificación",
-      "populated": 92,
-      "missing": 1,
-      "distinct": 82,
-      "sample": [
-        "Resolución de aprobación y registros de socialización",
-        "Informe técnico y resolución del OCS",
-        "Certificados de acreditación vigente y certificaciones institucionales",
-        "Manual de uso del repositorio y reportes de carga",
-        "Registros de asistencia, materiales y certificados",
-        "Actas del Comité e informes de avance con porcentaje de cumplimiento",
-        "Informe de evaluación simulada y plan de cierre de observaciones",
-        "Informe firmado y expediente indexado por indicador"
-      ]
-    },
-    {
-      "header": "Criterio de aceptación (evidencia de cumplimiento)",
-      "populated": 92,
-      "missing": 1,
-      "distinct": 92,
-      "sample": [
-        "Resolución de aprobación emitida",
-        "Resolución que declara el campo específico (CAMPO ESPECÍFICO) y el programa doctoral, con sustento técnico verificable",
-        "Informe que confirma que la Institución cumple todos los requisitos habilitantes vigentes",
-        "Repositorio en producción con el 100% de carpetas creadas y al menos una evidencia cargada por indicador",
-        "Al menos 4 jornadas ejecutadas y 70% del personal académico del (CAMPO ESPECÍFICO) capacitado y certificado",
-        "11 actas mensuales y 4 informes trimestrales suscritos, con acciones correctivas documentadas",
-        "Informe emitido y plan de cierre de observaciones aprobado antes del 5 de agosto de 2027",
-        "Expediente que cubre los 48 elementos fundamentales con al menos una evidencia válida y vigente por cada uno"
-      ]
-    },
-    {
-      "header": "Prioridad",
-      "populated": 93,
-      "missing": 0,
-      "distinct": 3,
-      "sample": [
-        "Crítica",
-        "Alta",
-        "Media"
-      ]
-    },
-    {
-      "header": "Estado",
-      "populated": 93,
-      "missing": 0,
-      "distinct": 2,
-      "sample": [
-        "No iniciada",
-        "INICIADA"
-      ]
-    },
-    {
-      "header": "Avance (%)",
-      "populated": 93,
-      "missing": 0,
-      "distinct": 2,
-      "sample": [
-        "0",
-        "10"
-      ]
-    },
-    {
-      "header": "Carga de Evidencias",
-      "populated": 93,
-      "missing": 0,
-      "distinct": 59,
-      "sample": [
-        "G-1",
-        "G-2",
-        "G-3",
-        "G-4",
-        "G-5",
-        "G-7",
-        "G-8",
-        "G-9"
-      ]
-    },
-    {
-      "header": "Nivel de Cumplimiento",
-      "populated": 0,
-      "missing": 93,
-      "distinct": 0,
-      "sample": []
-    },
-    {
-      "header": "Observaciones",
-      "populated": 0,
-      "missing": 93,
-      "distinct": 0,
-      "sample": []
-    }
-  ],
-  "counts": {
-    "phase": {
-      "F1. Diseño y aprobación normativa (dic - ene 2027)": 11,
-      "F2. Implementación operativa (feb - abr 2027)": 10,
-      "F1. Diseño y aprobación normativa (nov-dic 2026)": 8,
-      "F2. Implementación operativa (feb - mar 2027)": 6,
-      "F2. Implementación operativa (ene-feb 2027)": 5,
-      "F0. Diagnóstico y arranque (oct 2026)": 4,
-      "F2. Implementación operativa (abr-may 2027)": 4,
-      "F1. Diseño y aprobación normativa (ene - feb 2027)": 3,
-      "F0. Diagnóstico y arranque (oct - nov 2026)": 2,
-      "F1. Diseño y aprobación normativa (dic - feb 2027)": 2,
-      "F1. Diseño y aprobación normativa (dic 2026)": 2,
-      "F2. Implementación operativa (ene- feb 2027)": 2,
-      "F2. Implementación operativa (ene-abr 2027)": 2,
-      "F2. Implementación operativa (feb - may 2027)": 2,
-      "F2. Implementación operativa (feb-abr 2027)": 2,
-      "F2. Implementación operativa (mar - abr 2027)": 2,
-      "F3. Consolidación y postulación (abr - may 2027)": 2,
-      "F1. Diseño y aprobación normativa (dic -ene 2027)": 1,
-      "F1. Diseño y aprobación normativa (ene - mar 2027 )": 1,
-      "F1. Diseño y aprobación normativa (ene - mar 2027)": 1,
-      "F1. Diseño y aprobación normativa (feb - abr 2027)": 1,
-      "F1. Diseño y aprobación normativa (nov - dic  2026)": 1,
-      "F1. Diseño y aprobación normativa (nov - dic 2026)": 1,
-      "F1. Diseño y aprobación normativa (nov - ene 2027)": 1,
-      "F1. Diseño y aprobación normativa (nov - feb 2027)": 1,
-      "F1. Diseño y aprobación normativa (nov-ene 2027)": 1,
-      "F1. Diseño y aprobación normativa (nov-feb 2026)": 1,
-      "F1. Diseño y aprobación normativa (nov-may 2026)": 1,
-      "F1. Diseño y aprobación normativa (oct 2026)": 1,
-      "F1. Diseño y aprobación normativa (oct-dic 2027)": 1,
-      "F2. Implementación operativa (dic - abr 2027)": 1,
-      "F2. Implementación operativa (ene-mar 2027)": 1,
-      "F2. Implementación operativa (ene-may 2027)": 1,
-      "F2. Implementación operativa (feb- abr 2027)": 1,
-      "F2. Implementación operativa (feb-may 2027)": 1,
-      "F2. Implementación operativa (mar-may 2027)": 1,
-      "F2. Implementación operativa (marzo2027)": 1,
-      "F3. Consolidación y postulación (abril 2027)": 1,
-      "F3. Consolidación y postulación (feb -marz 2027)": 1,
-      "F3. Consolidación y postulación (mar-may 2027)": 1,
-      "F3. Consolidación y postulación (may - jun 2027)": 1
-    },
-    "criterion": {
-      "CCI - Criterio de Carácter Institucional": 44,
-      "CCE - Criterio de Carácter Específico": 37,
-      "Gestión Interna - Gobernanza del proceso": 12
-    },
-    "indicator": {
-      "Gestión del proceso de cualificación": 12,
-      "Indicador 2: Gestión de la investigación": 12,
-      "Indicador 7: Personal académico": 12,
-      "Indicador 5: Internacionalización": 11,
-      "Indicador 4: Ética": 10,
-      "Indicador 10: Calidad e impacto en la investigación": 8,
-      "Indicador 8: Unidad de posgrado": 7,
-      "Indicador 1: Estructura institucional": 6,
-      "Indicador 3: Líneas de investigación": 5,
-      "Indicador 6: Infraestructura y ambientes de aprendizaje": 5,
-      "Indicador 9: Grupos de investigación": 5
-    },
-    "indicatorType": {
-      "Cualitativo": 64,
-      "Mixto (cualitativo y cuantitativo)": 17,
-      "Propio": 12
-    },
-    "activityType": {
-      "INSTITUCIONAL": 55,
-      "ESPECÍFICA": 38
-    },
-    "modelRating": {
-      "NO CUMPLE": 93
-    },
-    "priority": {
-      "Crítica": 52,
-      "Alta": 39,
-      "Media": 2
-    },
-    "status": {
-      "No iniciada": 92,
-      "INICIADA": 1
-    },
-    "compliance": {
-      "Sin información": 93
-    },
-    "responsible": {
-      "Dirección de Investigación": 11,
-      "Dirección de Aseguramiento de la Calidad": 5,
-      "Dirección de Posgrado": 5,
-      "Dirección de Posgrado\nDecanatos": 4,
-      "Oficina de Transferencia de Resultados de Investigación (OTRI)": 4,
-      "Vicerrectorado de Investigación": 4,
-      "Comité de Ética de Investigación": 3,
-      "Dirección Administrativa\nDirección de Posgrados\nDecanatos": 3,
-      "Dirección de Relaciones Internacionales": 3,
-      "Dirección Financiera": 3,
-      "Vicerrectorado de Investigación (VRI)": 3,
-      "Cancilleria\nRectorado": 2,
-      "Cancilleria\nRectorado\nVicerrectorado de Investigación": 2,
-      "Comité de Cualificación": 2,
-      "Dirección de Investigación\nDirección de Posgrado\nDirección de Aseguramiento de la Calidad (DAC)": 2,
-      "Dirección de Talento Humano\nDirección de Posgrados": 2,
-      "Rectorado": 2,
-      "Rectorado\nVicerrector de Investigación\nVicerrectorado de Docencia": 2,
-      "Vicerrectorado de Investigación\nDirección de Investigación\nDirección de Planificación": 2,
-      "Vicerrectorado de Investigación\nDirección de Investigación\nUnidad de Propiedad Intelectual (UPI)": 2,
-      "Biblioteca\nDirección de Posgrado\nDecanatos": 1,
-      "Cancielleria\nVicerrectorado de Investigación\nVicerrectorado de Docencia\nDirección de Posgrado": 1,
-      "Cancilleria\nDirección de Posgrado": 1,
-      "Dirección de Investigación\nBiblioteca o Centro de Recursos para el Aprendizaje y la Investigación": 1,
-      "Dirección de Investigación\nDirección de Posgrado": 1,
-      "Dirección de Investigación\nDirección Financiera": 1,
-      "Dirección de Investigación\nProcuraduría": 1,
-      "Dirección de Planificación\nDirección de Relaciones Interinstitucionales": 1,
-      "Dirección de Posgrado\nDirección de Investigación": 1,
-      "Dirección de Relaciones Internacionales\nDirección de Planificaión\nDirección de Investigación": 1,
-      "Dirección de Relaciones Internacionales (DRI)": 1,
-      "Dirección de Talento Humano": 1,
-      "Dirección de Talento Humano\nDirección de Posgrados\nDecanatos": 1,
-      "Procuraduría": 1,
-      "Rectorado\nDirección de Posgrado": 1,
-      "Rectorado\nDirección de Posgrado\nProcuraduría": 1,
-      "Rectorado\nDirección de Relaciones Interinstitucionales": 1,
-      "Rectorado\nVicerrector de Investigación": 1,
-      "Vicerrecorado de Investigación\nDirección de Investigación\nDirección de Relaciones Interinstitucionales": 1,
-      "Vicerrectorado de Investigación\nDirección de Investigación\nDirección de Posgrado": 1,
-      "Vicerrectorado de Investigación\nDirección de Investigación\nDirección de Posgrado\nDirección de Tecnologias de la Información": 1,
-      "Vicerrectorado de Investigación\nDirección de Investigación\nDirección de Posgrados\nDirección de Aseguramiento de la Calidad (DAC)": 1,
-      "Vicerrectorado de Investigación\nDirección de Planificación\nDirección de Investigación": 1,
-      "Vicerrectorado de Investigación\nDirección de Talento Humano": 1,
-      "Vicerrectorado de Investigación\nVicerrectorado de Docencia\nDirección de Vinculación\nDirección de Investigación": 1,
-      "Vicerrectorado de Investigación\nVicerrectorado de Docencia\nDirección de Vinculación con la Sociedad": 1,
-      "Vicerrectorado de Investigación / Vicerrectorado de Docencia / Dirección de Vinculación con la Sociedad": 1
-    }
-  },
   "holidays": [
     {
       "date": "2026-10-09",
@@ -613,6 +109,7 @@
   "records": [
     {
       "_excelRow": 2,
+      "ItemInternalId": "3059b754-4693-4f59-b672-a7a7d7af1507",
       "ID": "G-01",
       "Fase": "F0. Diagnóstico y arranque (oct 2026)",
       "Criterio": "Gestión Interna - Gobernanza del proceso",
@@ -626,23 +123,24 @@
       "Descripción del Hallazgo": "El proceso no cuenta con una instancia formal que articule a las unidades responsables de los diez indicadores; sin ella la ejecución queda dispersa entre direcciones, sin coordinación ni rendición de cuentas.",
       "Actividad": "Conformar el Equipo de Cualificación Académica",
       "Descripción de la actividad": "Integrar el equipo gestor del proceso con delegados de investigación, posgrado, aseguramiento de la calidad, jurídico, TTHH, planificación y financiero.",
-      "Medida de mitigación": null,
+      "Medida de mitigación": "",
       "Responsable principal": "Cancilleria\nRectorado",
       "Fecha de inicio": "2026-10-01",
       "Fecha de fin": "2026-10-15",
-      "Plazo (días)": "#NAME?",
+      "Plazo (días)": "10",
       "Producto / Entregable": "Conformación del Equipocon nómina, roles y cronograma de sesiones",
-      "Medio de verificación": null,
-      "Criterio de aceptación (evidencia de cumplimiento)": null,
+      "Medio de verificación": "",
+      "Criterio de aceptación (evidencia de cumplimiento)": "",
       "Prioridad": "Crítica",
       "Estado": "No iniciada",
-      "Avance (%)": 0,
+      "Avance (%)": 50,
       "Carga de Evidencias": "G-1",
-      "Nivel de Cumplimiento": null,
-      "Observaciones": null
+      "Nivel de Cumplimiento": "",
+      "Observaciones": ""
     },
     {
       "_excelRow": 3,
+      "ItemInternalId": "99333a57-9414-4ae2-8d56-1582724fbb94",
       "ID": "G-02",
       "Fase": "F0. Diagnóstico y arranque (oct 2026)",
       "Criterio": "Gestión Interna - Gobernanza del proceso",
@@ -660,19 +158,20 @@
       "Responsable principal": "Cancilleria\nRectorado",
       "Fecha de inicio": "2026-10-12",
       "Fecha de fin": "2026-10-27",
-      "Plazo (días)": "#NAME?",
+      "Plazo (días)": "12",
       "Producto / Entregable": "Plan de Mejoras aprobado por resolución y acta de socialización institucional",
       "Medio de verificación": "Resolución de aprobación y registros de socialización",
       "Criterio de aceptación (evidencia de cumplimiento)": "Resolución de aprobación emitida",
       "Prioridad": "Crítica",
       "Estado": "No iniciada",
-      "Avance (%)": 0,
+      "Avance (%)": 50,
       "Carga de Evidencias": "G-2",
-      "Nivel de Cumplimiento": null,
-      "Observaciones": null
+      "Nivel de Cumplimiento": "",
+      "Observaciones": ""
     },
     {
       "_excelRow": 4,
+      "ItemInternalId": "74c984f2-c406-4d40-8564-77fd44b1d82c",
       "ID": "G-03",
       "Fase": "F0. Diagnóstico y arranque (oct 2026)",
       "Criterio": "Gestión Interna - Gobernanza del proceso",
@@ -690,19 +189,20 @@
       "Responsable principal": "Cancilleria\nRectorado\nVicerrectorado de Investigación",
       "Fecha de inicio": "2026-10-01",
       "Fecha de fin": "2026-10-10",
-      "Plazo (días)": "#NAME?",
+      "Plazo (días)": "6",
       "Producto / Entregable": "Informe técnico de selección del campo específico y resolución de decisión institucional",
       "Medio de verificación": "Informe técnico y resolución del OCS",
       "Criterio de aceptación (evidencia de cumplimiento)": "Resolución que declara el campo específico (CAMPO ESPECÍFICO) y el programa doctoral, con sustento técnico verificable",
       "Prioridad": "Crítica",
       "Estado": "No iniciada",
-      "Avance (%)": 0,
+      "Avance (%)": 50,
       "Carga de Evidencias": "G-3",
-      "Nivel de Cumplimiento": null,
-      "Observaciones": null
+      "Nivel de Cumplimiento": "",
+      "Observaciones": ""
     },
     {
       "_excelRow": 5,
+      "ItemInternalId": "e9f82a85-02e2-4416-819b-51dafb20dedc",
       "ID": "G-04",
       "Fase": "F0. Diagnóstico y arranque (oct 2026)",
       "Criterio": "Gestión Interna - Gobernanza del proceso",
@@ -720,7 +220,7 @@
       "Responsable principal": "Dirección de Aseguramiento de la Calidad",
       "Fecha de inicio": "2026-10-01",
       "Fecha de fin": "2026-10-15",
-      "Plazo (días)": "#NAME?",
+      "Plazo (días)": "10",
       "Producto / Entregable": "Informe de verificación de requisitos habilitantes con documentos de respaldo",
       "Medio de verificación": "Certificados de acreditación vigente y certificaciones institucionales",
       "Criterio de aceptación (evidencia de cumplimiento)": "Informe que confirma que la Institución cumple todos los requisitos habilitantes vigentes",
@@ -728,11 +228,12 @@
       "Estado": "No iniciada",
       "Avance (%)": 0,
       "Carga de Evidencias": "G-4",
-      "Nivel de Cumplimiento": null,
-      "Observaciones": null
+      "Nivel de Cumplimiento": "",
+      "Observaciones": ""
     },
     {
       "_excelRow": 6,
+      "ItemInternalId": "0b63f60c-5dc5-4949-9023-45787aa5a31d",
       "ID": "G-05",
       "Fase": "F0. Diagnóstico y arranque (oct - nov 2026)",
       "Criterio": "Gestión Interna - Gobernanza del proceso",
@@ -750,7 +251,7 @@
       "Responsable principal": "Dirección de Aseguramiento de la Calidad",
       "Fecha de inicio": "2026-10-01",
       "Fecha de fin": "2026-11-16",
-      "Plazo (días)": "#NAME?",
+      "Plazo (días)": "30",
       "Producto / Entregable": "Repositorio operativo con nomenclatura estandarizada y manual de carga de evidencias",
       "Medio de verificación": "Manual de uso del repositorio y reportes de carga",
       "Criterio de aceptación (evidencia de cumplimiento)": "Repositorio en producción con el 100% de carpetas creadas y al menos una evidencia cargada por indicador",
@@ -758,11 +259,12 @@
       "Estado": "No iniciada",
       "Avance (%)": 0,
       "Carga de Evidencias": "G-5",
-      "Nivel de Cumplimiento": null,
-      "Observaciones": null
+      "Nivel de Cumplimiento": "",
+      "Observaciones": ""
     },
     {
       "_excelRow": 7,
+      "ItemInternalId": "53d534cb-9f39-4f31-84d5-fdb6fbd53be2",
       "ID": "G-07",
       "Fase": "F1. Diseño y aprobación normativa (nov-feb 2026)",
       "Criterio": "Gestión Interna - Gobernanza del proceso",
@@ -780,7 +282,7 @@
       "Responsable principal": "Dirección de Aseguramiento de la Calidad",
       "Fecha de inicio": "2026-11-02",
       "Fecha de fin": "2027-02-16",
-      "Plazo (días)": "#NAME?",
+      "Plazo (días)": "71",
       "Producto / Entregable": "Plan de capacitación ejecutado con registros de asistencia y evaluación de aprendizaje",
       "Medio de verificación": "Registros de asistencia, materiales y certificados",
       "Criterio de aceptación (evidencia de cumplimiento)": "Al menos 4 jornadas ejecutadas y 70% del personal académico del (CAMPO ESPECÍFICO) capacitado y certificado",
@@ -788,11 +290,12 @@
       "Estado": "No iniciada",
       "Avance (%)": 0,
       "Carga de Evidencias": "G-7",
-      "Nivel de Cumplimiento": null,
-      "Observaciones": null
+      "Nivel de Cumplimiento": "",
+      "Observaciones": ""
     },
     {
       "_excelRow": 8,
+      "ItemInternalId": "9964886b-2944-46e3-8b86-4f68acd3c64a",
       "ID": "G-08",
       "Fase": "F1. Diseño y aprobación normativa (nov-may 2026)",
       "Criterio": "Gestión Interna - Gobernanza del proceso",
@@ -810,7 +313,7 @@
       "Responsable principal": "Dirección de Aseguramiento de la Calidad",
       "Fecha de inicio": "2026-11-02",
       "Fecha de fin": "2027-04-30",
-      "Plazo (días)": "#NAME?",
+      "Plazo (días)": "123",
       "Producto / Entregable": "Actas mensuales de seguimiento e informes trimestrales de avance del plan",
       "Medio de verificación": "Actas del Comité e informes de avance con porcentaje de cumplimiento",
       "Criterio de aceptación (evidencia de cumplimiento)": "11 actas mensuales y 4 informes trimestrales suscritos, con acciones correctivas documentadas",
@@ -818,11 +321,12 @@
       "Estado": "No iniciada",
       "Avance (%)": 0,
       "Carga de Evidencias": "G-8",
-      "Nivel de Cumplimiento": null,
-      "Observaciones": null
+      "Nivel de Cumplimiento": "",
+      "Observaciones": ""
     },
     {
       "_excelRow": 9,
+      "ItemInternalId": "12cf42ea-3f4d-497d-98cd-7dc34b8ce635",
       "ID": "G-09",
       "Fase": "F3. Consolidación y postulación (abril 2027)",
       "Criterio": "Gestión Interna - Gobernanza del proceso",
@@ -840,7 +344,7 @@
       "Responsable principal": "Dirección de Aseguramiento de la Calidad",
       "Fecha de inicio": "2027-04-01",
       "Fecha de fin": "2027-04-20",
-      "Plazo (días)": "#NAME?",
+      "Plazo (días)": "14",
       "Producto / Entregable": "Informe de simulacro con valoración Cumple o No cumple por indicador y observaciones de mejora",
       "Medio de verificación": "Informe de evaluación simulada y plan de cierre de observaciones",
       "Criterio de aceptación (evidencia de cumplimiento)": "Informe emitido y plan de cierre de observaciones aprobado antes del 5 de agosto de 2027",
@@ -848,11 +352,12 @@
       "Estado": "No iniciada",
       "Avance (%)": 0,
       "Carga de Evidencias": "G-9",
-      "Nivel de Cumplimiento": null,
-      "Observaciones": null
+      "Nivel de Cumplimiento": "",
+      "Observaciones": ""
     },
     {
       "_excelRow": 10,
+      "ItemInternalId": "9d6c66e9-803e-402c-b44b-86fc7d7a0f0e",
       "ID": "G-10",
       "Fase": "F3. Consolidación y postulación (mar-may 2027)",
       "Criterio": "Gestión Interna - Gobernanza del proceso",
@@ -870,7 +375,7 @@
       "Responsable principal": "Comité de Cualificación",
       "Fecha de inicio": "2027-03-01",
       "Fecha de fin": "2027-04-30",
-      "Plazo (días)": "#NAME?",
+      "Plazo (días)": "44",
       "Producto / Entregable": "Informe de autoevaluación final y expediente de postulación completo y foliado",
       "Medio de verificación": "Informe firmado y expediente indexado por indicador",
       "Criterio de aceptación (evidencia de cumplimiento)": "Expediente que cubre los 48 elementos fundamentales con al menos una evidencia válida y vigente por cada uno",
@@ -878,11 +383,12 @@
       "Estado": "No iniciada",
       "Avance (%)": 0,
       "Carga de Evidencias": "G-10",
-      "Nivel de Cumplimiento": null,
-      "Observaciones": null
+      "Nivel de Cumplimiento": "",
+      "Observaciones": ""
     },
     {
       "_excelRow": 11,
+      "ItemInternalId": "5920f944-44b9-40b9-ae4f-214a64abdf28",
       "ID": "G-11",
       "Fase": "F3. Consolidación y postulación (may - jun 2027)",
       "Criterio": "Gestión Interna - Gobernanza del proceso",
@@ -900,7 +406,7 @@
       "Responsable principal": "Rectorado",
       "Fecha de inicio": "2027-04-20",
       "Fecha de fin": "2027-04-30",
-      "Plazo (días)": "#NAME?",
+      "Plazo (días)": "9",
       "Producto / Entregable": "Solicitud de postulación ingresada con acuse de recibo del CACES",
       "Medio de verificación": "Oficio de postulación y comprobante de ingreso",
       "Criterio de aceptación (evidencia de cumplimiento)": "Postulación ingresada dentro del plazo con acuse de recibo institucional",
@@ -908,11 +414,12 @@
       "Estado": "No iniciada",
       "Avance (%)": 0,
       "Carga de Evidencias": "G-11",
-      "Nivel de Cumplimiento": null,
-      "Observaciones": null
+      "Nivel de Cumplimiento": "",
+      "Observaciones": ""
     },
     {
       "_excelRow": 12,
+      "ItemInternalId": "9932c72b-586a-4c76-9cfe-1f29e86a09d3",
       "ID": "G-12",
       "Fase": "F3. Consolidación y postulación (feb -marz 2027)",
       "Criterio": "Gestión Interna - Gobernanza del proceso",
@@ -930,7 +437,7 @@
       "Responsable principal": "Comité de Cualificación",
       "Fecha de inicio": "2027-02-04",
       "Fecha de fin": "2027-03-19",
-      "Plazo (días)": "#NAME?",
+      "Plazo (días)": "30",
       "Producto / Entregable": "Protocolo de atención al Comité de Evaluación Externa y equipo entrenado por indicador",
       "Medio de verificación": "Protocolo aprobado y registros de ensayo",
       "Criterio de aceptación (evidencia de cumplimiento)": "Protocolo aprobado y al menos un ensayo general ejecutado con acta",
@@ -938,11 +445,12 @@
       "Estado": "No iniciada",
       "Avance (%)": 0,
       "Carga de Evidencias": "G-12",
-      "Nivel de Cumplimiento": null,
-      "Observaciones": null
+      "Nivel de Cumplimiento": "",
+      "Observaciones": ""
     },
     {
       "_excelRow": 13,
+      "ItemInternalId": "40bc907d-6670-4236-9607-73ff46caab36",
       "ID": "G-13",
       "Fase": "F2. Implementación operativa (mar-may 2027)",
       "Criterio": "Gestión Interna - Gobernanza del proceso",
@@ -960,7 +468,7 @@
       "Responsable principal": "Procuraduría",
       "Fecha de inicio": "2027-03-01",
       "Fecha de fin": "2027-04-30",
-      "Plazo (días)": "#NAME?",
+      "Plazo (días)": "44",
       "Producto / Entregable": "Informe de auditoría normativa con matriz de concordancia y observaciones subsanadas",
       "Medio de verificación": "Informe jurídico con matriz de concordancia normativa",
       "Criterio de aceptación (evidencia de cumplimiento)": "Informe que certifica concordancia del 100% de la normativa del expediente sin observaciones pendientes",
@@ -968,11 +476,12 @@
       "Estado": "No iniciada",
       "Avance (%)": 0,
       "Carga de Evidencias": "G-13",
-      "Nivel de Cumplimiento": null,
-      "Observaciones": null
+      "Nivel de Cumplimiento": "",
+      "Observaciones": ""
     },
     {
       "_excelRow": 14,
+      "ItemInternalId": "b3953e98-8ba9-41fd-ae06-43f52b8f049a",
       "ID": "A1.1.1",
       "Fase": "F1. Diseño y aprobación normativa (oct-dic 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
@@ -990,7 +499,7 @@
       "Responsable principal": "Cancielleria\nVicerrectorado de Investigación\nVicerrectorado de Docencia\nDirección de Posgrado",
       "Fecha de inicio": "2026-11-02",
       "Fecha de fin": "2027-01-21",
-      "Plazo (días)": "#NAME?",
+      "Plazo (días)": "55",
       "Producto / Entregable": "Estatuto reformado y Modelo Educativo actualizado con el componente de investigación explícito o en su defecto el informe de cumplimiento",
       "Medio de verificación": "FI1 Estatuto, FI2 Modelo Educativo e informe de cumplimiento",
       "Criterio de aceptación (evidencia de cumplimiento)": "Estatuto y Modelo Educativo vigentes que contienen artículos expresos sobre investigación en todos los niveles de formación",
@@ -998,11 +507,12 @@
       "Estado": "INICIADA",
       "Avance (%)": 10,
       "Carga de Evidencias": "EF1.1",
-      "Nivel de Cumplimiento": null,
-      "Observaciones": null
+      "Nivel de Cumplimiento": "",
+      "Observaciones": ""
     },
     {
       "_excelRow": 15,
+      "ItemInternalId": "d6102a21-97b1-4f60-884e-c4323330391d",
       "ID": "A1.1.2",
       "Fase": "F1. Diseño y aprobación normativa (dic 2026)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
@@ -1020,7 +530,7 @@
       "Responsable principal": "Vicerrectorado de Investigación\nDirección de Investigación\nDirección de Planificación",
       "Fecha de inicio": "2026-12-04",
       "Fecha de fin": "2026-12-24",
-      "Plazo (días)": "#NAME?",
+      "Plazo (días)": "15",
       "Producto / Entregable": "Matriz de trazabilidad legalizada",
       "Medio de verificación": "FI5 Planificación Estratégica de Desarrollo Institucional PEDI",
       "Criterio de aceptación (evidencia de cumplimiento)": "Matriz que enlaza el 100% de los objetivos estratégicos de investigación con metas y resultados medibles",
@@ -1028,11 +538,12 @@
       "Estado": "No iniciada",
       "Avance (%)": 0,
       "Carga de Evidencias": "EF1.1",
-      "Nivel de Cumplimiento": null,
-      "Observaciones": null
+      "Nivel de Cumplimiento": "",
+      "Observaciones": ""
     },
     {
       "_excelRow": 16,
+      "ItemInternalId": "f21c0729-bfd0-41d7-a408-edc8ccdc2ae8",
       "ID": "A1.2.1",
       "Fase": "F1. Diseño y aprobación normativa (nov-dic 2026)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
@@ -1050,7 +561,7 @@
       "Responsable principal": "Rectorado\nVicerrector de Investigación",
       "Fecha de inicio": "2026-11-02",
       "Fecha de fin": "2026-12-29",
-      "Plazo (días)": "#NAME?",
+      "Plazo (días)": "39",
       "Producto / Entregable": "Estructura orgánica de investigación aprobada con organigrama y descripción de atribuciones",
       "Medio de verificación": "FI4 Documento que evidencie la unidad con la designación del responsable del diseño y ejecución de políticas ",
       "Criterio de aceptación (evidencia de cumplimiento)": "Documento aprobado que define la unidad de investigación con atribuciones expresas y organigrama vigente",
@@ -1058,11 +569,12 @@
       "Estado": "No iniciada",
       "Avance (%)": 0,
       "Carga de Evidencias": "EF1.2",
-      "Nivel de Cumplimiento": null,
-      "Observaciones": null
+      "Nivel de Cumplimiento": "",
+      "Observaciones": ""
     },
     {
       "_excelRow": 17,
+      "ItemInternalId": "1af2969d-5bb9-4b8f-8eb2-d183a0092dc2",
       "ID": "A1.2.2",
       "Fase": "F1. Diseño y aprobación normativa (dic 2026)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
@@ -1080,7 +592,7 @@
       "Responsable principal": "Dirección de Talento Humano",
       "Fecha de inicio": "2026-12-04",
       "Fecha de fin": "2026-12-17",
-      "Plazo (días)": "#NAME?",
+      "Plazo (días)": "10",
       "Producto / Entregable": "Acción de personal o resolución de designación vigente con descriptivo de funciones",
       "Medio de verificación": "FI4 Documento que evidencia la designación del responsable",
       "Criterio de aceptación (evidencia de cumplimiento)": "Acción de personal vigente a la fecha de postulación con funciones que incluyen diseño y ejecución de políticas",
@@ -1088,11 +600,12 @@
       "Estado": "No iniciada",
       "Avance (%)": 0,
       "Carga de Evidencias": "EF1.2",
-      "Nivel de Cumplimiento": null,
-      "Observaciones": null
+      "Nivel de Cumplimiento": "",
+      "Observaciones": ""
     },
     {
       "_excelRow": 18,
+      "ItemInternalId": "219b32e9-f838-41ef-8faf-8b2904015ce6",
       "ID": "A1.3.1",
       "Fase": "F1. Diseño y aprobación normativa (nov-dic 2026)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
@@ -1110,7 +623,7 @@
       "Responsable principal": "Vicerrectorado de Investigación\nDirección de Investigación\nDirección de Planificación",
       "Fecha de inicio": "2026-11-02",
       "Fecha de fin": "2026-12-17",
-      "Plazo (días)": "#NAME?",
+      "Plazo (días)": "32",
       "Producto / Entregable": "Política institucional de investigación reformada con referencia expresa al PND y planes locales o en su defecto informe o la matriz de articulación PND, planes locales, políticas, líneas y proyectos",
       "Medio de verificación": "FI3 Política institucional de investigación",
       "Criterio de aceptación (evidencia de cumplimiento)": "Política vigente que cita objetivos específicos del PND y de al menos un plan de desarrollo local",
@@ -1118,11 +631,12 @@
       "Estado": "No iniciada",
       "Avance (%)": 0,
       "Carga de Evidencias": "EF1.3",
-      "Nivel de Cumplimiento": null,
-      "Observaciones": null
+      "Nivel de Cumplimiento": "",
+      "Observaciones": ""
     },
     {
       "_excelRow": 19,
+      "ItemInternalId": "17d28e34-7249-49a4-a481-881d24878ade",
       "ID": "A1.4.1",
       "Fase": "F1. Diseño y aprobación normativa (dic -ene 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
@@ -1140,7 +654,7 @@
       "Responsable principal": "Cancilleria\nRectorado\nVicerrectorado de Investigación",
       "Fecha de inicio": "2026-12-04",
       "Fecha de fin": "2027-01-12",
-      "Plazo (días)": "#NAME?",
+      "Plazo (días)": "26",
       "Producto / Entregable": "Política de investigación con capítulo o sección de objetivos de formación doctoral",
       "Medio de verificación": "FI7 Documento que evidencia la política para el desarrollo de la formación doctoral",
       "Criterio de aceptación (evidencia de cumplimiento)": "Política vigente con objetivos de formación doctoral con metas e indicadores verificables",
@@ -1148,11 +662,12 @@
       "Estado": "No iniciada",
       "Avance (%)": 0,
       "Carga de Evidencias": "EF1.4",
-      "Nivel de Cumplimiento": null,
-      "Observaciones": null
+      "Nivel de Cumplimiento": "",
+      "Observaciones": ""
     },
     {
       "_excelRow": 20,
+      "ItemInternalId": "3e2ea2ba-18c6-41df-8f28-8891761a7c9d",
       "ID": "A2.1.1",
       "Fase": "F1. Diseño y aprobación normativa (nov-ene 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
@@ -1170,7 +685,7 @@
       "Responsable principal": "Vicerrectorado de Investigación",
       "Fecha de inicio": "2026-11-02",
       "Fecha de fin": "2027-01-07",
-      "Plazo (días)": "#NAME?",
+      "Plazo (días)": "45",
       "Producto / Entregable": "Reglamento de Investigación aprobado, publicado y socializado",
       "Medio de verificación": "FI1 Normativa de investigación",
       "Criterio de aceptación (evidencia de cumplimiento)": "Reglamento vigente que contiene capítulos expresos de desarrollo, difusión, transferencia y propiedad intelectual",
@@ -1178,11 +693,12 @@
       "Estado": "No iniciada",
       "Avance (%)": 0,
       "Carga de Evidencias": "EF2.1",
-      "Nivel de Cumplimiento": null,
-      "Observaciones": null
+      "Nivel de Cumplimiento": "",
+      "Observaciones": ""
     },
     {
       "_excelRow": 21,
+      "ItemInternalId": "0edd329a-52a1-445d-b1dd-b068f2119086",
       "ID": "A2.1.2",
       "Fase": "F1. Diseño y aprobación normativa (dic - ene 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
@@ -1200,7 +716,7 @@
       "Responsable principal": "Vicerrectorado de Investigación\nDirección de Investigación\nUnidad de Propiedad Intelectual (UPI)",
       "Fecha de inicio": "2026-12-04",
       "Fecha de fin": "2027-01-15",
-      "Plazo (días)": "#NAME?",
+      "Plazo (días)": "29",
       "Producto / Entregable": "Procedimiento e instructivo de propiedad intelectual aprobados con formatos anexos",
       "Medio de verificación": "FI1 Normativa de investigación",
       "Criterio de aceptación (evidencia de cumplimiento)": "Procedimiento aprobado, con flujograma, formatos y al menos un caso tramitado bajo el procedimiento",
@@ -1208,11 +724,12 @@
       "Estado": "No iniciada",
       "Avance (%)": 0,
       "Carga de Evidencias": "EF2.1",
-      "Nivel de Cumplimiento": null,
-      "Observaciones": null
+      "Nivel de Cumplimiento": "",
+      "Observaciones": ""
     },
     {
       "_excelRow": 22,
+      "ItemInternalId": "1e7b13a8-df75-430b-95dd-9d531a706a6b",
       "ID": "A2.1.3",
       "Fase": "F1. Diseño y aprobación normativa (dic - ene 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
@@ -1230,7 +747,7 @@
       "Responsable principal": "Vicerrectorado de Investigación\nDirección de Investigación\nUnidad de Propiedad Intelectual (UPI)",
       "Fecha de inicio": "2026-12-04",
       "Fecha de fin": "2027-01-19",
-      "Plazo (días)": "#NAME?",
+      "Plazo (días)": "31",
       "Producto / Entregable": "Procedimiento de transferencia aprobado con modelos contractuales y registro de casos",
       "Medio de verificación": "FI1 Normativa de investigación",
       "Criterio de aceptación (evidencia de cumplimiento)": "Procedimiento aprobado y aplicado a al menos un caso real de transferencia",
@@ -1238,11 +755,12 @@
       "Estado": "No iniciada",
       "Avance (%)": 0,
       "Carga de Evidencias": "EF2.1",
-      "Nivel de Cumplimiento": null,
-      "Observaciones": null
+      "Nivel de Cumplimiento": "",
+      "Observaciones": ""
     },
     {
       "_excelRow": 23,
+      "ItemInternalId": "066ebd98-e3ac-410f-9f8f-05f5341a1997",
       "ID": "A2.2.1",
       "Fase": "F1. Diseño y aprobación normativa (nov - dic 2026)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
@@ -1260,7 +778,7 @@
       "Responsable principal": "Rectorado",
       "Fecha de inicio": "2026-11-02",
       "Fecha de fin": "2026-12-01",
-      "Plazo (días)": "#NAME?",
+      "Plazo (días)": "20",
       "Producto / Entregable": "Resolución de creación o ratificación de la unidad y acción de personal del responsable",
       "Medio de verificación": "FI2 Documentos que evidencian planificación, ejecución, seguimiento y mejora",
       "Criterio de aceptación (evidencia de cumplimiento)": "Acto administrativo vigente con atribuciones expresas de planificación, seguimiento, evaluación y mejora",
@@ -1268,11 +786,12 @@
       "Estado": "No iniciada",
       "Avance (%)": 0,
       "Carga de Evidencias": "EF2.2",
-      "Nivel de Cumplimiento": null,
-      "Observaciones": null
+      "Nivel de Cumplimiento": "",
+      "Observaciones": ""
     },
     {
       "_excelRow": 24,
+      "ItemInternalId": "f8e6a14d-4cd1-4735-a8da-121eb23c6e8c",
       "ID": "A2.2.2",
       "Fase": "F2. Implementación operativa (feb-may 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
@@ -1290,7 +809,7 @@
       "Responsable principal": "Dirección de Investigación",
       "Fecha de inicio": "2026-11-01",
       "Fecha de fin": "2027-04-20",
-      "Plazo (días)": "#NAME?",
+      "Plazo (días)": "115",
       "Producto / Entregable": "Plan anual de investigación, dos informes de seguimiento y un plan de acciones de mejora ejecutado",
       "Medio de verificación": "FI2 Documentos que evidencian planificación, ejecución, seguimiento y mejora",
       "Criterio de aceptación (evidencia de cumplimiento)": "Ciclo documentado de forma completa con al menos dos acciones de mejora implementadas y verificadas",
@@ -1298,11 +817,12 @@
       "Estado": "No iniciada",
       "Avance (%)": 0,
       "Carga de Evidencias": "EF2.2",
-      "Nivel de Cumplimiento": null,
-      "Observaciones": null
+      "Nivel de Cumplimiento": "",
+      "Observaciones": ""
     },
     {
       "_excelRow": 25,
+      "ItemInternalId": "033727dd-2a3d-4f9d-8ec4-a9bc01d65678",
       "ID": "A2.3.1",
       "Fase": "F1. Diseño y aprobación normativa (nov - feb 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
@@ -1320,7 +840,7 @@
       "Responsable principal": "Vicerrectorado de Investigación\nDirección de Investigación\nDirección de Posgrado\nDirección de Tecnologias de la Información",
       "Fecha de inicio": "2026-11-02",
       "Fecha de fin": "2027-02-19",
-      "Plazo (días)": "#NAME?",
+      "Plazo (días)": "74",
       "Producto / Entregable": "Sistema en producción con módulos de proyectos, producción científica y posgrado operativos, manual de uso y el plan de mantenimiento del sistema",
       "Medio de verificación": "FI3 Manual, guía o instructivo del sistema de gestión informático",
       "Criterio de aceptación (evidencia de cumplimiento)": "Sistema operativo con acceso demostrable, usuarios activos y datos reales del (CAMPO) registrados",
@@ -1328,11 +848,12 @@
       "Estado": "No iniciada",
       "Avance (%)": 0,
       "Carga de Evidencias": "EF2.3",
-      "Nivel de Cumplimiento": null,
-      "Observaciones": null
+      "Nivel de Cumplimiento": "",
+      "Observaciones": ""
     },
     {
       "_excelRow": 26,
+      "ItemInternalId": "80c18290-ce30-4cdd-a663-c5cb5b2def59",
       "ID": "A2.4.1",
       "Fase": "F1. Diseño y aprobación normativa (nov - dic  2026)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
@@ -1350,7 +871,7 @@
       "Responsable principal": "Vicerrectorado de Investigación\nDirección de Planificación\nDirección de Investigación",
       "Fecha de inicio": "2026-11-02",
       "Fecha de fin": "2026-12-22",
-      "Plazo (días)": "#NAME?",
+      "Plazo (días)": "35",
       "Producto / Entregable": "PEDI actualizado y POA 2027 con objetivos, metas y presupuesto de investigación",
       "Medio de verificación": "FI4 PEDI y FI5 Planificación Operativa Anual POA",
       "Criterio de aceptación (evidencia de cumplimiento)": "POA 2027 aprobado con partidas específicas de investigación y su respectiva certificación presupuestaria",
@@ -1358,11 +879,12 @@
       "Estado": "No iniciada",
       "Avance (%)": 0,
       "Carga de Evidencias": "EF2.4",
-      "Nivel de Cumplimiento": null,
-      "Observaciones": null
+      "Nivel de Cumplimiento": "",
+      "Observaciones": ""
     },
     {
       "_excelRow": 27,
+      "ItemInternalId": "da8602b4-55b0-463b-bb98-7b7eb61abd5c",
       "ID": "A2.5.3",
       "Fase": "F2. Implementación operativa (feb - abr 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
@@ -1380,7 +902,7 @@
       "Responsable principal": "Dirección de Investigación",
       "Fecha de inicio": "2027-02-05",
       "Fecha de fin": "2027-04-27",
-      "Plazo (días)": "#NAME?",
+      "Plazo (días)": "55",
       "Producto / Entregable": "Al menos dos postulaciones a fondos externos con documentos de respaldo y resultados",
       "Medio de verificación": "FI6 Documentos que evidencian la obtención de recursos externos",
       "Criterio de aceptación (evidencia de cumplimiento)": "Al menos dos postulaciones formalmente presentadas que permitan evidenciar la consecución de los fondos",
@@ -1388,11 +910,12 @@
       "Estado": "No iniciada",
       "Avance (%)": 0,
       "Carga de Evidencias": "EF2.5",
-      "Nivel de Cumplimiento": null,
-      "Observaciones": null
+      "Nivel de Cumplimiento": "",
+      "Observaciones": ""
     },
     {
       "_excelRow": 28,
+      "ItemInternalId": "3fc3c92a-dddd-416e-a450-3885a03b0bd5",
       "ID": "A2.6.1",
       "Fase": "F1. Diseño y aprobación normativa (dic - ene 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
@@ -1410,7 +933,7 @@
       "Responsable principal": "Vicerrectorado de Investigación\nDirección de Investigación\nDirección de Posgrado",
       "Fecha de inicio": "2026-12-04",
       "Fecha de fin": "2027-01-26",
-      "Plazo (días)": "#NAME?",
+      "Plazo (días)": "36",
       "Producto / Entregable": "Normativa de participación en investigación aprobada con cláusulas de igualdad y no discriminación",
       "Medio de verificación": "FI7 Documentos que evidencian la participación de profesores, estudiantes y otros actores",
       "Criterio de aceptación (evidencia de cumplimiento)": "Normativa vigente con artículo expreso de igualdad de oportunidades y no discriminación",
@@ -1418,11 +941,12 @@
       "Estado": "No iniciada",
       "Avance (%)": 0,
       "Carga de Evidencias": "EF2.6",
-      "Nivel de Cumplimiento": null,
-      "Observaciones": null
+      "Nivel de Cumplimiento": "",
+      "Observaciones": ""
     },
     {
       "_excelRow": 29,
+      "ItemInternalId": "8a017d71-4330-491f-9320-1f297da6af9f",
       "ID": "A2.6.2",
       "Fase": "F1. Diseño y aprobación normativa (feb - abr 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
@@ -1440,7 +964,7 @@
       "Responsable principal": "Vicerrectorado de Investigación\nDirección de Talento Humano",
       "Fecha de inicio": "2027-02-04",
       "Fecha de fin": "2027-04-19",
-      "Plazo (días)": 53,
+      "Plazo (días)": "53",
       "Producto / Entregable": "Expediente de estímulos entregados y nóminas de participación por proyecto",
       "Medio de verificación": "FI7 y FI8 Documentos de participación y de estímulos entregados",
       "Criterio de aceptación (evidencia de cumplimiento)": "Al menos un ciclo de entrega ejecutado y liquidado, con participación nominal documentada en los proyectos del [CAMPO]",
@@ -1448,11 +972,12 @@
       "Estado": "No iniciada",
       "Avance (%)": 0,
       "Carga de Evidencias": "EF2.6",
-      "Nivel de Cumplimiento": null,
-      "Observaciones": null
+      "Nivel de Cumplimiento": "",
+      "Observaciones": ""
     },
     {
       "_excelRow": 30,
+      "ItemInternalId": "b49ed0ce-b3b9-48ac-b4b3-e6fd0dccf911",
       "ID": "A2.7.1",
       "Fase": "F2. Implementación operativa (ene- feb 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
@@ -1470,7 +995,7 @@
       "Responsable principal": "Vicerrectorado de Investigación\nVicerrectorado de Docencia\nDirección de Vinculación con la Sociedad",
       "Fecha de inicio": "2027-01-04",
       "Fecha de fin": "2027-02-10",
-      "Plazo (días)": "#NAME?",
+      "Plazo (días)": "26",
       "Producto / Entregable": "Procedimiento de retroalimentación aprobado con formatos de reporte por proyecto",
       "Medio de verificación": "FI9 Documentos que evidencian que la investigación impulsa las funciones sustantivas",
       "Criterio de aceptación (evidencia de cumplimiento)": "Procedimiento aprobado y aplicado a la totalidad de los proyectos cerrados en 2027",
@@ -1478,11 +1003,12 @@
       "Estado": "No iniciada",
       "Avance (%)": 0,
       "Carga de Evidencias": "EF2.7",
-      "Nivel de Cumplimiento": null,
-      "Observaciones": null
+      "Nivel de Cumplimiento": "",
+      "Observaciones": ""
     },
     {
       "_excelRow": 31,
+      "ItemInternalId": "c45fdb7b-5113-4e8f-894e-cfa3af5258eb",
       "ID": "A2.7.2",
       "Fase": "F2. Implementación operativa (feb-abr 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
@@ -1500,7 +1026,7 @@
       "Responsable principal": "Vicerrectorado de Investigación / Vicerrectorado de Docencia / Dirección de Vinculación con la Sociedad",
       "Fecha de inicio": "2027-02-11",
       "Fecha de fin": "2027-04-13",
-      "Plazo (días)": "#NAME?",
+      "Plazo (días)": "43",
       "Producto / Entregable": "Informe de casos documentados de retroalimentación a las funciones sustantivas",
       "Medio de verificación": "FI9 Documentos que evidencien que la investigación impulsa el desarrollo de las funciones sustantivas",
       "Criterio de aceptación (evidencia de cumplimiento)": "Al menos tres casos documentados con evidencia verificable de incorporación",
@@ -1508,11 +1034,12 @@
       "Estado": "No iniciada",
       "Avance (%)": 0,
       "Carga de Evidencias": "EF2.7",
-      "Nivel de Cumplimiento": null,
-      "Observaciones": null
+      "Nivel de Cumplimiento": "",
+      "Observaciones": ""
     },
     {
       "_excelRow": 32,
+      "ItemInternalId": "7b77775d-4816-4c66-9055-c3e8abbb7daa",
       "ID": "A3.1.1",
       "Fase": "F1. Diseño y aprobación normativa (nov-dic 2026)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
@@ -1530,7 +1057,7 @@
       "Responsable principal": "Vicerrectorado de Investigación",
       "Fecha de inicio": "2026-11-02",
       "Fecha de fin": "2026-12-14",
-      "Plazo (días)": "#NAME?",
+      "Plazo (días)": "29",
       "Producto / Entregable": "Procedimiento de líneas de investigación aprobado y difundido",
       "Medio de verificación": "FI1 Normativa de las líneas de investigación",
       "Criterio de aceptación (evidencia de cumplimiento)": "Procedimiento vigente que regula definición, elaboración y actualización con criterios y plazos",
@@ -1538,11 +1065,12 @@
       "Estado": "No iniciada",
       "Avance (%)": 0,
       "Carga de Evidencias": "EF3.1",
-      "Nivel de Cumplimiento": null,
-      "Observaciones": null
+      "Nivel de Cumplimiento": "",
+      "Observaciones": ""
     },
     {
       "_excelRow": 33,
+      "ItemInternalId": "8e5ef098-bace-46a8-9ade-de6ff97576ec",
       "ID": "A3.2.1",
       "Fase": "F2. Implementación operativa (ene-feb 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
@@ -1560,7 +1088,7 @@
       "Responsable principal": "Vicerrectorado de Investigación",
       "Fecha de inicio": "2027-01-04",
       "Fecha de fin": "2027-02-08",
-      "Plazo (días)": "#NAME?",
+      "Plazo (días)": "25",
       "Producto / Entregable": "Catálogo de líneas de investigación aprobado por resolución con descripción y responsables",
       "Medio de verificación": "FI2 Documento que evidencia las líneas de investigación",
       "Criterio de aceptación (evidencia de cumplimiento)": "Catálogo aprobado donde cada línea cuenta con al menos un grupo y un proyecto asociado",
@@ -1568,11 +1096,12 @@
       "Estado": "No iniciada",
       "Avance (%)": 0,
       "Carga de Evidencias": "EF3.2",
-      "Nivel de Cumplimiento": null,
-      "Observaciones": null
+      "Nivel de Cumplimiento": "",
+      "Observaciones": ""
     },
     {
       "_excelRow": 34,
+      "ItemInternalId": "b2612788-31bf-4ab4-a511-9931465674ea",
       "ID": "A3.2.2",
       "Fase": "F2. Implementación operativa (feb - mar 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
@@ -1590,7 +1119,7 @@
       "Responsable principal": "Vicerrectorado de Investigación\nDirección de Investigación\nDirección de Posgrados\nDirección de Aseguramiento de la Calidad (DAC)",
       "Fecha de inicio": "2027-02-08",
       "Fecha de fin": "2027-03-03",
-      "Plazo (días)": "#NAME?",
+      "Plazo (días)": "16",
       "Producto / Entregable": "Matriz de consistencia aprobada e incorporada al expediente",
       "Medio de verificación": "FI3 Documento de dominios académicos y FI4 matriz de consistencia",
       "Criterio de aceptación (evidencia de cumplimiento)": "Matriz que vincula el 100% de las líneas con al menos un dominio académico y un objetivo estratégico",
@@ -1598,11 +1127,12 @@
       "Estado": "No iniciada",
       "Avance (%)": 0,
       "Carga de Evidencias": "EF3.2",
-      "Nivel de Cumplimiento": null,
-      "Observaciones": null
+      "Nivel de Cumplimiento": "",
+      "Observaciones": ""
     },
     {
       "_excelRow": 35,
+      "ItemInternalId": "01179296-ab87-4290-aad1-cd365f25f134",
       "ID": "A3.3.1",
       "Fase": "F1. Diseño y aprobación normativa (nov-dic 2026)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
@@ -1620,7 +1150,7 @@
       "Responsable principal": "Vicerrectorado de Investigación\nVicerrectorado de Docencia\nDirección de Vinculación\nDirección de Investigación",
       "Fecha de inicio": "2026-11-02",
       "Fecha de fin": "2026-12-29",
-      "Plazo (días)": "#NAME?",
+      "Plazo (días)": "39",
       "Producto / Entregable": "Estudio de necesidades académicas y sociales aprobado con metodología y resultados",
       "Medio de verificación": "FI5 Documento que evidencia que las líneas responden a necesidades académicas y sociales",
       "Criterio de aceptación (evidencia de cumplimiento)": "Estudio aprobado con metodología explícita y correspondencia demostrada con las líneas vigentes",
@@ -1628,11 +1158,12 @@
       "Estado": "No iniciada",
       "Avance (%)": 0,
       "Carga de Evidencias": "EF3.3",
-      "Nivel de Cumplimiento": null,
-      "Observaciones": null
+      "Nivel de Cumplimiento": "",
+      "Observaciones": ""
     },
     {
       "_excelRow": 36,
+      "ItemInternalId": "2eada8c1-3593-4d79-bda6-d55ab47e7411",
       "ID": "A3.3.2",
       "Fase": "F2. Implementación operativa (feb - mar 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
@@ -1650,7 +1181,7 @@
       "Responsable principal": "Dirección de Posgrado\nDirección de Investigación",
       "Fecha de inicio": "2027-02-08",
       "Fecha de fin": "2027-03-04",
-      "Plazo (días)": "#NAME?",
+      "Plazo (días)": "17",
       "Producto / Entregable": "Mapa de relación líneas y programas de posgrado aprobado",
       "Medio de verificación": "FI5 Documento que evidencia el fortalecimiento de programas de posgrado",
       "Criterio de aceptación (evidencia de cumplimiento)": "Mapa que demuestra que al menos dos líneas sostienen directamente el programa doctoral en EL (CAMPO ESPECÍFICO)",
@@ -1658,11 +1189,12 @@
       "Estado": "No iniciada",
       "Avance (%)": 0,
       "Carga de Evidencias": "EF3.3",
-      "Nivel de Cumplimiento": null,
-      "Observaciones": null
+      "Nivel de Cumplimiento": "",
+      "Observaciones": ""
     },
     {
       "_excelRow": 37,
+      "ItemInternalId": "3e823aca-34c5-4d79-a23a-6fd25d83e84c",
       "ID": "A4.1.1",
       "Fase": "F1. Diseño y aprobación normativa (nov-dic 2026)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
@@ -1680,7 +1212,7 @@
       "Responsable principal": "Rectorado\nVicerrector de Investigación\nVicerrectorado de Docencia",
       "Fecha de inicio": "2026-11-02",
       "Fecha de fin": "2026-12-30",
-      "Plazo (días)": "#NAME?",
+      "Plazo (días)": "40",
       "Producto / Entregable": "Código de Ética reformado, aprobado, publicado y socializado",
       "Medio de verificación": "FI1 Normativa o código de ética para la investigación",
       "Criterio de aceptación (evidencia de cumplimiento)": "Código vigente con capítulo expreso de ética de la investigación y régimen de responsabilidades",
@@ -1688,11 +1220,12 @@
       "Estado": "No iniciada",
       "Avance (%)": 0,
       "Carga de Evidencias": "EF4.1",
-      "Nivel de Cumplimiento": null,
-      "Observaciones": null
+      "Nivel de Cumplimiento": "",
+      "Observaciones": ""
     },
     {
       "_excelRow": 38,
+      "ItemInternalId": "b2905939-b27c-4773-81bc-b1dc772c3940",
       "ID": "A4.1.2",
       "Fase": "F1. Diseño y aprobación normativa (dic - ene 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
@@ -1710,7 +1243,7 @@
       "Responsable principal": "Rectorado\nVicerrector de Investigación\nVicerrectorado de Docencia",
       "Fecha de inicio": "2026-12-04",
       "Fecha de fin": "2027-01-20",
-      "Plazo (días)": "#NAME?",
+      "Plazo (días)": "32",
       "Producto / Entregable": "Comité de Ética conformado con reglamento aprobado y miembros designados",
       "Medio de verificación": "FI1 Normativa o código de ética para la investigación",
       "Criterio de aceptación (evidencia de cumplimiento)": "Comité con resolución de conformación, reglamento vigente y al menos tres actas de sesión en 2027",
@@ -1718,11 +1251,12 @@
       "Estado": "No iniciada",
       "Avance (%)": 0,
       "Carga de Evidencias": "EF4.1",
-      "Nivel de Cumplimiento": null,
-      "Observaciones": null
+      "Nivel de Cumplimiento": "",
+      "Observaciones": ""
     },
     {
       "_excelRow": 39,
+      "ItemInternalId": "6a5bac14-79fc-4efc-98d9-6b2224daf1fa",
       "ID": "A4.2.1",
       "Fase": "F1. Diseño y aprobación normativa (dic - ene 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
@@ -1740,7 +1274,7 @@
       "Responsable principal": "Vicerrectorado de Investigación",
       "Fecha de inicio": "2026-12-04",
       "Fecha de fin": "2027-01-21",
-      "Plazo (días)": "#NAME?",
+      "Plazo (días)": "33",
       "Producto / Entregable": "Lineamientos de uso ético de inteligencia artificial aprobados y publicados",
       "Medio de verificación": "FI2 Políticas, lineamientos o procedimientos sobre uso ético de la inteligencia artificial",
       "Criterio de aceptación (evidencia de cumplimiento)": "Lineamientos vigentes que cubren actividades académicas y de investigación, con reglas de declaración de uso",
@@ -1748,11 +1282,12 @@
       "Estado": "No iniciada",
       "Avance (%)": 0,
       "Carga de Evidencias": "EF4.2",
-      "Nivel de Cumplimiento": null,
-      "Observaciones": null
+      "Nivel de Cumplimiento": "",
+      "Observaciones": ""
     },
     {
       "_excelRow": 40,
+      "ItemInternalId": "b8de0af7-c992-418b-b393-1b81726573f6",
       "ID": "A4.2.2",
       "Fase": "F2. Implementación operativa (feb - mar 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
@@ -1770,7 +1305,7 @@
       "Responsable principal": "Dirección de Posgrado",
       "Fecha de inicio": "2027-02-04",
       "Fecha de fin": "2027-03-17",
-      "Plazo (días)": "#NAME?",
+      "Plazo (días)": "28",
       "Producto / Entregable": "Formatos de declaración de uso implementados y registros de capacitación",
       "Medio de verificación": "FI2 Políticas, lineamientos o procedimientos sobre uso ético de la inteligencia artificial",
       "Criterio de aceptación (evidencia de cumplimiento)": "Al menos dos jornadas de capacitación ejecutadas y formato aplicado en el 100% de titulaciones de posgrado desde marzo 2027",
@@ -1778,11 +1313,12 @@
       "Estado": "No iniciada",
       "Avance (%)": 0,
       "Carga de Evidencias": "EF4.2",
-      "Nivel de Cumplimiento": null,
-      "Observaciones": null
+      "Nivel de Cumplimiento": "",
+      "Observaciones": ""
     },
     {
       "_excelRow": 41,
+      "ItemInternalId": "2a7dd31c-dc99-4b5e-82ed-108f67f0727a",
       "ID": "A4.3.1",
       "Fase": "F2. Implementación operativa (ene-feb 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
@@ -1800,7 +1336,7 @@
       "Responsable principal": "Comité de Ética de Investigación",
       "Fecha de inicio": "2027-01-18",
       "Fecha de fin": "2027-02-22",
-      "Plazo (días)": "#NAME?",
+      "Plazo (días)": "24",
       "Producto / Entregable": "Procedimiento de seguimiento ético aprobado con instrumentos de verificación",
       "Medio de verificación": "FI3 Documentos que evidencian el seguimiento de la aplicación del código de ética",
       "Criterio de aceptación (evidencia de cumplimiento)": "Procedimiento aprobado que regula expresamente el seguimiento durante la ejecución de los proyectos",
@@ -1808,11 +1344,12 @@
       "Estado": "No iniciada",
       "Avance (%)": 0,
       "Carga de Evidencias": "EF4.3",
-      "Nivel de Cumplimiento": null,
-      "Observaciones": null
+      "Nivel de Cumplimiento": "",
+      "Observaciones": ""
     },
     {
       "_excelRow": 42,
+      "ItemInternalId": "b0523d8f-5c67-4c21-9a12-cfc432c70c74",
       "ID": "A4.3.2",
       "Fase": "F2. Implementación operativa (feb-abr 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
@@ -1830,7 +1367,7 @@
       "Responsable principal": "Comité de Ética de Investigación",
       "Fecha de inicio": "2027-03-01",
       "Fecha de fin": "2027-04-27",
-      "Plazo (días)": "#NAME?",
+      "Plazo (días)": "41",
       "Producto / Entregable": "Al menos dos ciclos de seguimiento ejecutados con informes y actas suscritas",
       "Medio de verificación": "FI3 Documentos que evidencian el seguimiento de la aplicación del código de ética",
       "Criterio de aceptación (evidencia de cumplimiento)": "Dos ciclos documentados que cubren el 100% de los proyectos vigentes del [CAMPO]",
@@ -1838,11 +1375,12 @@
       "Estado": "No iniciada",
       "Avance (%)": 0,
       "Carga de Evidencias": "EF4.3",
-      "Nivel de Cumplimiento": null,
-      "Observaciones": null
+      "Nivel de Cumplimiento": "",
+      "Observaciones": ""
     },
     {
       "_excelRow": 43,
+      "ItemInternalId": "498b228f-cb00-4897-a6d8-5b29c9769df4",
       "ID": "A4.4.1",
       "Fase": "F1. Diseño y aprobación normativa (ene - feb 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
@@ -1860,7 +1398,7 @@
       "Responsable principal": "Comité de Ética de Investigación",
       "Fecha de inicio": "2027-01-18",
       "Fecha de fin": "2027-02-15",
-      "Plazo (días)": "#NAME?",
+      "Plazo (días)": "19",
       "Producto / Entregable": "Formatos de consentimiento y protocolo de protección de datos aprobados",
       "Medio de verificación": "FI4 consentimiento informado, FI5 protección de la privacidad y FI6 confidencialidad de datos",
       "Criterio de aceptación (evidencia de cumplimiento)": "Formatos y protocolo aprobados que cubren de forma diferenciada consentimiento, privacidad y confidencialidad",
@@ -1868,11 +1406,12 @@
       "Estado": "No iniciada",
       "Avance (%)": 0,
       "Carga de Evidencias": "EF4.4",
-      "Nivel de Cumplimiento": null,
-      "Observaciones": null
+      "Nivel de Cumplimiento": "",
+      "Observaciones": ""
     },
     {
       "_excelRow": 44,
+      "ItemInternalId": "e91f0540-f97c-4751-883e-6dec462385b9",
       "ID": "A4.4.2",
       "Fase": "F2. Implementación operativa (mar - abr 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
@@ -1890,7 +1429,7 @@
       "Responsable principal": "Dirección de Investigación",
       "Fecha de inicio": "2027-03-01",
       "Fecha de fin": "2027-04-19",
-      "Plazo (días)": "#NAME?",
+      "Plazo (días)": "35",
       "Producto / Entregable": "Expedientes de proyectos con consentimientos archivados y registro de medidas de protección",
       "Medio de verificación": "FI4, FI5 y FI6 Documentos de consentimiento, privacidad y confidencialidad",
       "Criterio de aceptación (evidencia de cumplimiento)": "Evidencia de aplicación en el 100% de los proyectos del [CAMPO] que involucran personas o datos personales",
@@ -1898,11 +1437,12 @@
       "Estado": "No iniciada",
       "Avance (%)": 0,
       "Carga de Evidencias": "EF4.4",
-      "Nivel de Cumplimiento": null,
-      "Observaciones": null
+      "Nivel de Cumplimiento": "",
+      "Observaciones": ""
     },
     {
       "_excelRow": 45,
+      "ItemInternalId": "d026c25f-eab1-45d3-922b-1e3c99aa4b26",
       "ID": "A4.5.1",
       "Fase": "F2. Implementación operativa (ene-feb 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
@@ -1920,7 +1460,7 @@
       "Responsable principal": "Dirección de Investigación\nProcuraduría",
       "Fecha de inicio": "2027-01-01",
       "Fecha de fin": "2027-02-02",
-      "Plazo (días)": "#NAME?",
+      "Plazo (días)": "22",
       "Producto / Entregable": "Procedimiento y formato de declaración de conflictos de interés aprobados y en aplicación",
       "Medio de verificación": "FI7 Documento que evidencia la gestión de conflictos de interés",
       "Criterio de aceptación (evidencia de cumplimiento)": "Procedimiento vigente y declaraciones suscritas por el 100% de evaluadores y directores de proyecto de 2027",
@@ -1928,11 +1468,12 @@
       "Estado": "No iniciada",
       "Avance (%)": 0,
       "Carga de Evidencias": "EF4.5",
-      "Nivel de Cumplimiento": null,
-      "Observaciones": null
+      "Nivel de Cumplimiento": "",
+      "Observaciones": ""
     },
     {
       "_excelRow": 46,
+      "ItemInternalId": "5af708cd-eb46-4a42-ac53-219e91b49644",
       "ID": "A4.5.2",
       "Fase": "F2. Implementación operativa (feb - abr 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
@@ -1950,7 +1491,7 @@
       "Responsable principal": "Dirección de Investigación\nBiblioteca o Centro de Recursos para el Aprendizaje y la Investigación",
       "Fecha de inicio": "2027-02-04",
       "Fecha de fin": "2027-04-02",
-      "Plazo (días)": "#NAME?",
+      "Plazo (días)": "39",
       "Producto / Entregable": "Repositorio institucional operativo y política de transparencia y datos de investigación aprobada",
       "Medio de verificación": "FI8 Documentos que evidencian la transparencia en obtención, análisis y presentación de resultados",
       "Criterio de aceptación (evidencia de cumplimiento)": "Repositorio operativo con al menos el 80% de la producción del [CAMPO ESPECÍFICO] de los últimos cinco años depositada",
@@ -1958,11 +1499,12 @@
       "Estado": "No iniciada",
       "Avance (%)": 0,
       "Carga de Evidencias": "EF4.5",
-      "Nivel de Cumplimiento": null,
-      "Observaciones": null
+      "Nivel de Cumplimiento": "",
+      "Observaciones": ""
     },
     {
       "_excelRow": 47,
+      "ItemInternalId": "4126c0f2-efa0-40d9-9b4f-baf479168d3a",
       "ID": "A5.1.1",
       "Fase": "F1. Diseño y aprobación normativa (nov - ene 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
@@ -1980,7 +1522,7 @@
       "Responsable principal": "Vicerrecorado de Investigación\nDirección de Investigación\nDirección de Relaciones Interinstitucionales",
       "Fecha de inicio": "2026-11-02",
       "Fecha de fin": "2027-01-04",
-      "Plazo (días)": "#NAME?",
+      "Plazo (días)": "42",
       "Producto / Entregable": "Política de internacionalización aprobada, publicada y socializada",
       "Medio de verificación": "FI1 Política o normativa de internacionalización",
       "Criterio de aceptación (evidencia de cumplimiento)": "Política vigente con objetivos y metas explícitos de internacionalización de la investigación",
@@ -1988,11 +1530,12 @@
       "Estado": "No iniciada",
       "Avance (%)": 0,
       "Carga de Evidencias": "EF5.1",
-      "Nivel de Cumplimiento": null,
-      "Observaciones": null
+      "Nivel de Cumplimiento": "",
+      "Observaciones": ""
     },
     {
       "_excelRow": 48,
+      "ItemInternalId": "5008f966-7b28-42ee-9665-1ead608964a0",
       "ID": "A5.1.2",
       "Fase": "F1. Diseño y aprobación normativa (dic - ene 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
@@ -2010,7 +1553,7 @@
       "Responsable principal": "Dirección de Planificación\nDirección de Relaciones Interinstitucionales",
       "Fecha de inicio": "2026-12-04",
       "Fecha de fin": "2027-01-05",
-      "Plazo (días)": "#NAME?",
+      "Plazo (días)": "21",
       "Producto / Entregable": "PEDI y POA 2027 con actividades y metas de internacionalización de la investigación",
       "Medio de verificación": "FI2 Planificación Estratégica de Desarrollo Institucional PEDI",
       "Criterio de aceptación (evidencia de cumplimiento)": "POA 2027 con al menos cinco actividades de internacionalización en investigación con meta e indicador",
@@ -2018,11 +1561,12 @@
       "Estado": "No iniciada",
       "Avance (%)": 0,
       "Carga de Evidencias": "EF5.1",
-      "Nivel de Cumplimiento": null,
-      "Observaciones": null
+      "Nivel de Cumplimiento": "",
+      "Observaciones": ""
     },
     {
       "_excelRow": 49,
+      "ItemInternalId": "f6ceccdb-6083-44a4-b1f4-9830d33d1dfa",
       "ID": "A5.2.1",
       "Fase": "F1. Diseño y aprobación normativa (oct 2026)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
@@ -2040,7 +1584,7 @@
       "Responsable principal": "Rectorado\nDirección de Relaciones Interinstitucionales",
       "Fecha de inicio": "2026-10-01",
       "Fecha de fin": "2026-10-28",
-      "Plazo (días)": "#NAME?",
+      "Plazo (días)": "19",
       "Producto / Entregable": "Documentos con las atribuciones",
       "Medio de verificación": "FI3 Documento que evidencia la unidad y la designación del responsable",
       "Criterio de aceptación (evidencia de cumplimiento)": "Documento con atribuciones expresas sobre internacionalización de la investigación",
@@ -2048,11 +1592,12 @@
       "Estado": "No iniciada",
       "Avance (%)": 0,
       "Carga de Evidencias": "EF5.2",
-      "Nivel de Cumplimiento": null,
-      "Observaciones": null
+      "Nivel de Cumplimiento": "",
+      "Observaciones": ""
     },
     {
       "_excelRow": 50,
+      "ItemInternalId": "20ee96c9-3963-4397-be61-751cbff29e97",
       "ID": "A5.2.2",
       "Fase": "F2. Implementación operativa (feb - abr 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
@@ -2070,7 +1615,7 @@
       "Responsable principal": "Dirección de Relaciones Internacionales\nDirección de Planificaión\nDirección de Investigación",
       "Fecha de inicio": "2027-02-04",
       "Fecha de fin": "2027-04-27",
-      "Plazo (días)": "#NAME?",
+      "Plazo (días)": "56",
       "Producto / Entregable": "Plan operativo, dos informes de seguimiento y acciones de mejora implementadas",
       "Medio de verificación": "FI4 Documentos que evidencian planificación, ejecución, seguimiento y mejora",
       "Criterio de aceptación (evidencia de cumplimiento)": "Ciclo completo documentado con al menos dos acciones de mejora implementadas y verificadas",
@@ -2078,11 +1623,12 @@
       "Estado": "No iniciada",
       "Avance (%)": 0,
       "Carga de Evidencias": "EF5.2",
-      "Nivel de Cumplimiento": null,
-      "Observaciones": null
+      "Nivel de Cumplimiento": "",
+      "Observaciones": ""
     },
     {
       "_excelRow": 51,
+      "ItemInternalId": "221e10dc-e186-47f1-a1ff-91866fff143a",
       "ID": "A5.3.1",
       "Fase": "F1. Diseño y aprobación normativa (dic - ene 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
@@ -2100,7 +1646,7 @@
       "Responsable principal": "Dirección Financiera",
       "Fecha de inicio": "2026-12-04",
       "Fecha de fin": "2027-01-11",
-      "Plazo (días)": "#NAME?",
+      "Plazo (días)": "25",
       "Producto / Entregable": "Partida presupuestaria específica aprobada y certificada para internacionalización en investigación",
       "Medio de verificación": "FI5 Documentos que evidencian la asignación del presupuesto",
       "Criterio de aceptación (evidencia de cumplimiento)": "Partida específica aprobada, identificable en el POA 2027 y con certificación presupuestaria emitida",
@@ -2108,11 +1654,12 @@
       "Estado": "No iniciada",
       "Avance (%)": 0,
       "Carga de Evidencias": "EF5.3",
-      "Nivel de Cumplimiento": null,
-      "Observaciones": null
+      "Nivel de Cumplimiento": "",
+      "Observaciones": ""
     },
     {
       "_excelRow": 52,
+      "ItemInternalId": "fee4b3c8-419d-4ee8-a534-6f390f4ac374",
       "ID": "A5.3.2",
       "Fase": "F2. Implementación operativa (feb - may 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
@@ -2130,7 +1677,7 @@
       "Responsable principal": "Dirección Financiera",
       "Fecha de inicio": "2027-02-04",
       "Fecha de fin": "2027-04-11",
-      "Plazo (días)": "#NAME?",
+      "Plazo (días)": "44",
       "Producto / Entregable": "Informe de ejecución presupuestaria de internacionalización con respaldos",
       "Medio de verificación": "FI5 Documentos que evidencian la ejecución del presupuesto",
       "Criterio de aceptación (evidencia de cumplimiento)": "Ejecución igual o superior al 70% de la partida asignada al 31 de julio de 2027, con respaldos documentales",
@@ -2138,11 +1685,12 @@
       "Estado": "No iniciada",
       "Avance (%)": 0,
       "Carga de Evidencias": "EF5.3",
-      "Nivel de Cumplimiento": null,
-      "Observaciones": null
+      "Nivel de Cumplimiento": "",
+      "Observaciones": ""
     },
     {
       "_excelRow": 53,
+      "ItemInternalId": "4d0393d5-56cc-4022-ba99-7cddad962bc5",
       "ID": "A5.4.1",
       "Fase": "F1. Diseño y aprobación normativa (ene - feb 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
@@ -2160,7 +1708,7 @@
       "Responsable principal": "Dirección de Relaciones Internacionales",
       "Fecha de inicio": "2027-01-04",
       "Fecha de fin": "2027-02-15",
-      "Plazo (días)": "#NAME?",
+      "Plazo (días)": "29",
       "Producto / Entregable": "Procedimiento de movilidad e incentivos aprobado y publicado",
       "Medio de verificación": "FI7 Documento que evidencia los procedimientos e incentivos de movilidad",
       "Criterio de aceptación (evidencia de cumplimiento)": "Procedimiento vigente que regula e incentiva de forma expresa la movilidad entrante y la saliente",
@@ -2168,11 +1716,12 @@
       "Estado": "No iniciada",
       "Avance (%)": 0,
       "Carga de Evidencias": "EF5.4",
-      "Nivel de Cumplimiento": null,
-      "Observaciones": null
+      "Nivel de Cumplimiento": "",
+      "Observaciones": ""
     },
     {
       "_excelRow": 54,
+      "ItemInternalId": "2a03b2c2-c371-4819-87a8-97c42fa5157f",
       "ID": "A5.4.2",
       "Fase": "F2. Implementación operativa (feb - abr 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
@@ -2190,7 +1739,7 @@
       "Responsable principal": "Dirección de Relaciones Internacionales",
       "Fecha de inicio": "2027-02-04",
       "Fecha de fin": "2027-04-14",
-      "Plazo (días)": "#NAME?",
+      "Plazo (días)": "47",
       "Producto / Entregable": "Convenios suscritos y vigentes y certificados de adhesión a redes internacionales",
       "Medio de verificación": "FI8 Documento que evidencia la movilidad bidireccional en redes, programas y convenios",
       "Criterio de aceptación (evidencia de cumplimiento)": "Al menos cuatro convenios vigentes del [CAMPO] con plan de trabajo y al menos una actividad ejecutada",
@@ -2198,11 +1747,12 @@
       "Estado": "No iniciada",
       "Avance (%)": 0,
       "Carga de Evidencias": "EF5.4",
-      "Nivel de Cumplimiento": null,
-      "Observaciones": null
+      "Nivel de Cumplimiento": "",
+      "Observaciones": ""
     },
     {
       "_excelRow": 55,
+      "ItemInternalId": "8eb254a8-5381-4325-8a13-eb2be30a1b89",
       "ID": "A5.4.3",
       "Fase": "F2. Implementación operativa (feb - abr 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
@@ -2220,7 +1770,7 @@
       "Responsable principal": "Dirección de Relaciones Internacionales",
       "Fecha de inicio": "2027-02-15",
       "Fecha de fin": "2027-04-26",
-      "Plazo (días)": "#NAME?",
+      "Plazo (días)": "50",
       "Producto / Entregable": "Registro de movilidad ejecutada con informes de estancia, certificados y productos derivados",
       "Medio de verificación": "FI6 Documento que evidencia la movilidad de profesores y estudiantes",
       "Criterio de aceptación (evidencia de cumplimiento)": "Al menos cuatro movilidades salientes y dos entrantes ejecutadas y documentadas en el periodo",
@@ -2228,11 +1778,12 @@
       "Estado": "No iniciada",
       "Avance (%)": 0,
       "Carga de Evidencias": "EF5.4",
-      "Nivel de Cumplimiento": null,
-      "Observaciones": null
+      "Nivel de Cumplimiento": "",
+      "Observaciones": ""
     },
     {
       "_excelRow": 56,
+      "ItemInternalId": "f2063997-842d-4780-80ee-59beddbe5590",
       "ID": "A5.5.1",
       "Fase": "F2. Implementación operativa (ene-may 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
@@ -2250,7 +1801,7 @@
       "Responsable principal": "Dirección de Posgrado",
       "Fecha de inicio": "2027-02-04",
       "Fecha de fin": "2027-04-07",
-      "Plazo (días)": "#NAME?",
+      "Plazo (días)": "42",
       "Producto / Entregable": "Al menos tres experiencias de aprendizaje colaborativo internacional ejecutadas y documentadas",
       "Medio de verificación": "FI9 Documentos que evidencian procesos de aprendizaje colaborativo",
       "Criterio de aceptación (evidencia de cumplimiento)": "Tres experiencias ejecutadas con evidencia de participantes, contenidos y resultados de aprendizaje",
@@ -2258,11 +1809,12 @@
       "Estado": "No iniciada",
       "Avance (%)": 0,
       "Carga de Evidencias": "EF5.5",
-      "Nivel de Cumplimiento": null,
-      "Observaciones": null
+      "Nivel de Cumplimiento": "",
+      "Observaciones": ""
     },
     {
       "_excelRow": 57,
+      "ItemInternalId": "4cd92b74-43b6-4313-8fb0-28330a79e69b",
       "ID": "A5.5.2",
       "Fase": "F3. Consolidación y postulación (abr - may 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
@@ -2280,7 +1832,7 @@
       "Responsable principal": "Dirección de Relaciones Internacionales (DRI)",
       "Fecha de inicio": "2027-03-12",
       "Fecha de fin": "2027-04-05",
-      "Plazo (días)": "#NAME?",
+      "Plazo (días)": "16",
       "Producto / Entregable": "Informe de contribución con casos, evidencias y resultados institucionales",
       "Medio de verificación": "FI9 Documentos que evidencian la contribución al fortalecimiento de los procesos institucionales",
       "Criterio de aceptación (evidencia de cumplimiento)": "Informe aprobado que documenta al menos tres procesos institucionales fortalecidos con evidencia verificable",
@@ -2288,11 +1840,12 @@
       "Estado": "No iniciada",
       "Avance (%)": 0,
       "Carga de Evidencias": "EF5.5",
-      "Nivel de Cumplimiento": null,
-      "Observaciones": null
+      "Nivel de Cumplimiento": "",
+      "Observaciones": ""
     },
     {
       "_excelRow": 58,
+      "ItemInternalId": "2c6da15a-93d7-415d-bd1d-fec837a7e91f",
       "ID": "A6.1.1",
       "Fase": "F2. Implementación operativa (ene- feb 2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
@@ -2310,7 +1863,7 @@
       "Responsable principal": "Dirección Administrativa\nDirección de Posgrados\nDecanatos",
       "Fecha de inicio": "2027-01-04",
       "Fecha de fin": "2027-02-04",
-      "Plazo (días)": "#NAME?",
+      "Plazo (días)": "24",
       "Producto / Entregable": "Inventario técnico de espacios y equipamiento con fichas por ambiente y respaldo fotográfico",
       "Medio de verificación": "FI1 Información de los espacios físicos o virtuales y equipamiento tecnológico",
       "Criterio de aceptación (evidencia de cumplimiento)": "Inventario suscrito que identifica los ambientes y equipos asignados al programa doctoral ",
@@ -2318,11 +1871,12 @@
       "Estado": "No iniciada",
       "Avance (%)": 0,
       "Carga de Evidencias": "EF6.1",
-      "Nivel de Cumplimiento": null,
-      "Observaciones": null
+      "Nivel de Cumplimiento": "",
+      "Observaciones": ""
     },
     {
       "_excelRow": 59,
+      "ItemInternalId": "a4b18935-feef-461c-874c-1af94193e475",
       "ID": "A6.2.1",
       "Fase": "F2. Implementación operativa (feb - abr 2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
@@ -2340,7 +1894,7 @@
       "Responsable principal": "Dirección Administrativa\nDirección de Posgrados\nDecanatos",
       "Fecha de inicio": "2027-02-04",
       "Fecha de fin": "2027-04-08",
-      "Plazo (días)": "#NAME?",
+      "Plazo (días)": "43",
       "Producto / Entregable": "Ambientes de aprendizaje operativos con evidencia de uso y configuración",
       "Medio de verificación": "FI1 y FI2 Información de ambientes de aprendizaje",
       "Criterio de aceptación (evidencia de cumplimiento)": "Ambientes operativos con informe de pertinencia respecto al (CAMPO ESPECÍFICO) y evidencia de uso académico",
@@ -2348,11 +1902,12 @@
       "Estado": "No iniciada",
       "Avance (%)": 0,
       "Carga de Evidencias": "EF6.2",
-      "Nivel de Cumplimiento": null,
-      "Observaciones": null
+      "Nivel de Cumplimiento": "",
+      "Observaciones": ""
     },
     {
       "_excelRow": 60,
+      "ItemInternalId": "3ffde9c3-f687-4da5-875e-37d992df0fef",
       "ID": "A6.2.2",
       "Fase": "F2. Implementación operativa (abr-may 2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
@@ -2370,7 +1925,7 @@
       "Responsable principal": "Dirección Administrativa\nDirección de Posgrados\nDecanatos",
       "Fecha de inicio": "2027-03-12",
       "Fecha de fin": "2027-04-11",
-      "Plazo (días)": "#NAME?",
+      "Plazo (días)": "20",
       "Producto / Entregable": "Manual de uso y plan de mantenimiento aprobados con cronograma y registros",
       "Medio de verificación": "FI2 Manual, guía o instructivo del uso y mantenimiento de los ambientes de aprendizaje",
       "Criterio de aceptación (evidencia de cumplimiento)": "Manual y plan aprobados con al menos un ciclo de mantenimiento preventivo ejecutado y registrado",
@@ -2378,11 +1933,12 @@
       "Estado": "No iniciada",
       "Avance (%)": 0,
       "Carga de Evidencias": "EF6.2",
-      "Nivel de Cumplimiento": null,
-      "Observaciones": null
+      "Nivel de Cumplimiento": "",
+      "Observaciones": ""
     },
     {
       "_excelRow": 61,
+      "ItemInternalId": "a0351cbc-ca45-4bc2-94c8-e7e4b5e97ac8",
       "ID": "A6.3.1",
       "Fase": "F1. Diseño y aprobación normativa (dic - ene 2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
@@ -2400,7 +1956,7 @@
       "Responsable principal": "Biblioteca\nDirección de Posgrado\nDecanatos",
       "Fecha de inicio": "2026-12-04",
       "Fecha de fin": "2027-01-27",
-      "Plazo (días)": "#NAME?",
+      "Plazo (días)": "37",
       "Producto / Entregable": "Contratos o convenios de acceso vigentes y credenciales activas para la comunidad académica",
       "Medio de verificación": "FI3 Documento que evidencia la adquisición de bases de datos de revistas indexadas",
       "Criterio de aceptación (evidencia de cumplimiento)": "Contratos vigentes a la fecha de postulación con evidencia de acceso efectivo y estadísticas de uso",
@@ -2408,11 +1964,12 @@
       "Estado": "No iniciada",
       "Avance (%)": 0,
       "Carga de Evidencias": "EF6.3",
-      "Nivel de Cumplimiento": null,
-      "Observaciones": null
+      "Nivel de Cumplimiento": "",
+      "Observaciones": ""
     },
     {
       "_excelRow": 62,
+      "ItemInternalId": "09e588ba-9ac3-4761-8439-4d47eaef76af",
       "ID": "A6.3.2",
       "Fase": "F2. Implementación operativa (feb - abr 2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
@@ -2430,7 +1987,7 @@
       "Responsable principal": "Dirección de Posgrado\nDecanatos",
       "Fecha de inicio": "2027-02-04",
       "Fecha de fin": "2027-04-06",
-      "Plazo (días)": "#NAME?",
+      "Plazo (días)": "41",
       "Producto / Entregable": "Licencias adquiridas, instaladas y documentadas con evidencia de despliegue",
       "Medio de verificación": "FI4 Documento que evidencia la adquisición de software especializado",
       "Criterio de aceptación (evidencia de cumplimiento)": "Licencias vigentes, instaladas y con informe de pertinencia respecto al programa doctoral",
@@ -2438,11 +1995,12 @@
       "Estado": "No iniciada",
       "Avance (%)": 0,
       "Carga de Evidencias": "EF6.3",
-      "Nivel de Cumplimiento": null,
-      "Observaciones": null
+      "Nivel de Cumplimiento": "",
+      "Observaciones": ""
     },
     {
       "_excelRow": 63,
+      "ItemInternalId": "42c92f41-cf8c-4c6d-8fe3-244c2e0e54f3",
       "ID": "A7.1.1",
       "Fase": "F0. Diagnóstico y arranque (oct - nov 2026)",
       "Criterio": "CCE - Criterio de Carácter Específico",
@@ -2460,7 +2018,7 @@
       "Responsable principal": "Dirección de Talento Humano\nDirección de Posgrados\nDecanatos",
       "Fecha de inicio": "2026-10-01",
       "Fecha de fin": "2026-11-09",
-      "Plazo (días)": "#NAME?",
+      "Plazo (días)": "25",
       "Producto / Entregable": "Planta doctoral titular con brecha cuantificada frente al núcleo académico requerido",
       "Medio de verificación": "FI1 Documentos que evidencian el grado de PhD del personal académico",
       "Criterio de aceptación (evidencia de cumplimiento)": "Nómina PhD, afinidad justificada y brecha cuantificada",
@@ -2468,11 +2026,12 @@
       "Estado": "No iniciada",
       "Avance (%)": 0,
       "Carga de Evidencias": "EF7.1",
-      "Nivel de Cumplimiento": null,
-      "Observaciones": null
+      "Nivel de Cumplimiento": "",
+      "Observaciones": ""
     },
     {
       "_excelRow": 64,
+      "ItemInternalId": "ae8cdd3c-04b1-402e-a7ca-ed6e508f4fb9",
       "ID": "A7.2.1",
       "Fase": "F2. Implementación operativa (ene-feb 2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
@@ -2490,7 +2049,7 @@
       "Responsable principal": "Dirección de Talento Humano\nDirección de Posgrados",
       "Fecha de inicio": "2027-01-04",
       "Fecha de fin": "2027-02-15",
-      "Plazo (días)": "#NAME?",
+      "Plazo (días)": "29",
       "Producto / Entregable": "Expediente de experiencia por profesor con certificaciones que acreditan el mínimo de cuatro años",
       "Medio de verificación": "FI2 Documentos que evidencian la experiencia del personal académico",
       "Criterio de aceptación (evidencia de cumplimiento)": "100% del núcleo con certificación documental de al menos cuatro años de experiencia",
@@ -2498,11 +2057,12 @@
       "Estado": "No iniciada",
       "Avance (%)": 0,
       "Carga de Evidencias": "EF7.2",
-      "Nivel de Cumplimiento": null,
-      "Observaciones": null
+      "Nivel de Cumplimiento": "",
+      "Observaciones": ""
     },
     {
       "_excelRow": 65,
+      "ItemInternalId": "95fbe354-44aa-421d-93b0-1b38b26d259d",
       "ID": "A7.2.2",
       "Fase": "F2. Implementación operativa (feb - mar 2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
@@ -2520,7 +2080,7 @@
       "Responsable principal": "Dirección de Talento Humano\nDirección de Posgrados",
       "Fecha de inicio": "2027-02-04",
       "Fecha de fin": "2027-03-29",
-      "Plazo (días)": "#NAME?",
+      "Plazo (días)": "35",
       "Producto / Entregable": "Proyectos dirigidos",
       "Medio de verificación": "FI2 Documentos que evidencian la experiencia del personal académico",
       "Criterio de aceptación (evidencia de cumplimiento)": "100% del núcleo académico acredita dirección o codirección de al menos un proyecto",
@@ -2528,11 +2088,12 @@
       "Estado": "No iniciada",
       "Avance (%)": 0,
       "Carga de Evidencias": "EF7.2",
-      "Nivel de Cumplimiento": null,
-      "Observaciones": null
+      "Nivel de Cumplimiento": "",
+      "Observaciones": ""
     },
     {
       "_excelRow": 66,
+      "ItemInternalId": "fe409831-633b-4d5f-8eb4-d40490009909",
       "ID": "A7.3.1",
       "Fase": "F1. Diseño y aprobación normativa (nov-dic 2026)",
       "Criterio": "CCE - Criterio de Carácter Específico",
@@ -2550,7 +2111,7 @@
       "Responsable principal": "Dirección de Investigación\nDirección de Posgrado",
       "Fecha de inicio": "2026-11-03",
       "Fecha de fin": "2026-12-21",
-      "Plazo (días)": "#NAME?",
+      "Plazo (días)": "34",
       "Producto / Entregable": "Informe de la producción científica por docente",
       "Medio de verificación": "FI3 Documentos que evidencian las publicaciones académicas",
       "Criterio de aceptación (evidencia de cumplimiento)": "El informe debe evidencial al menos tres publicaciones por docente y cumplir con los requisitos establecidos en el elemento fundamental",
@@ -2558,11 +2119,12 @@
       "Estado": "No iniciada",
       "Avance (%)": 0,
       "Carga de Evidencias": "EF7.3",
-      "Nivel de Cumplimiento": null,
-      "Observaciones": null
+      "Nivel de Cumplimiento": "",
+      "Observaciones": ""
     },
     {
       "_excelRow": 67,
+      "ItemInternalId": "79d4483e-1601-48dc-b624-bfa8a3fb60e7",
       "ID": "A7.3.3",
       "Fase": "F2. Implementación operativa (marzo2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
@@ -2580,7 +2142,7 @@
       "Responsable principal": "Dirección de Investigación\nDirección de Posgrado\nDirección de Aseguramiento de la Calidad (DAC)",
       "Fecha de inicio": "2027-03-01",
       "Fecha de fin": "2027-03-29",
-      "Plazo (días)": "#NAME?",
+      "Plazo (días)": "20",
       "Producto / Entregable": "Informe de verificación de no endogamia y de revisión por pares con evidencia por publicación",
       "Medio de verificación": "FI3 Documentos que evidencian las publicaciones académicas",
       "Criterio de aceptación (evidencia de cumplimiento)": "Informe que certifica ausencia de endogamia y revisión por pares ciegos en el 100% de las publicaciones reportadas",
@@ -2588,11 +2150,12 @@
       "Estado": "No iniciada",
       "Avance (%)": 0,
       "Carga de Evidencias": "EF7.3",
-      "Nivel de Cumplimiento": null,
-      "Observaciones": null
+      "Nivel de Cumplimiento": "",
+      "Observaciones": ""
     },
     {
       "_excelRow": 68,
+      "ItemInternalId": "85942e66-ddce-4987-a5f1-78a55e9af503",
       "ID": "A7.4.1",
       "Fase": "F2. Implementación operativa (ene-abr 2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
@@ -2610,7 +2173,7 @@
       "Responsable principal": "Dirección de Investigación\nDirección de Posgrado\nDirección de Aseguramiento de la Calidad (DAC)",
       "Fecha de inicio": "2027-01-04",
       "Fecha de fin": "2027-04-21",
-      "Plazo (días)": "#NAME?",
+      "Plazo (días)": "75",
       "Producto / Entregable": "Expediente de ponencias por profesor con evidencia validada y vinculación a proyectos",
       "Medio de verificación": "FI4 Documentos que evidencian la difusión de resultados en eventos académicos",
       "Criterio de aceptación (evidencia de cumplimiento)": "Expediente completo con certificados de ponencia válidos para el 100% del núcleo académico",
@@ -2618,11 +2181,12 @@
       "Estado": "No iniciada",
       "Avance (%)": 0,
       "Carga de Evidencias": "EF7.4",
-      "Nivel de Cumplimiento": null,
-      "Observaciones": null
+      "Nivel de Cumplimiento": "",
+      "Observaciones": ""
     },
     {
       "_excelRow": 69,
+      "ItemInternalId": "d59d75b0-69a9-446c-a880-0f3c9e918388",
       "ID": "A7.4.2",
       "Fase": "F2. Implementación operativa (abr-may 2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
@@ -2640,7 +2204,7 @@
       "Responsable principal": "Dirección de Investigación\nDirección Financiera",
       "Fecha de inicio": "2027-04-22",
       "Fecha de fin": "2027-04-30",
-      "Plazo (días)": "#NAME?",
+      "Plazo (días)": "7",
       "Producto / Entregable": "Plan de ponencias ejecutado con inscripciones, aceptaciones y certificados",
       "Medio de verificación": "FI4 Documentos que evidencien la difusión de resultados de la investigación en eventos académicos",
       "Criterio de aceptación (evidencia de cumplimiento)": "100% del personal académico considerado con al menos una ponencia acreditada",
@@ -2648,11 +2212,12 @@
       "Estado": "No iniciada",
       "Avance (%)": 0,
       "Carga de Evidencias": "EF7.4",
-      "Nivel de Cumplimiento": null,
-      "Observaciones": null
+      "Nivel de Cumplimiento": "",
+      "Observaciones": ""
     },
     {
       "_excelRow": 70,
+      "ItemInternalId": "c57abfcd-87c3-47cc-9a41-5cd693cba2a9",
       "ID": "A7.5.1",
       "Fase": "F2. Implementación operativa (ene-abr 2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
@@ -2670,7 +2235,7 @@
       "Responsable principal": "Dirección de Posgrado\nDecanatos",
       "Fecha de inicio": "2027-01-04",
       "Fecha de fin": "2027-04-21",
-      "Plazo (días)": "#NAME?",
+      "Plazo (días)": "75",
       "Producto / Entregable": "Expediente de participación en tribunales con actas y designaciones por profesor",
       "Medio de verificación": "FI5 Documentos que evidencian la participación en tribunal de defensa de cuarto nivel",
       "Criterio de aceptación (evidencia de cumplimiento)": "Expediente completo con acta o certificación válida por cada profesor titular",
@@ -2678,11 +2243,12 @@
       "Estado": "No iniciada",
       "Avance (%)": 0,
       "Carga de Evidencias": "EF7.5",
-      "Nivel de Cumplimiento": null,
-      "Observaciones": null
+      "Nivel de Cumplimiento": "",
+      "Observaciones": ""
     },
     {
       "_excelRow": 71,
+      "ItemInternalId": "f6a03083-d463-4968-90a2-cbb10f7ba4ba",
       "ID": "A7.5.2",
       "Fase": "F2. Implementación operativa (abr-may 2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
@@ -2700,7 +2266,7 @@
       "Responsable principal": "Dirección de Posgrado\nDecanatos",
       "Fecha de inicio": "2027-04-22",
       "Fecha de fin": "2027-04-30",
-      "Plazo (días)": "#NAME?",
+      "Plazo (días)": "7",
       "Producto / Entregable": "Designaciones y actas de tribunal que cierran la brecha por profesor",
       "Medio de verificación": "FI5 Documentos que evidencien la participación en tribunal de defensa de trabajos de titulación de cuarto nivel",
       "Criterio de aceptación (evidencia de cumplimiento)": "100% de los titulares considerados con al menos una participación acreditada",
@@ -2708,11 +2274,12 @@
       "Estado": "No iniciada",
       "Avance (%)": 0,
       "Carga de Evidencias": "EF7.5",
-      "Nivel de Cumplimiento": null,
-      "Observaciones": null
+      "Nivel de Cumplimiento": "",
+      "Observaciones": ""
     },
     {
       "_excelRow": 72,
+      "ItemInternalId": "0d6416a9-c676-4076-b43d-bafd9c5f338f",
       "ID": "A7.6.1",
       "Fase": "F2. Implementación operativa (ene-mar 2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
@@ -2730,7 +2297,7 @@
       "Responsable principal": "Dirección de Posgrado\nDecanatos",
       "Fecha de inicio": "2027-01-04",
       "Fecha de fin": "2027-03-09",
-      "Plazo (días)": "#NAME?",
+      "Plazo (días)": "45",
       "Producto / Entregable": "Nómina de profesores invitados con instrumentos de vinculación suscritos",
       "Medio de verificación": "FI6 Documento que evidencia la dirección de tesis doctoral de los profesores invitados",
       "Criterio de aceptación (evidencia de cumplimiento)": "Nómina formalizada de profesores invitados que cubre las necesidades del programa doctoral propuesto",
@@ -2738,11 +2305,12 @@
       "Estado": "No iniciada",
       "Avance (%)": 0,
       "Carga de Evidencias": "EF7.6",
-      "Nivel de Cumplimiento": null,
-      "Observaciones": null
+      "Nivel de Cumplimiento": "",
+      "Observaciones": ""
     },
     {
       "_excelRow": 73,
+      "ItemInternalId": "00a2ecab-044f-4005-945c-e0476f7106dc",
       "ID": "A7.7.1",
       "Fase": "F2. Implementación operativa (dic - abr 2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
@@ -2760,7 +2328,7 @@
       "Responsable principal": "Dirección de Investigación",
       "Fecha de inicio": "2026-12-23",
       "Fecha de fin": "2027-04-21",
-      "Plazo (días)": "#NAME?",
+      "Plazo (días)": "81",
       "Producto / Entregable": "Expediente de revisores verificado con constancia de no endogamia",
       "Medio de verificación": "FI7 Documento que evidencia la participación como revisor o miembro de comité editorial",
       "Criterio de aceptación (evidencia de cumplimiento)": "Expediente que acredita el umbral del 50% con evidencias externas verificables",
@@ -2768,11 +2336,12 @@
       "Estado": "No iniciada",
       "Avance (%)": 0,
       "Carga de Evidencias": "EF7.7",
-      "Nivel de Cumplimiento": null,
-      "Observaciones": null
+      "Nivel de Cumplimiento": "",
+      "Observaciones": ""
     },
     {
       "_excelRow": 74,
+      "ItemInternalId": "c87f8b47-8bbe-434b-ba5f-4e38b95d8ad2",
       "ID": "A7.7.2",
       "Fase": "F2. Implementación operativa (abr-may 2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
@@ -2790,7 +2359,7 @@
       "Responsable principal": "Dirección de Investigación",
       "Fecha de inicio": "2027-03-22",
       "Fecha de fin": "2027-04-11",
-      "Plazo (días)": "#NAME?",
+      "Plazo (días)": "14",
       "Producto / Entregable": "Umbral del 50% alcanzado con constancias de revisión externas verificables",
       "Medio de verificación": "FI7 Documento que evidencie la participación como revisor en publicaciones académicas o como miembro de un comité editorial",
       "Criterio de aceptación (evidencia de cumplimiento)": "Al menos el 50% del personal doctoral titular con constancia verificable y sin endogamia",
@@ -2798,11 +2367,12 @@
       "Estado": "No iniciada",
       "Avance (%)": 0,
       "Carga de Evidencias": "EF7.7",
-      "Nivel de Cumplimiento": null,
-      "Observaciones": null
+      "Nivel de Cumplimiento": "",
+      "Observaciones": ""
     },
     {
       "_excelRow": 75,
+      "ItemInternalId": "6da25d4f-29cb-4010-83d1-cdb1623cf89a",
       "ID": "A8.1.1",
       "Fase": "F1. Diseño y aprobación normativa (nov-dic 2026)",
       "Criterio": "CCE - Criterio de Carácter Específico",
@@ -2820,7 +2390,7 @@
       "Responsable principal": "Rectorado\nDirección de Posgrado\nProcuraduría",
       "Fecha de inicio": "2026-11-03",
       "Fecha de fin": "2026-12-21",
-      "Plazo (días)": "#NAME?",
+      "Plazo (días)": "34",
       "Producto / Entregable": "Reglamento de Posgrado aprobado, publicado y socializado",
       "Medio de verificación": "FI1 Normativa de los programas de posgrados",
       "Criterio de aceptación (evidencia de cumplimiento)": "Reglamento vigente y concordante con la normativa de educación superior",
@@ -2828,11 +2398,12 @@
       "Estado": "No iniciada",
       "Avance (%)": 0,
       "Carga de Evidencias": "EF8.1",
-      "Nivel de Cumplimiento": null,
-      "Observaciones": null
+      "Nivel de Cumplimiento": "",
+      "Observaciones": ""
     },
     {
       "_excelRow": 76,
+      "ItemInternalId": "6e6cf70c-a1f4-474e-8adb-82e0fbd138b9",
       "ID": "A8.1.2",
       "Fase": "F1. Diseño y aprobación normativa (dic - feb 2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
@@ -2850,7 +2421,7 @@
       "Responsable principal": "Rectorado\nDirección de Posgrado",
       "Fecha de inicio": "2026-12-23",
       "Fecha de fin": "2027-02-18",
-      "Plazo (días)": "#NAME?",
+      "Plazo (días)": "38",
       "Producto / Entregable": "Estructura organizacional de posgrado aprobada con organigrama y manual de procedimientos",
       "Medio de verificación": "FI1 Normativa de los programas de posgrado y FI2 documento de la unidad",
       "Criterio de aceptación (evidencia de cumplimiento)": "Estructura aprobada con articulación expresa a la estrategia de investigación institucional",
@@ -2858,11 +2429,12 @@
       "Estado": "No iniciada",
       "Avance (%)": 0,
       "Carga de Evidencias": "EF8.1",
-      "Nivel de Cumplimiento": null,
-      "Observaciones": null
+      "Nivel de Cumplimiento": "",
+      "Observaciones": ""
     },
     {
       "_excelRow": 77,
+      "ItemInternalId": "2fdf2f81-67b6-41c1-89b4-68a061d0bcf1",
       "ID": "A8.2.2",
       "Fase": "F2. Implementación operativa (feb- abr 2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
@@ -2880,7 +2452,7 @@
       "Responsable principal": "Cancilleria\nDirección de Posgrado",
       "Fecha de inicio": "2027-02-04",
       "Fecha de fin": "2027-04-20",
-      "Plazo (días)": "#NAME?",
+      "Plazo (días)": "51",
       "Producto / Entregable": "Plan anual, dos informes de seguimiento y plan de acciones de mejora ejecutado",
       "Medio de verificación": "FI3 Documentos que evidencian planificación, seguimiento, evaluación y acciones de mejora",
       "Criterio de aceptación (evidencia de cumplimiento)": "Ciclo documentado completo con al menos dos acciones de mejora implementadas y verificadas",
@@ -2888,11 +2460,12 @@
       "Estado": "No iniciada",
       "Avance (%)": 0,
       "Carga de Evidencias": "EF8.2",
-      "Nivel de Cumplimiento": null,
-      "Observaciones": null
+      "Nivel de Cumplimiento": "",
+      "Observaciones": ""
     },
     {
       "_excelRow": 78,
+      "ItemInternalId": "a955329f-4aa5-4bd4-be3a-018e17877d01",
       "ID": "A8.3.1",
       "Fase": "F1. Diseño y aprobación normativa (ene - feb 2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
@@ -2910,7 +2483,7 @@
       "Responsable principal": "Dirección de Posgrado",
       "Fecha de inicio": "2027-01-04",
       "Fecha de fin": "2027-02-12",
-      "Plazo (días)": "#NAME?",
+      "Plazo (días)": "28",
       "Producto / Entregable": "Procedimiento aprobado con metodología y formatos de estudio de pertinencia y económico",
       "Medio de verificación": "FI4 Documentos que evidencian los procedimientos de estudios de pertinencia y económicos",
       "Criterio de aceptación (evidencia de cumplimiento)": "Procedimiento aprobado y aplicado al menos a un programa de posgrado",
@@ -2918,11 +2491,12 @@
       "Estado": "No iniciada",
       "Avance (%)": 0,
       "Carga de Evidencias": "EF8.3",
-      "Nivel de Cumplimiento": null,
-      "Observaciones": null
+      "Nivel de Cumplimiento": "",
+      "Observaciones": ""
     },
     {
       "_excelRow": 79,
+      "ItemInternalId": "d5ee2b2b-fb81-4f8c-8b3f-bccd6e410a67",
       "ID": "A8.3.2",
       "Fase": "F2. Implementación operativa (feb - abr 2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
@@ -2940,7 +2514,7 @@
       "Responsable principal": "Dirección de Posgrado",
       "Fecha de inicio": "2027-02-15",
       "Fecha de fin": "2027-04-13",
-      "Plazo (días)": "#NAME?",
+      "Plazo (días)": "41",
       "Producto / Entregable": "Estudio de pertinencia y estudio económico del programa doctoral aprobados",
       "Medio de verificación": "FI4 Documentos que evidencian los estudios de pertinencia y económicos",
       "Criterio de aceptación (evidencia de cumplimiento)": "Estudios aprobados por resolución con metodología, fuentes verificables y conclusiones sustentadas",
@@ -2948,11 +2522,12 @@
       "Estado": "No iniciada",
       "Avance (%)": 0,
       "Carga de Evidencias": "EF8.3",
-      "Nivel de Cumplimiento": null,
-      "Observaciones": null
+      "Nivel de Cumplimiento": "",
+      "Observaciones": ""
     },
     {
       "_excelRow": 80,
+      "ItemInternalId": "ab314e9e-4566-4c52-83c3-f4a8687d438f",
       "ID": "A8.4.2",
       "Fase": "F1. Diseño y aprobación normativa (dic - ene 2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
@@ -2970,7 +2545,7 @@
       "Responsable principal": "Dirección Financiera",
       "Fecha de inicio": "2026-12-04",
       "Fecha de fin": "2027-01-07",
-      "Plazo (días)": "#NAME?",
+      "Plazo (días)": "23",
       "Producto / Entregable": "Partida presupuestaria específica de posgrado aprobada y certificada",
       "Medio de verificación": "FI5 Documentos que evidencian la asignación presupuestaria del programa de posgrado",
       "Criterio de aceptación (evidencia de cumplimiento)": "Partida específica aprobada e identificable en el POA 2027 con certificación presupuestaria",
@@ -2978,11 +2553,12 @@
       "Estado": "No iniciada",
       "Avance (%)": 0,
       "Carga de Evidencias": "EF8.4",
-      "Nivel de Cumplimiento": null,
-      "Observaciones": null
+      "Nivel de Cumplimiento": "",
+      "Observaciones": ""
     },
     {
       "_excelRow": 81,
+      "ItemInternalId": "d2c351e4-5979-4b50-b030-4cb39363fb78",
       "ID": "A8.5.1",
       "Fase": "F1. Diseño y aprobación normativa (ene - mar 2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
@@ -3000,7 +2576,7 @@
       "Responsable principal": "Dirección de Posgrado",
       "Fecha de inicio": "2027-01-04",
       "Fecha de fin": "2027-03-11",
-      "Plazo (días)": "#NAME?",
+      "Plazo (días)": "47",
       "Producto / Entregable": "Normativa y procedimientos de admisión, seguimiento y titulación aprobados y publicados",
       "Medio de verificación": "FI6 Normativa o procedimientos de admisión, seguimiento académico y titulación",
       "Criterio de aceptación (evidencia de cumplimiento)": "Normativa vigente que regula los tres momentos y contempla expresamente el nivel doctoral",
@@ -3008,11 +2584,12 @@
       "Estado": "No iniciada",
       "Avance (%)": 0,
       "Carga de Evidencias": "EF8.5",
-      "Nivel de Cumplimiento": null,
-      "Observaciones": null
+      "Nivel de Cumplimiento": "",
+      "Observaciones": ""
     },
     {
       "_excelRow": 82,
+      "ItemInternalId": "34f546a6-7884-4378-8ec8-7a2826ed30ed",
       "ID": "A9.1.1",
       "Fase": "F1. Diseño y aprobación normativa (nov-dic 2026)",
       "Criterio": "CCE - Criterio de Carácter Específico",
@@ -3030,7 +2607,7 @@
       "Responsable principal": "Vicerrectorado de Investigación (VRI)",
       "Fecha de inicio": "2026-11-03",
       "Fecha de fin": "2026-12-28",
-      "Plazo (días)": "#NAME?",
+      "Plazo (días)": "38",
       "Producto / Entregable": "Normativa o lineamientos de grupos de investigación aprobados y publicados",
       "Medio de verificación": "FI1 Normativa concerniente a grupos de investigación",
       "Criterio de aceptación (evidencia de cumplimiento)": "Normativa vigente que regula conformación, funcionamiento y evaluación de los grupos",
@@ -3038,11 +2615,12 @@
       "Estado": "No iniciada",
       "Avance (%)": 0,
       "Carga de Evidencias": "EF9.1",
-      "Nivel de Cumplimiento": null,
-      "Observaciones": null
+      "Nivel de Cumplimiento": "",
+      "Observaciones": ""
     },
     {
       "_excelRow": 83,
+      "ItemInternalId": "4a037266-f1f9-45f5-b834-9e407cb5f86c",
       "ID": "A9.2.1",
       "Fase": "F2. Implementación operativa (ene-feb 2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
@@ -3060,7 +2638,7 @@
       "Responsable principal": "Vicerrectorado de Investigación (VRI)",
       "Fecha de inicio": "2027-01-04",
       "Fecha de fin": "2027-02-11",
-      "Plazo (días)": "#NAME?",
+      "Plazo (días)": "27",
       "Producto / Entregable": "Resoluciones de conformación de grupos con objeto, línea, dominio y nómina de integrantes",
       "Medio de verificación": "FI2 Documento que evidencia la conformación de los grupos de investigación",
       "Criterio de aceptación (evidencia de cumplimiento)": "Al menos dos grupos del [CAMPO] conformados por resolución con plan de trabajo aprobado",
@@ -3068,11 +2646,12 @@
       "Estado": "No iniciada",
       "Avance (%)": 0,
       "Carga de Evidencias": "EF9.2",
-      "Nivel de Cumplimiento": null,
-      "Observaciones": null
+      "Nivel de Cumplimiento": "",
+      "Observaciones": ""
     },
     {
       "_excelRow": 84,
+      "ItemInternalId": "444fc5ac-2a8e-4178-9305-9571483d30ea",
       "ID": "A9.3.1",
       "Fase": "F2. Implementación operativa (feb - mar 2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
@@ -3090,7 +2669,7 @@
       "Responsable principal": "Dirección de Investigación",
       "Fecha de inicio": "2027-02-15",
       "Fecha de fin": "2027-03-22",
-      "Plazo (días)": "#NAME?",
+      "Plazo (días)": "26",
       "Producto / Entregable": "Resoluciones de integración con nómina de profesores y estudiantes por grupo",
       "Medio de verificación": "FI3 Documentos que evidencian la participación de profesores y estudiantes",
       "Criterio de aceptación (evidencia de cumplimiento)": "100% de los grupos reportados con nómina que incluye profesores y estudiantes",
@@ -3098,11 +2677,12 @@
       "Estado": "No iniciada",
       "Avance (%)": 0,
       "Carga de Evidencias": "EF9.3",
-      "Nivel de Cumplimiento": null,
-      "Observaciones": null
+      "Nivel de Cumplimiento": "",
+      "Observaciones": ""
     },
     {
       "_excelRow": 85,
+      "ItemInternalId": "17c54f9b-d82d-4b09-b496-1deacec9a9a8",
       "ID": "A9.3.2",
       "Fase": "F2. Implementación operativa (feb - mar 2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
@@ -3120,7 +2700,7 @@
       "Responsable principal": "Dirección de Investigación",
       "Fecha de inicio": "2027-02-04",
       "Fecha de fin": "2027-03-30",
-      "Plazo (días)": "#NAME?",
+      "Plazo (días)": "36",
       "Producto / Entregable": "Convenio o carta de colaboración suscrita y resolución de integración del colaborador externo",
       "Medio de verificación": "FI3 Documentos que evidencian la participación de colaboradores externos",
       "Criterio de aceptación (evidencia de cumplimiento)": "Al menos un grupo con colaborador externo formalmente vinculado y con actividad documentada",
@@ -3128,11 +2708,12 @@
       "Estado": "No iniciada",
       "Avance (%)": 0,
       "Carga de Evidencias": "EF9.3",
-      "Nivel de Cumplimiento": null,
-      "Observaciones": null
+      "Nivel de Cumplimiento": "",
+      "Observaciones": ""
     },
     {
       "_excelRow": 86,
+      "ItemInternalId": "ea82fc99-3b0e-4e51-8778-f890d3f8ea60",
       "ID": "A9.4.1",
       "Fase": "F1. Diseño y aprobación normativa (dic - ene 2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
@@ -3150,7 +2731,7 @@
       "Responsable principal": "Dirección de Investigación",
       "Fecha de inicio": "2026-12-04",
       "Fecha de fin": "2027-01-13",
-      "Plazo (días)": "#NAME?",
+      "Plazo (días)": "27",
       "Producto / Entregable": "Listado de proyectos por grupo con brecha cuantificada y plan de cierre",
       "Medio de verificación": "FI4 Proyectos de investigación o de creación artística",
       "Criterio de aceptación (evidencia de cumplimiento)": "Listado suscrito con verificación documental proyecto por proyecto",
@@ -3158,11 +2739,12 @@
       "Estado": "No iniciada",
       "Avance (%)": 0,
       "Carga de Evidencias": "EF9.4",
-      "Nivel de Cumplimiento": null,
-      "Observaciones": null
+      "Nivel de Cumplimiento": "",
+      "Observaciones": ""
     },
     {
       "_excelRow": 87,
+      "ItemInternalId": "ca95b518-cc7e-453d-9cc9-b859e3f8c564",
       "ID": "A10.1.1",
       "Fase": "F1. Diseño y aprobación normativa (dic - ene 2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
@@ -3180,7 +2762,7 @@
       "Responsable principal": "Oficina de Transferencia de Resultados de Investigación (OTRI)",
       "Fecha de inicio": "2026-12-04",
       "Fecha de fin": "2027-01-18",
-      "Plazo (días)": "#NAME?",
+      "Plazo (días)": "30",
       "Producto / Entregable": "Informe de identificación de resultados protegibles con priorización de casos",
       "Medio de verificación": "FI1 Documentos que evidencian los derechos de propiedad intelectual",
       "Criterio de aceptación (evidencia de cumplimiento)": "Informe con al menos tres resultados priorizados y su ruta de protección definida",
@@ -3188,11 +2770,12 @@
       "Estado": "No iniciada",
       "Avance (%)": 0,
       "Carga de Evidencias": "EF10.1",
-      "Nivel de Cumplimiento": null,
-      "Observaciones": null
+      "Nivel de Cumplimiento": "",
+      "Observaciones": ""
     },
     {
       "_excelRow": 88,
+      "ItemInternalId": "240ba0dd-3664-47ac-90c7-f7417de1ba6b",
       "ID": "A10.1.2",
       "Fase": "F2. Implementación operativa (feb - abr 2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
@@ -3210,7 +2793,7 @@
       "Responsable principal": "Oficina de Transferencia de Resultados de Investigación (OTRI)",
       "Fecha de inicio": "2027-02-04",
       "Fecha de fin": "2027-04-12",
-      "Plazo (días)": "#NAME?",
+      "Plazo (días)": "45",
       "Producto / Entregable": "Certificado de registro o comprobante de solicitud en trámite ante el SENADI",
       "Medio de verificación": "FI1 Documentos que evidencian los derechos de propiedad intelectual registrados o en proceso",
       "Criterio de aceptación (evidencia de cumplimiento)": "Al menos un resultado del (CAMPO ESPECÍFICO) con certificado de registro o comprobante de trámite vigente",
@@ -3218,11 +2801,12 @@
       "Estado": "No iniciada",
       "Avance (%)": 0,
       "Carga de Evidencias": "EF10.1",
-      "Nivel de Cumplimiento": null,
-      "Observaciones": null
+      "Nivel de Cumplimiento": "",
+      "Observaciones": ""
     },
     {
       "_excelRow": 89,
+      "ItemInternalId": "af3e8055-e3dd-4b07-9363-f771338ce98a",
       "ID": "A10.2.1",
       "Fase": "F2. Implementación operativa (feb - abr 2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
@@ -3240,7 +2824,7 @@
       "Responsable principal": "Oficina de Transferencia de Resultados de Investigación (OTRI)",
       "Fecha de inicio": "2027-02-04",
       "Fecha de fin": "2027-04-19",
-      "Plazo (días)": "#NAME?",
+      "Plazo (días)": "50",
       "Producto / Entregable": "Convenio, contrato de licenciamiento o acta de transferencia suscrita con el receptor",
       "Medio de verificación": "FI2 Documentos que evidencian la transferencia de conocimiento o tecnología",
       "Criterio de aceptación (evidencia de cumplimiento)": "Al menos un instrumento de transferencia suscrito y vigente, vinculado a un proyecto del (CAMPO ESPECÍFICO)",
@@ -3248,11 +2832,12 @@
       "Estado": "No iniciada",
       "Avance (%)": 0,
       "Carga de Evidencias": "EF10.2",
-      "Nivel de Cumplimiento": null,
-      "Observaciones": null
+      "Nivel de Cumplimiento": "",
+      "Observaciones": ""
     },
     {
       "_excelRow": 90,
+      "ItemInternalId": "201e888a-b0e2-4202-b6fd-8d35371645cc",
       "ID": "A10.2.2",
       "Fase": "F3. Consolidación y postulación (abr - may 2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
@@ -3270,7 +2855,7 @@
       "Responsable principal": "Oficina de Transferencia de Resultados de Investigación (OTRI)",
       "Fecha de inicio": "2027-04-19",
       "Fecha de fin": "2027-04-20",
-      "Plazo (días)": "#NAME?",
+      "Plazo (días)": "2",
       "Producto / Entregable": "Informe de impacto de la transferencia con certificación del receptor",
       "Medio de verificación": "FI2 Documentos que evidencian la transferencia de conocimiento o tecnología",
       "Criterio de aceptación (evidencia de cumplimiento)": "Informe aprobado con certificación del receptor sobre el uso del conocimiento o tecnología transferida",
@@ -3278,11 +2863,12 @@
       "Estado": "No iniciada",
       "Avance (%)": 0,
       "Carga de Evidencias": "EF10.2",
-      "Nivel de Cumplimiento": null,
-      "Observaciones": null
+      "Nivel de Cumplimiento": "",
+      "Observaciones": ""
     },
     {
       "_excelRow": 91,
+      "ItemInternalId": "9295acc7-48f0-4765-96d5-502601e73366",
       "ID": "A10.3.1",
       "Fase": "F1. Diseño y aprobación normativa (dic - feb 2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
@@ -3300,7 +2886,7 @@
       "Responsable principal": "Dirección de Investigación",
       "Fecha de inicio": "2026-12-04",
       "Fecha de fin": "2027-02-24",
-      "Plazo (días)": "#NAME?",
+      "Plazo (días)": "55",
       "Producto / Entregable": "Proyecto en red aprobado y en ejecución con acuerdo de colaboración suscrito",
       "Medio de verificación": "FI3 Artículo científico en coautoría internacional derivado del proyecto en red",
       "Criterio de aceptación (evidencia de cumplimiento)": "Proyecto en red formalmente aprobado y en ejecución con al menos una institución extranjera",
@@ -3308,11 +2894,12 @@
       "Estado": "No iniciada",
       "Avance (%)": 0,
       "Carga de Evidencias": "EF10.3",
-      "Nivel de Cumplimiento": null,
-      "Observaciones": null
+      "Nivel de Cumplimiento": "",
+      "Observaciones": ""
     },
     {
       "_excelRow": 92,
+      "ItemInternalId": "74163713-9f2f-4951-860a-53fb9fc98589",
       "ID": "A10.3.2",
       "Fase": "F2. Implementación operativa (feb - may 2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
@@ -3330,7 +2917,7 @@
       "Responsable principal": "Vicerrectorado de Investigación (VRI)",
       "Fecha de inicio": "2027-02-04",
       "Fecha de fin": "2027-04-14",
-      "Plazo (días)": "#NAME?",
+      "Plazo (días)": "47",
       "Producto / Entregable": "Artículo publicado con DOI, indexación verificable y filiación de coautores internacionales",
       "Medio de verificación": "FI3 Artículo científico de WoS o Scopus en coautoría internacional",
       "Criterio de aceptación (evidencia de cumplimiento)": "Al menos un artículo publicado o aceptado con DOI, indexado en WoS o Scopus y con coautoría internacional",
@@ -3338,11 +2925,12 @@
       "Estado": "No iniciada",
       "Avance (%)": 0,
       "Carga de Evidencias": "EF10.3",
-      "Nivel de Cumplimiento": null,
-      "Observaciones": null
+      "Nivel de Cumplimiento": "",
+      "Observaciones": ""
     },
     {
       "_excelRow": 93,
+      "ItemInternalId": "50396b75-ffcc-4c40-a6c4-abe5c39f08a3",
       "ID": "A10.4.1",
       "Fase": "F1. Diseño y aprobación normativa (ene - mar 2027 )",
       "Criterio": "CCE - Criterio de Carácter Específico",
@@ -3360,7 +2948,7 @@
       "Responsable principal": "Dirección de Investigación",
       "Fecha de inicio": "2027-01-04",
       "Fecha de fin": "2027-03-23",
-      "Plazo (días)": "#NAME?",
+      "Plazo (días)": "55",
       "Producto / Entregable": "Plan de difusión internacional ejecutado con ponencias aceptadas y presentadas",
       "Medio de verificación": "FI4 Documentos que evidencian la presentación de resultados en eventos académicos internacionales",
       "Criterio de aceptación (evidencia de cumplimiento)": "Resultados de al menos dos proyectos del (CAMPO ESPECÍFICO) difundidos en eventos académicos internacionales",
@@ -3368,11 +2956,12 @@
       "Estado": "No iniciada",
       "Avance (%)": 0,
       "Carga de Evidencias": "EF10.4",
-      "Nivel de Cumplimiento": null,
-      "Observaciones": null
+      "Nivel de Cumplimiento": "",
+      "Observaciones": ""
     },
     {
       "_excelRow": 94,
+      "ItemInternalId": "9fc49b9f-6c68-479a-bd9e-aa96845379cd",
       "ID": "A10.4.2",
       "Fase": "F2. Implementación operativa (mar - abr 2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
@@ -3390,7 +2979,7 @@
       "Responsable principal": "Dirección de Investigación",
       "Fecha de inicio": "2027-03-22",
       "Fecha de fin": "2027-04-19",
-      "Plazo (días)": "#NAME?",
+      "Plazo (días)": "20",
       "Producto / Entregable": "Expediente de difusión internacional validado por proyecto",
       "Medio de verificación": "FI4 Documentos que evidencian la presentación de resultados en eventos académicos internacionales",
       "Criterio de aceptación (evidencia de cumplimiento)": "Expediente completo que acredita al menos dos proyectos difundidos en eventos de carácter internacional comprobable",
@@ -3398,8 +2987,8 @@
       "Estado": "No iniciada",
       "Avance (%)": 0,
       "Carga de Evidencias": "EF10.4",
-      "Nivel de Cumplimiento": null,
-      "Observaciones": null
+      "Nivel de Cumplimiento": "",
+      "Observaciones": ""
     }
   ]
 }
