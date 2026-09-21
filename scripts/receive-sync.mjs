@@ -38,6 +38,11 @@ const isSystemField = (value) => {
   const field = plain(value);
   return field.startsWith("@") || field === "ItemInternalId";
 };
+const normalizeHeader = (value, column) => {
+  const header = plain(value);
+  if (/^indicadores?$/i.test(header)) return "Indicador";
+  return header || (column === 3 ? "Indicador" : `Columna ${column + 1}`);
+};
 const excelDateToIso = (value) => {
   if (value === null || value === undefined || value === "") return null;
   const numeric = Number(value);
