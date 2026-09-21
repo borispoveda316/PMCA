@@ -773,7 +773,7 @@
       }
 
       function renderHeader() {
-        $("#asOf").textContent = `Corte dinámico: ${new Intl.DateTimeFormat("es-EC", { dateStyle: "long" }).format(new Date())}`;
+        $("#asOf").textContent = `Última actualización: ${new Intl.DateTimeFormat("es-EC", { dateStyle: "long" }).format(new Date())}`;
         $("#indicatorTabBadge").textContent = aggregateIndicators().length;
         $("#activityTabBadge").textContent = state.records.length;
         $("#qualityTabBadge").textContent = qualityIssues().length;
