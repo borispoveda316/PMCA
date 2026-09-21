@@ -3,9 +3,9 @@
     "sourceName": "Plan_de_Mejoras_Cualificacion_v2.xlsx",
     "sheetName": "Plan de Mejoras",
     "range": "Tabla PlanMejoras",
-    "generatedAt": "2026-09-21T04:49:35.882Z",
+    "generatedAt": "2026-09-21T05:11:43.656Z",
     "totalActivities": 93,
-    "totalColumns": 28,
+    "totalColumns": 27,
     "minDate": "2026-10-01",
     "maxDate": "2027-04-30",
     "duplicateIds": [],
@@ -13,7 +13,6 @@
     "formulaIssue": "Las fórmulas de Plazo (días) usan una referencia externa [1]Parametros y deben corregirse a Parametros!$A$2:$A$9."
   },
   "headers": [
-    "ItemInternalId",
     "ID",
     "Fase",
     "Criterio",
@@ -43,7 +42,6 @@
     "Observaciones"
   ],
   "originalHeaders": [
-    "ItemInternalId",
     "ID",
     "Fase",
     "Criterio",
@@ -109,7 +107,6 @@
   "records": [
     {
       "_excelRow": 2,
-      "ItemInternalId": "3059b754-4693-4f59-b672-a7a7d7af1507",
       "ID": "G-01",
       "Fase": "F0. Diagnóstico y arranque (oct 2026)",
       "Criterio": "Gestión Interna - Gobernanza del proceso",
@@ -133,14 +130,13 @@
       "Criterio de aceptación (evidencia de cumplimiento)": "",
       "Prioridad": "Crítica",
       "Estado": "No iniciada",
-      "Avance (%)": 50,
+      "Avance (%)": 100,
       "Carga de Evidencias": "G-1",
       "Nivel de Cumplimiento": "",
       "Observaciones": ""
     },
     {
       "_excelRow": 3,
-      "ItemInternalId": "99333a57-9414-4ae2-8d56-1582724fbb94",
       "ID": "G-02",
       "Fase": "F0. Diagnóstico y arranque (oct 2026)",
       "Criterio": "Gestión Interna - Gobernanza del proceso",
@@ -164,14 +160,13 @@
       "Criterio de aceptación (evidencia de cumplimiento)": "Resolución de aprobación emitida",
       "Prioridad": "Crítica",
       "Estado": "No iniciada",
-      "Avance (%)": 50,
+      "Avance (%)": 100,
       "Carga de Evidencias": "G-2",
       "Nivel de Cumplimiento": "",
       "Observaciones": ""
     },
     {
       "_excelRow": 4,
-      "ItemInternalId": "74c984f2-c406-4d40-8564-77fd44b1d82c",
       "ID": "G-03",
       "Fase": "F0. Diagnóstico y arranque (oct 2026)",
       "Criterio": "Gestión Interna - Gobernanza del proceso",
@@ -195,14 +190,13 @@
       "Criterio de aceptación (evidencia de cumplimiento)": "Resolución que declara el campo específico (CAMPO ESPECÍFICO) y el programa doctoral, con sustento técnico verificable",
       "Prioridad": "Crítica",
       "Estado": "No iniciada",
-      "Avance (%)": 50,
+      "Avance (%)": 0,
       "Carga de Evidencias": "G-3",
       "Nivel de Cumplimiento": "",
       "Observaciones": ""
     },
     {
       "_excelRow": 5,
-      "ItemInternalId": "e9f82a85-02e2-4416-819b-51dafb20dedc",
       "ID": "G-04",
       "Fase": "F0. Diagnóstico y arranque (oct 2026)",
       "Criterio": "Gestión Interna - Gobernanza del proceso",
@@ -233,7 +227,6 @@
     },
     {
       "_excelRow": 6,
-      "ItemInternalId": "0b63f60c-5dc5-4949-9023-45787aa5a31d",
       "ID": "G-05",
       "Fase": "F0. Diagnóstico y arranque (oct - nov 2026)",
       "Criterio": "Gestión Interna - Gobernanza del proceso",
@@ -264,7 +257,6 @@
     },
     {
       "_excelRow": 7,
-      "ItemInternalId": "53d534cb-9f39-4f31-84d5-fdb6fbd53be2",
       "ID": "G-07",
       "Fase": "F1. Diseño y aprobación normativa (nov-feb 2026)",
       "Criterio": "Gestión Interna - Gobernanza del proceso",
@@ -295,7 +287,6 @@
     },
     {
       "_excelRow": 8,
-      "ItemInternalId": "9964886b-2944-46e3-8b86-4f68acd3c64a",
       "ID": "G-08",
       "Fase": "F1. Diseño y aprobación normativa (nov-may 2026)",
       "Criterio": "Gestión Interna - Gobernanza del proceso",
@@ -326,7 +317,6 @@
     },
     {
       "_excelRow": 9,
-      "ItemInternalId": "12cf42ea-3f4d-497d-98cd-7dc34b8ce635",
       "ID": "G-09",
       "Fase": "F3. Consolidación y postulación (abril 2027)",
       "Criterio": "Gestión Interna - Gobernanza del proceso",
@@ -357,7 +347,6 @@
     },
     {
       "_excelRow": 10,
-      "ItemInternalId": "9d6c66e9-803e-402c-b44b-86fc7d7a0f0e",
       "ID": "G-10",
       "Fase": "F3. Consolidación y postulación (mar-may 2027)",
       "Criterio": "Gestión Interna - Gobernanza del proceso",
@@ -388,7 +377,6 @@
     },
     {
       "_excelRow": 11,
-      "ItemInternalId": "5920f944-44b9-40b9-ae4f-214a64abdf28",
       "ID": "G-11",
       "Fase": "F3. Consolidación y postulación (may - jun 2027)",
       "Criterio": "Gestión Interna - Gobernanza del proceso",
@@ -419,7 +407,6 @@
     },
     {
       "_excelRow": 12,
-      "ItemInternalId": "9932c72b-586a-4c76-9cfe-1f29e86a09d3",
       "ID": "G-12",
       "Fase": "F3. Consolidación y postulación (feb -marz 2027)",
       "Criterio": "Gestión Interna - Gobernanza del proceso",
@@ -450,7 +437,6 @@
     },
     {
       "_excelRow": 13,
-      "ItemInternalId": "40bc907d-6670-4236-9607-73ff46caab36",
       "ID": "G-13",
       "Fase": "F2. Implementación operativa (mar-may 2027)",
       "Criterio": "Gestión Interna - Gobernanza del proceso",
@@ -481,7 +467,6 @@
     },
     {
       "_excelRow": 14,
-      "ItemInternalId": "b3953e98-8ba9-41fd-ae06-43f52b8f049a",
       "ID": "A1.1.1",
       "Fase": "F1. Diseño y aprobación normativa (oct-dic 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
@@ -512,7 +497,6 @@
     },
     {
       "_excelRow": 15,
-      "ItemInternalId": "d6102a21-97b1-4f60-884e-c4323330391d",
       "ID": "A1.1.2",
       "Fase": "F1. Diseño y aprobación normativa (dic 2026)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
@@ -543,7 +527,6 @@
     },
     {
       "_excelRow": 16,
-      "ItemInternalId": "f21c0729-bfd0-41d7-a408-edc8ccdc2ae8",
       "ID": "A1.2.1",
       "Fase": "F1. Diseño y aprobación normativa (nov-dic 2026)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
@@ -574,7 +557,6 @@
     },
     {
       "_excelRow": 17,
-      "ItemInternalId": "1af2969d-5bb9-4b8f-8eb2-d183a0092dc2",
       "ID": "A1.2.2",
       "Fase": "F1. Diseño y aprobación normativa (dic 2026)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
@@ -605,7 +587,6 @@
     },
     {
       "_excelRow": 18,
-      "ItemInternalId": "219b32e9-f838-41ef-8faf-8b2904015ce6",
       "ID": "A1.3.1",
       "Fase": "F1. Diseño y aprobación normativa (nov-dic 2026)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
@@ -636,7 +617,6 @@
     },
     {
       "_excelRow": 19,
-      "ItemInternalId": "17d28e34-7249-49a4-a481-881d24878ade",
       "ID": "A1.4.1",
       "Fase": "F1. Diseño y aprobación normativa (dic -ene 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
@@ -667,7 +647,6 @@
     },
     {
       "_excelRow": 20,
-      "ItemInternalId": "3e2ea2ba-18c6-41df-8f28-8891761a7c9d",
       "ID": "A2.1.1",
       "Fase": "F1. Diseño y aprobación normativa (nov-ene 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
@@ -698,7 +677,6 @@
     },
     {
       "_excelRow": 21,
-      "ItemInternalId": "0edd329a-52a1-445d-b1dd-b068f2119086",
       "ID": "A2.1.2",
       "Fase": "F1. Diseño y aprobación normativa (dic - ene 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
@@ -729,7 +707,6 @@
     },
     {
       "_excelRow": 22,
-      "ItemInternalId": "1e7b13a8-df75-430b-95dd-9d531a706a6b",
       "ID": "A2.1.3",
       "Fase": "F1. Diseño y aprobación normativa (dic - ene 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
@@ -760,7 +737,6 @@
     },
     {
       "_excelRow": 23,
-      "ItemInternalId": "066ebd98-e3ac-410f-9f8f-05f5341a1997",
       "ID": "A2.2.1",
       "Fase": "F1. Diseño y aprobación normativa (nov - dic 2026)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
@@ -791,7 +767,6 @@
     },
     {
       "_excelRow": 24,
-      "ItemInternalId": "f8e6a14d-4cd1-4735-a8da-121eb23c6e8c",
       "ID": "A2.2.2",
       "Fase": "F2. Implementación operativa (feb-may 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
@@ -822,7 +797,6 @@
     },
     {
       "_excelRow": 25,
-      "ItemInternalId": "033727dd-2a3d-4f9d-8ec4-a9bc01d65678",
       "ID": "A2.3.1",
       "Fase": "F1. Diseño y aprobación normativa (nov - feb 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
@@ -853,7 +827,6 @@
     },
     {
       "_excelRow": 26,
-      "ItemInternalId": "80c18290-ce30-4cdd-a663-c5cb5b2def59",
       "ID": "A2.4.1",
       "Fase": "F1. Diseño y aprobación normativa (nov - dic  2026)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
@@ -884,7 +857,6 @@
     },
     {
       "_excelRow": 27,
-      "ItemInternalId": "da8602b4-55b0-463b-bb98-7b7eb61abd5c",
       "ID": "A2.5.3",
       "Fase": "F2. Implementación operativa (feb - abr 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
@@ -915,7 +887,6 @@
     },
     {
       "_excelRow": 28,
-      "ItemInternalId": "3fc3c92a-dddd-416e-a450-3885a03b0bd5",
       "ID": "A2.6.1",
       "Fase": "F1. Diseño y aprobación normativa (dic - ene 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
@@ -946,7 +917,6 @@
     },
     {
       "_excelRow": 29,
-      "ItemInternalId": "8a017d71-4330-491f-9320-1f297da6af9f",
       "ID": "A2.6.2",
       "Fase": "F1. Diseño y aprobación normativa (feb - abr 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
@@ -977,7 +947,6 @@
     },
     {
       "_excelRow": 30,
-      "ItemInternalId": "b49ed0ce-b3b9-48ac-b4b3-e6fd0dccf911",
       "ID": "A2.7.1",
       "Fase": "F2. Implementación operativa (ene- feb 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
@@ -1008,7 +977,6 @@
     },
     {
       "_excelRow": 31,
-      "ItemInternalId": "c45fdb7b-5113-4e8f-894e-cfa3af5258eb",
       "ID": "A2.7.2",
       "Fase": "F2. Implementación operativa (feb-abr 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
@@ -1039,7 +1007,6 @@
     },
     {
       "_excelRow": 32,
-      "ItemInternalId": "7b77775d-4816-4c66-9055-c3e8abbb7daa",
       "ID": "A3.1.1",
       "Fase": "F1. Diseño y aprobación normativa (nov-dic 2026)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
@@ -1070,7 +1037,6 @@
     },
     {
       "_excelRow": 33,
-      "ItemInternalId": "8e5ef098-bace-46a8-9ade-de6ff97576ec",
       "ID": "A3.2.1",
       "Fase": "F2. Implementación operativa (ene-feb 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
@@ -1101,7 +1067,6 @@
     },
     {
       "_excelRow": 34,
-      "ItemInternalId": "b2612788-31bf-4ab4-a511-9931465674ea",
       "ID": "A3.2.2",
       "Fase": "F2. Implementación operativa (feb - mar 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
@@ -1132,7 +1097,6 @@
     },
     {
       "_excelRow": 35,
-      "ItemInternalId": "01179296-ab87-4290-aad1-cd365f25f134",
       "ID": "A3.3.1",
       "Fase": "F1. Diseño y aprobación normativa (nov-dic 2026)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
@@ -1163,7 +1127,6 @@
     },
     {
       "_excelRow": 36,
-      "ItemInternalId": "2eada8c1-3593-4d79-bda6-d55ab47e7411",
       "ID": "A3.3.2",
       "Fase": "F2. Implementación operativa (feb - mar 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
@@ -1194,7 +1157,6 @@
     },
     {
       "_excelRow": 37,
-      "ItemInternalId": "3e823aca-34c5-4d79-a23a-6fd25d83e84c",
       "ID": "A4.1.1",
       "Fase": "F1. Diseño y aprobación normativa (nov-dic 2026)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
@@ -1225,7 +1187,6 @@
     },
     {
       "_excelRow": 38,
-      "ItemInternalId": "b2905939-b27c-4773-81bc-b1dc772c3940",
       "ID": "A4.1.2",
       "Fase": "F1. Diseño y aprobación normativa (dic - ene 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
@@ -1256,7 +1217,6 @@
     },
     {
       "_excelRow": 39,
-      "ItemInternalId": "6a5bac14-79fc-4efc-98d9-6b2224daf1fa",
       "ID": "A4.2.1",
       "Fase": "F1. Diseño y aprobación normativa (dic - ene 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
@@ -1287,7 +1247,6 @@
     },
     {
       "_excelRow": 40,
-      "ItemInternalId": "b8de0af7-c992-418b-b393-1b81726573f6",
       "ID": "A4.2.2",
       "Fase": "F2. Implementación operativa (feb - mar 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
@@ -1318,7 +1277,6 @@
     },
     {
       "_excelRow": 41,
-      "ItemInternalId": "2a7dd31c-dc99-4b5e-82ed-108f67f0727a",
       "ID": "A4.3.1",
       "Fase": "F2. Implementación operativa (ene-feb 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
@@ -1349,7 +1307,6 @@
     },
     {
       "_excelRow": 42,
-      "ItemInternalId": "b0523d8f-5c67-4c21-9a12-cfc432c70c74",
       "ID": "A4.3.2",
       "Fase": "F2. Implementación operativa (feb-abr 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
@@ -1380,7 +1337,6 @@
     },
     {
       "_excelRow": 43,
-      "ItemInternalId": "498b228f-cb00-4897-a6d8-5b29c9769df4",
       "ID": "A4.4.1",
       "Fase": "F1. Diseño y aprobación normativa (ene - feb 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
@@ -1411,7 +1367,6 @@
     },
     {
       "_excelRow": 44,
-      "ItemInternalId": "e91f0540-f97c-4751-883e-6dec462385b9",
       "ID": "A4.4.2",
       "Fase": "F2. Implementación operativa (mar - abr 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
@@ -1442,7 +1397,6 @@
     },
     {
       "_excelRow": 45,
-      "ItemInternalId": "d026c25f-eab1-45d3-922b-1e3c99aa4b26",
       "ID": "A4.5.1",
       "Fase": "F2. Implementación operativa (ene-feb 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
@@ -1473,7 +1427,6 @@
     },
     {
       "_excelRow": 46,
-      "ItemInternalId": "5af708cd-eb46-4a42-ac53-219e91b49644",
       "ID": "A4.5.2",
       "Fase": "F2. Implementación operativa (feb - abr 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
@@ -1504,7 +1457,6 @@
     },
     {
       "_excelRow": 47,
-      "ItemInternalId": "4126c0f2-efa0-40d9-9b4f-baf479168d3a",
       "ID": "A5.1.1",
       "Fase": "F1. Diseño y aprobación normativa (nov - ene 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
@@ -1535,7 +1487,6 @@
     },
     {
       "_excelRow": 48,
-      "ItemInternalId": "5008f966-7b28-42ee-9665-1ead608964a0",
       "ID": "A5.1.2",
       "Fase": "F1. Diseño y aprobación normativa (dic - ene 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
@@ -1566,7 +1517,6 @@
     },
     {
       "_excelRow": 49,
-      "ItemInternalId": "f6ceccdb-6083-44a4-b1f4-9830d33d1dfa",
       "ID": "A5.2.1",
       "Fase": "F1. Diseño y aprobación normativa (oct 2026)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
@@ -1597,7 +1547,6 @@
     },
     {
       "_excelRow": 50,
-      "ItemInternalId": "20ee96c9-3963-4397-be61-751cbff29e97",
       "ID": "A5.2.2",
       "Fase": "F2. Implementación operativa (feb - abr 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
@@ -1628,7 +1577,6 @@
     },
     {
       "_excelRow": 51,
-      "ItemInternalId": "221e10dc-e186-47f1-a1ff-91866fff143a",
       "ID": "A5.3.1",
       "Fase": "F1. Diseño y aprobación normativa (dic - ene 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
@@ -1659,7 +1607,6 @@
     },
     {
       "_excelRow": 52,
-      "ItemInternalId": "fee4b3c8-419d-4ee8-a534-6f390f4ac374",
       "ID": "A5.3.2",
       "Fase": "F2. Implementación operativa (feb - may 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
@@ -1690,7 +1637,6 @@
     },
     {
       "_excelRow": 53,
-      "ItemInternalId": "4d0393d5-56cc-4022-ba99-7cddad962bc5",
       "ID": "A5.4.1",
       "Fase": "F1. Diseño y aprobación normativa (ene - feb 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
@@ -1721,7 +1667,6 @@
     },
     {
       "_excelRow": 54,
-      "ItemInternalId": "2a03b2c2-c371-4819-87a8-97c42fa5157f",
       "ID": "A5.4.2",
       "Fase": "F2. Implementación operativa (feb - abr 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
@@ -1752,7 +1697,6 @@
     },
     {
       "_excelRow": 55,
-      "ItemInternalId": "8eb254a8-5381-4325-8a13-eb2be30a1b89",
       "ID": "A5.4.3",
       "Fase": "F2. Implementación operativa (feb - abr 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
@@ -1783,7 +1727,6 @@
     },
     {
       "_excelRow": 56,
-      "ItemInternalId": "f2063997-842d-4780-80ee-59beddbe5590",
       "ID": "A5.5.1",
       "Fase": "F2. Implementación operativa (ene-may 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
@@ -1814,7 +1757,6 @@
     },
     {
       "_excelRow": 57,
-      "ItemInternalId": "4cd92b74-43b6-4313-8fb0-28330a79e69b",
       "ID": "A5.5.2",
       "Fase": "F3. Consolidación y postulación (abr - may 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
@@ -1845,7 +1787,6 @@
     },
     {
       "_excelRow": 58,
-      "ItemInternalId": "2c6da15a-93d7-415d-bd1d-fec837a7e91f",
       "ID": "A6.1.1",
       "Fase": "F2. Implementación operativa (ene- feb 2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
@@ -1876,7 +1817,6 @@
     },
     {
       "_excelRow": 59,
-      "ItemInternalId": "a4b18935-feef-461c-874c-1af94193e475",
       "ID": "A6.2.1",
       "Fase": "F2. Implementación operativa (feb - abr 2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
@@ -1907,7 +1847,6 @@
     },
     {
       "_excelRow": 60,
-      "ItemInternalId": "3ffde9c3-f687-4da5-875e-37d992df0fef",
       "ID": "A6.2.2",
       "Fase": "F2. Implementación operativa (abr-may 2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
@@ -1938,7 +1877,6 @@
     },
     {
       "_excelRow": 61,
-      "ItemInternalId": "a0351cbc-ca45-4bc2-94c8-e7e4b5e97ac8",
       "ID": "A6.3.1",
       "Fase": "F1. Diseño y aprobación normativa (dic - ene 2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
@@ -1969,7 +1907,6 @@
     },
     {
       "_excelRow": 62,
-      "ItemInternalId": "09e588ba-9ac3-4761-8439-4d47eaef76af",
       "ID": "A6.3.2",
       "Fase": "F2. Implementación operativa (feb - abr 2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
@@ -2000,7 +1937,6 @@
     },
     {
       "_excelRow": 63,
-      "ItemInternalId": "42c92f41-cf8c-4c6d-8fe3-244c2e0e54f3",
       "ID": "A7.1.1",
       "Fase": "F0. Diagnóstico y arranque (oct - nov 2026)",
       "Criterio": "CCE - Criterio de Carácter Específico",
@@ -2031,7 +1967,6 @@
     },
     {
       "_excelRow": 64,
-      "ItemInternalId": "ae8cdd3c-04b1-402e-a7ca-ed6e508f4fb9",
       "ID": "A7.2.1",
       "Fase": "F2. Implementación operativa (ene-feb 2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
@@ -2062,7 +1997,6 @@
     },
     {
       "_excelRow": 65,
-      "ItemInternalId": "95fbe354-44aa-421d-93b0-1b38b26d259d",
       "ID": "A7.2.2",
       "Fase": "F2. Implementación operativa (feb - mar 2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
@@ -2093,7 +2027,6 @@
     },
     {
       "_excelRow": 66,
-      "ItemInternalId": "fe409831-633b-4d5f-8eb4-d40490009909",
       "ID": "A7.3.1",
       "Fase": "F1. Diseño y aprobación normativa (nov-dic 2026)",
       "Criterio": "CCE - Criterio de Carácter Específico",
@@ -2124,7 +2057,6 @@
     },
     {
       "_excelRow": 67,
-      "ItemInternalId": "79d4483e-1601-48dc-b624-bfa8a3fb60e7",
       "ID": "A7.3.3",
       "Fase": "F2. Implementación operativa (marzo2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
@@ -2155,7 +2087,6 @@
     },
     {
       "_excelRow": 68,
-      "ItemInternalId": "85942e66-ddce-4987-a5f1-78a55e9af503",
       "ID": "A7.4.1",
       "Fase": "F2. Implementación operativa (ene-abr 2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
@@ -2186,7 +2117,6 @@
     },
     {
       "_excelRow": 69,
-      "ItemInternalId": "d59d75b0-69a9-446c-a880-0f3c9e918388",
       "ID": "A7.4.2",
       "Fase": "F2. Implementación operativa (abr-may 2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
@@ -2217,7 +2147,6 @@
     },
     {
       "_excelRow": 70,
-      "ItemInternalId": "c57abfcd-87c3-47cc-9a41-5cd693cba2a9",
       "ID": "A7.5.1",
       "Fase": "F2. Implementación operativa (ene-abr 2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
@@ -2248,7 +2177,6 @@
     },
     {
       "_excelRow": 71,
-      "ItemInternalId": "f6a03083-d463-4968-90a2-cbb10f7ba4ba",
       "ID": "A7.5.2",
       "Fase": "F2. Implementación operativa (abr-may 2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
@@ -2279,7 +2207,6 @@
     },
     {
       "_excelRow": 72,
-      "ItemInternalId": "0d6416a9-c676-4076-b43d-bafd9c5f338f",
       "ID": "A7.6.1",
       "Fase": "F2. Implementación operativa (ene-mar 2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
@@ -2310,7 +2237,6 @@
     },
     {
       "_excelRow": 73,
-      "ItemInternalId": "00a2ecab-044f-4005-945c-e0476f7106dc",
       "ID": "A7.7.1",
       "Fase": "F2. Implementación operativa (dic - abr 2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
@@ -2341,7 +2267,6 @@
     },
     {
       "_excelRow": 74,
-      "ItemInternalId": "c87f8b47-8bbe-434b-ba5f-4e38b95d8ad2",
       "ID": "A7.7.2",
       "Fase": "F2. Implementación operativa (abr-may 2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
@@ -2372,7 +2297,6 @@
     },
     {
       "_excelRow": 75,
-      "ItemInternalId": "6da25d4f-29cb-4010-83d1-cdb1623cf89a",
       "ID": "A8.1.1",
       "Fase": "F1. Diseño y aprobación normativa (nov-dic 2026)",
       "Criterio": "CCE - Criterio de Carácter Específico",
@@ -2403,7 +2327,6 @@
     },
     {
       "_excelRow": 76,
-      "ItemInternalId": "6e6cf70c-a1f4-474e-8adb-82e0fbd138b9",
       "ID": "A8.1.2",
       "Fase": "F1. Diseño y aprobación normativa (dic - feb 2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
@@ -2434,7 +2357,6 @@
     },
     {
       "_excelRow": 77,
-      "ItemInternalId": "2fdf2f81-67b6-41c1-89b4-68a061d0bcf1",
       "ID": "A8.2.2",
       "Fase": "F2. Implementación operativa (feb- abr 2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
@@ -2465,7 +2387,6 @@
     },
     {
       "_excelRow": 78,
-      "ItemInternalId": "a955329f-4aa5-4bd4-be3a-018e17877d01",
       "ID": "A8.3.1",
       "Fase": "F1. Diseño y aprobación normativa (ene - feb 2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
@@ -2496,7 +2417,6 @@
     },
     {
       "_excelRow": 79,
-      "ItemInternalId": "d5ee2b2b-fb81-4f8c-8b3f-bccd6e410a67",
       "ID": "A8.3.2",
       "Fase": "F2. Implementación operativa (feb - abr 2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
@@ -2527,7 +2447,6 @@
     },
     {
       "_excelRow": 80,
-      "ItemInternalId": "ab314e9e-4566-4c52-83c3-f4a8687d438f",
       "ID": "A8.4.2",
       "Fase": "F1. Diseño y aprobación normativa (dic - ene 2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
@@ -2558,7 +2477,6 @@
     },
     {
       "_excelRow": 81,
-      "ItemInternalId": "d2c351e4-5979-4b50-b030-4cb39363fb78",
       "ID": "A8.5.1",
       "Fase": "F1. Diseño y aprobación normativa (ene - mar 2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
@@ -2589,7 +2507,6 @@
     },
     {
       "_excelRow": 82,
-      "ItemInternalId": "34f546a6-7884-4378-8ec8-7a2826ed30ed",
       "ID": "A9.1.1",
       "Fase": "F1. Diseño y aprobación normativa (nov-dic 2026)",
       "Criterio": "CCE - Criterio de Carácter Específico",
@@ -2620,7 +2537,6 @@
     },
     {
       "_excelRow": 83,
-      "ItemInternalId": "4a037266-f1f9-45f5-b834-9e407cb5f86c",
       "ID": "A9.2.1",
       "Fase": "F2. Implementación operativa (ene-feb 2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
@@ -2651,7 +2567,6 @@
     },
     {
       "_excelRow": 84,
-      "ItemInternalId": "444fc5ac-2a8e-4178-9305-9571483d30ea",
       "ID": "A9.3.1",
       "Fase": "F2. Implementación operativa (feb - mar 2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
@@ -2682,7 +2597,6 @@
     },
     {
       "_excelRow": 85,
-      "ItemInternalId": "17c54f9b-d82d-4b09-b496-1deacec9a9a8",
       "ID": "A9.3.2",
       "Fase": "F2. Implementación operativa (feb - mar 2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
@@ -2713,7 +2627,6 @@
     },
     {
       "_excelRow": 86,
-      "ItemInternalId": "ea82fc99-3b0e-4e51-8778-f890d3f8ea60",
       "ID": "A9.4.1",
       "Fase": "F1. Diseño y aprobación normativa (dic - ene 2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
@@ -2744,7 +2657,6 @@
     },
     {
       "_excelRow": 87,
-      "ItemInternalId": "ca95b518-cc7e-453d-9cc9-b859e3f8c564",
       "ID": "A10.1.1",
       "Fase": "F1. Diseño y aprobación normativa (dic - ene 2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
@@ -2775,7 +2687,6 @@
     },
     {
       "_excelRow": 88,
-      "ItemInternalId": "240ba0dd-3664-47ac-90c7-f7417de1ba6b",
       "ID": "A10.1.2",
       "Fase": "F2. Implementación operativa (feb - abr 2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
@@ -2806,7 +2717,6 @@
     },
     {
       "_excelRow": 89,
-      "ItemInternalId": "af3e8055-e3dd-4b07-9363-f771338ce98a",
       "ID": "A10.2.1",
       "Fase": "F2. Implementación operativa (feb - abr 2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
@@ -2837,7 +2747,6 @@
     },
     {
       "_excelRow": 90,
-      "ItemInternalId": "201e888a-b0e2-4202-b6fd-8d35371645cc",
       "ID": "A10.2.2",
       "Fase": "F3. Consolidación y postulación (abr - may 2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
@@ -2868,7 +2777,6 @@
     },
     {
       "_excelRow": 91,
-      "ItemInternalId": "9295acc7-48f0-4765-96d5-502601e73366",
       "ID": "A10.3.1",
       "Fase": "F1. Diseño y aprobación normativa (dic - feb 2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
@@ -2899,7 +2807,6 @@
     },
     {
       "_excelRow": 92,
-      "ItemInternalId": "74163713-9f2f-4951-860a-53fb9fc98589",
       "ID": "A10.3.2",
       "Fase": "F2. Implementación operativa (feb - may 2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
@@ -2930,7 +2837,6 @@
     },
     {
       "_excelRow": 93,
-      "ItemInternalId": "50396b75-ffcc-4c40-a6c4-abe5c39f08a3",
       "ID": "A10.4.1",
       "Fase": "F1. Diseño y aprobación normativa (ene - mar 2027 )",
       "Criterio": "CCE - Criterio de Carácter Específico",
@@ -2961,7 +2867,6 @@
     },
     {
       "_excelRow": 94,
-      "ItemInternalId": "9fc49b9f-6c68-479a-bd9e-aa96845379cd",
       "ID": "A10.4.2",
       "Fase": "F2. Implementación operativa (mar - abr 2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
