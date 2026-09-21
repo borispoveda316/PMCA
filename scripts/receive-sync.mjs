@@ -34,10 +34,9 @@ try {
 }
 
 const plain = (value) => String(value ?? "").trim();
-const normalizeHeader = (value, column) => {
-  const header = plain(value);
-  if (/^indicadores?$/i.test(header)) return "Indicador";
-  return header || (column === 3 ? "Indicador" : `Columna ${column + 1}`);
+const isSystemField = (value) => {
+  const field = plain(value);
+  return field.startsWith("@") || field === "ItemInternalId";
 };
 const excelDateToIso = (value) => {
   if (value === null || value === undefined || value === "") return null;
@@ -62,7 +61,7 @@ let holidays;
 if (Array.isArray(source)) {
   rawRecords = source.filter((row) => row && typeof row === "object" && !Array.isArray(row));
   if (!rawRecords.length) throw new Error("La tabla del Excel no contiene filas vÃ¡lidas");
-  originalHeaders = Object.keys(rawRecords[0]).filter((header) => !header.startsWith("@"));
+  originalHeaders = Object.keys(rawRecords[0]).filter((header) => !isSystemField(header));
   headers = originalHeaders.map(normalizeHeader);
   sourceName = previous.metadata?.sourceName || "Plan_de_Mejoras_Cualificacion_v2.xlsx";
   sheetName = previous.metadata?.sheetName || "Plan de Mejoras";
