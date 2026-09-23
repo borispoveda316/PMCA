@@ -3,7 +3,7 @@
     "sourceName": "Plan_de_Mejoras_Cualificacion_v2.xlsx",
     "sheetName": "Plan de Mejoras",
     "range": "Tabla PlanMejoras",
-    "generatedAt": "2026-09-23T07:16:35.782Z",
+    "generatedAt": "2026-09-23T07:40:48.637Z",
     "totalActivities": 93,
     "totalColumns": 27,
     "minDate": "2026-10-01",
@@ -127,13 +127,13 @@
       "Plazo (días)": "10",
       "Producto / Entregable": "Conformación del Equipocon nómina, roles y cronograma de sesiones",
       "Medio de verificación": "",
-      "Criterio de aceptación (evidencia de cumplimiento)": "AAA",
+      "Criterio de aceptación (evidencia de cumplimiento)": "",
       "Prioridad": "CRÍTICA",
       "Estado": "NO INICIADA",
       "Avance (%)": 0,
       "Carga de Evidencias": "G-1",
       "Nivel de Cumplimiento": "",
-      "Observaciones": "RATA"
+      "Observaciones": ""
     },
     {
       "_excelRow": 3,
@@ -163,7 +163,7 @@
       "Avance (%)": 0,
       "Carga de Evidencias": "G-2",
       "Nivel de Cumplimiento": "",
-      "Observaciones": "PERRO"
+      "Observaciones": ""
     },
     {
       "_excelRow": 4,
@@ -193,7 +193,7 @@
       "Avance (%)": 0,
       "Carga de Evidencias": "G-3",
       "Nivel de Cumplimiento": "",
-      "Observaciones": "GATO"
+      "Observaciones": ""
     },
     {
       "_excelRow": 5,
@@ -223,7 +223,7 @@
       "Avance (%)": 0,
       "Carga de Evidencias": "G-4",
       "Nivel de Cumplimiento": "",
-      "Observaciones": "COLA"
+      "Observaciones": ""
     },
     {
       "_excelRow": 6,
