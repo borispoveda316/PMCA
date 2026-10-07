@@ -3,7 +3,7 @@
     "sourceName": "Plan_de_Mejoras_Cualificacion_v2.xlsx",
     "sheetName": "Plan de Mejoras",
     "range": "Tabla PlanMejoras",
-    "generatedAt": "2026-10-07T17:40:40.025Z",
+    "generatedAt": "2026-10-07T22:02:08.079Z",
     "totalActivities": 93,
     "totalColumns": 27,
     "minDate": "2026-10-01",
@@ -220,7 +220,7 @@
       "Criterio de aceptación (evidencia de cumplimiento)": "Informe que confirma que la Institución cumple todos los requisitos habilitantes vigentes",
       "Prioridad": "CRÍTICA",
       "Estado": "NO INICIADA",
-      "Avance (%)": 100,
+      "Avance (%)": 0,
       "Carga de Evidencias": "G-4",
       "Nivel de Cumplimiento": "",
       "Observaciones": ""
@@ -250,7 +250,7 @@
       "Criterio de aceptación (evidencia de cumplimiento)": "Repositorio en producción con el 100% de carpetas creadas y al menos una evidencia cargada por indicador",
       "Prioridad": "ALTA",
       "Estado": "NO INICIADA",
-      "Avance (%)": 100,
+      "Avance (%)": 0,
       "Carga de Evidencias": "G-5",
       "Nivel de Cumplimiento": "",
       "Observaciones": ""
@@ -280,7 +280,7 @@
       "Criterio de aceptación (evidencia de cumplimiento)": "Al menos 4 jornadas ejecutadas y 70% del personal académico del (CAMPO ESPECÍFICO) capacitado y certificado",
       "Prioridad": "ALTA",
       "Estado": "NO INICIADA",
-      "Avance (%)": 100,
+      "Avance (%)": 0,
       "Carga de Evidencias": "G-7",
       "Nivel de Cumplimiento": "",
       "Observaciones": ""
