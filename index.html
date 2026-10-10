@@ -473,13 +473,14 @@
         <div class="section-head">
           <div><h1 id="activitiesTitle">Consulta de actividades</h1><p id="activitiesHelp">La búsqueda superior revisa todas las columnas del plan.</p></div>
         </div>
-        <div class="filters" style="grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));">
-          <div class="field" style="display: none;"><label for="phaseFilter">Fase</label><select id="phaseFilter"><option value="">Todas</option></select></div>          <div class="field"><label for="responsibleFilter">Responsable</label><select id="responsibleFilter"><option value="">Todos</option></select></div>
-          <div class="field"><label for="indicatorFilter">Indicador</label><select id="indicatorFilter"><option value="">Todos</option></select></div>
-          <div class="field"><label for="responsibleFilter">Responsable</label><select id="responsibleFilter"><option value="">Todos</option></select></div>
-          <div class="field"><label for="priorityFilter">Prioridad</label><select id="priorityFilter"><option value="">Todas</option></select></div>
-          <div class="field"><label for="statusFilter">Estado</label><select id="statusFilter"><option value="">Todos</option></select></div>
-          <div class="filter-actions"><button id="clearFiltersButton" class="ghost-btn" type="button">Limpiar filtros</button></div>
+        
+        <div class="filters" style="grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));">          <div class="field" style="display: none;"><label for="phaseFilter">Fase</label><select id="phaseFilter"><option value="">Todas</option></select></div>          <div class="field"><label for="responsibleFilter">Responsable</label><select id="responsibleFilter"><option value="">Todos</option></select></div>
+          <div class="field" style="display: none;"><label for="phaseFilter">Fase</label><select id="phaseFilter"><option value="">Todas</option></select></div>
+            <div class="field"><label for="indicatorFilter">Indicador</label><select id="indicatorFilter"><option value="">Todos</option></select></div>
+            <div class="field"><label for="responsibleFilter">Responsable</label><select id="responsibleFilter"><option value="">Todos</option></select></div>
+            <div class="field"><label for="priorityFilter">Prioridad</label><select id="priorityFilter"><option value="">Todas</option></select></div>
+            <div class="field"><label for="statusFilter">Estado</label><select id="statusFilter"><option value="">Todos</option></select></div>
+            <div class="filter-actions"><button id="clearFiltersButton" class="ghost-btn" type="button">Limpiar filtros</button></div>
         </div>
         <article class="card table-card">
           <div class="table-toolbar">
@@ -563,8 +564,7 @@
       const PAGE_SIZE = 25;
       const graphBase = "https://graph.microsoft.com/v1.0";
       const oauthScopes = "openid profile offline_access User.Read Files.ReadWrite";
-      const keyColumns = ["ID", "Criterio", "Indicador", "Elemento fundamental", "Actividad", "Responsable principal", "Fecha de inicio", "Fecha de fin", "Prioridad", "Estado", "Avance (%)", "Carga de Evidencias", "Nivel de Cumplimiento", "Observaciones"];
-      const longColumns = new Set(["Descripción del EF", "Fuente de información", "Descripción del Hallazgo", "Descripción de la actividad", "Medida de mitigación", "Producto / Entregable", "Medio de verificación", "Criterio de aceptación (evidencia de cumplimiento)", "Observaciones"]);
+      const keyColumns = ["ID", "Criterio", "Indicador", "Elemento fundamental", "Actividad", "Responsable principal", "Fecha de inicio", "Fecha de fin", "Prioridad", "Estado", "Avance (%)", "Carga de Evidencias", "Nivel de Cumplimiento", "Observaciones"];      const longColumns = new Set(["Descripción del EF", "Fuente de información", "Descripción del Hallazgo", "Descripción de la actividad", "Medida de mitigación", "Producto / Entregable", "Medio de verificación", "Criterio de aceptación (evidencia de cumplimiento)", "Observaciones"]);
       const mediumColumns = new Set(["Fase", "Criterio", "Indicador", "Actividad", "Responsable principal", "Carga de Evidencias"]);
       const dateColumns = new Set(["Fecha de inicio", "Fecha de fin"]);
       const numericColumns = new Set(["Plazo (días)", "Avance (%)"]);
