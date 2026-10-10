@@ -474,7 +474,7 @@
           <div><h1 id="activitiesTitle">Consulta de actividades</h1><p id="activitiesHelp">La búsqueda superior revisa todas las columnas del plan.</p></div>
         </div>
         <div class="filters" style="grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));">
-          <div class="field"><label for="phaseFilter">Fase</label><select id="phaseFilter"><option value="">Todas</option></select></div>
+          <!--div class="field"><label for="phaseFilter">Fase</label><select id="phaseFilter"><option value="">Todas</option></select></div (ESTE FILTRO NO SE MUESTRA POR AHORA)-->
           <div class="field"><label for="indicatorFilter">Indicador</label><select id="indicatorFilter"><option value="">Todos</option></select></div>
           <div class="field"><label for="responsibleFilter">Responsable</label><select id="responsibleFilter"><option value="">Todos</option></select></div>
           <div class="field"><label for="priorityFilter">Prioridad</label><select id="priorityFilter"><option value="">Todas</option></select></div>
@@ -585,7 +585,7 @@
         filters: { phase: "", indicator: "", priority: "", status: "", responsible: "" },
         page: 1,
         activeView: "overview",
-        visibleColumns: new Set(seed.headers),
+        visibleColumns: new Set(seed.headers.filter(h => h !== "Fase"))),
         config: { tenantId: "", clientId: "", shareUrl: "", sheetName: "Plan de Mejoras", adminEmails: [], adminObjectIds: [] },
         graph: { accessToken: "", refreshToken: "", expiresAt: 0, driveId: "", itemId: "", fileName: "", sessionId: "", lastModified: "", accessMode: "unknown", authorizedAdmin: false, user: null },
         remoteColumnIndex: new Map(),
