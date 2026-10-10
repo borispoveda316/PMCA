@@ -88,12 +88,21 @@ if (Array.isArray(source)) {
   throw new Error("Los datos recibidos desde Power Automate no son vÃ¡lidos");
 }
 
+// 1. Filtramos "Fase" de la lista de encabezados
+headers = headers.filter(h => h.trim().toLowerCase() !== "fase");
+
 const records = rawRecords
   .map((row, rowIndex) => ({ row, rowIndex }))
   .filter(({ row }) => originalHeaders.some((header) => row[header] !== null && row[header] !== ""))
   .map(({ row, rowIndex }) => {
     const record = { _excelRow: rowIndex + 2 };
-    originalHeaders.forEach((originalHeader, column) => { record[headers[column]] = row[originalHeader] ?? null; });
+    originalHeaders.forEach((originalHeader, column) => { 
+      const normHeader = normalizeHeader(originalHeader, column);
+      // Solo guardamos si no es 'Fase'
+      if (normHeader.trim().toLowerCase() !== "fase") {
+        record[normHeader] = row[originalHeader] ?? null; 
+      }
+    });
     record["Fecha de inicio"] = excelDateToIso(record["Fecha de inicio"]);
     record["Fecha de fin"] = excelDateToIso(record["Fecha de fin"]);
     record["Avance (%)"] = Number.isFinite(Number(record["Avance (%)"])) ? Number(record["Avance (%)"]) : 0;
