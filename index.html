@@ -381,8 +381,18 @@
       .quality-item { grid-template-columns: 1fr; }
       .chart-row { grid-template-columns: minmax(115px, 1fr) 1.4fr 42px; }
       .data-grid { grid-template-columns: 1fr 1fr; }
+   
+   /* ... todos los estilos CSS existentes arriba ... */
+
+  /* PEGA ESTO JUSTO ANTES DE </style> */
+  table th:nth-child(2),
+  table td:nth-child(2) {
+    display: none !important;
+  }
+
+</style>
     }
-  </style>
+      </style>
 </head>
 <body>
   <div class="shell">
@@ -1502,6 +1512,20 @@
 
       init();
     })();
+  
+    // Ocultar la columna 'Fase' desde las cabeceras del estado dinámico
+if (typeof state !== "undefined" && state.headers) {
+  state.headers = state.headers.filter(h => h.trim().toLowerCase() !== "fase");
+}
+
+// Ocultar cualquier elemento HTML de filtro relacionado con Fase
+document.addEventListener("DOMContentLoaded", () => {
+  const phaseSelect = document.getElementById("phaseFilter");
+  if (phaseSelect) {
+    const parentField = phaseSelect.closest(".field");
+    if (parentField) parentField.style.display = "none";
+  }
+});
   </script>
 </body>
 </html>
