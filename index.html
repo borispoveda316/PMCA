@@ -248,6 +248,9 @@
     .table-wrap { overflow: auto; max-height: 68vh; background: #fff; }
     table { width: max-content; min-width: 100%; border-collapse: separate; border-spacing: 0; font-size: .82rem; }
     th, td { max-width: 320px; padding: 10px 12px; border-bottom: 1px solid var(--line); border-right: 1px solid #edf1f4; vertical-align: top; }
+    .sort-btn { all: unset; cursor: pointer; display: inline; color: inherit; font: inherit; }
+    .sort-btn:hover, .sort-btn:focus-visible { text-decoration: underline; }
+    .alert-item[data-deadline] { cursor: pointer; }
     th { position: sticky; z-index: 5; top: 0; color: #fff; background: var(--navy); text-align: left; font-size: .76rem; line-height: 1.25; }
     th:first-child, td:first-child { position: sticky; left: 0; z-index: 4; min-width: 82px; }
     th:first-child { z-index: 7; background: #061f37; }
@@ -497,6 +500,10 @@
             <label for="statusFilter">Estado</label>
             <select id="statusFilter"><option value="">Todos</option></select>
           </div>
+          <div class="field">
+            <label for="deadlineFilter">Vencimiento</label>
+            <select id="deadlineFilter"><option value="">Todos</option><option value="Vencidas">Vencidas</option><option value="Por vencer (30 días)">Por vencer (30 días)</option></select>
+          </div>
           <div class="filter-actions">
             <button id="clearFiltersButton" class="ghost-btn" type="button">Limpiar filtros</button>
           </div>
@@ -607,7 +614,8 @@
         base: new Map(),
         dirty: new Map(),
         search: "",
-        filters: { indicator: "", priority: "", status: "", responsible: "" },
+        filters: { indicator: "", priority: "", status: "", responsible: "", deadline: "" },
+        sort: { field: "", dir: "asc" },
         page: 1,
         activeView: "overview",
         visibleColumns: new Set(seed.headers),
@@ -862,10 +870,11 @@
         const alerts = [
           { title: "Nivel de cumplimiento pendiente", detail: `${records.filter(r => !plain(r["Nivel de Cumplimiento"])).length} actividades sin valoración manual`, count: manualIndicators, cls: "critical" },
           { title: "Fórmulas de plazo", detail: "Referencia externa detectada en el Excel", count: Math.max(0, records.length - 1), cls: "critical" },
-          { title: "Próximos 30 días", detail: "Actividades que vencen pronto", count: records.filter(isDueSoon).length, cls: "info" },
+          { title: "Vencidas", detail: "Actividades fuera de plazo y sin completar. Clic para ver el listado", count: overdue, cls: overdue ? "critical" : "", deadline: "Vencidas" },
+          { title: "Próximos 30 días", detail: "Actividades que vencen pronto. Clic para ver el listado", count: records.filter(isDueSoon).length, cls: "info", deadline: "Por vencer (30 días)" },
           { title: "Calidad de datos", detail: `${issues.length} controles con observaciones`, count: issues.length, cls: "" }
         ];
-        $("#priorityAlerts").innerHTML = alerts.map(a => `<div class="alert-item ${a.cls}"><div><strong>${esc(a.title)}</strong><p>${esc(a.detail)}</p></div><span class="alert-count">${a.count}</span></div>`).join("");
+        $("#priorityAlerts").innerHTML = alerts.map(a => `<div class="alert-item ${a.cls}"${a.deadline ? ` data-deadline="${esc(a.deadline)}" role="button" tabindex="0"` : ""}><div><strong>${esc(a.title)}</strong><p>${esc(a.detail)}</p></div><span class="alert-count">${a.count}</span></div>`).join("");
         const minDate = records.map(r => r["Fecha de inicio"]).filter(Boolean).sort()[0];
         const maxDate = records.map(r => r["Fecha de fin"]).filter(Boolean).sort().at(-1);
         const efCount = unique(records.map(r => r["Elemento fundamental"]).filter(v => v && v !== "NA")).length;
@@ -899,9 +908,25 @@
       const respList = splitResponsible(record).map(norm);
       if (!respList.includes(norm(state.filters.responsible))) return false;
     }
+    if (state.filters.deadline === "Vencidas" && !isOverdue(record)) return false;
+    if (state.filters.deadline === "Por vencer (30 días)" && !isDueSoon(record)) return false;
     return true;
   });
 }
+
+      function sortedRecords(records) {
+        const { field, dir } = state.sort;
+        const sortField = field || (state.filters.deadline ? "Fecha de fin" : "");
+        if (!sortField) return records;
+        const factor = dir === "desc" && field ? -1 : 1;
+        const key = r => sortField === "Avance (%)" ? activityAdvance(r) : numericColumns.has(sortField) ? (Number.isFinite(Number(r[sortField])) && plain(r[sortField]) !== "" ? Number(r[sortField]) : null) : plain(r[sortField]);
+        return [...records].sort((a, b) => {
+          const ka = key(a), kb = key(b);
+          if ((ka === null || ka === "") !== (kb === null || kb === "")) return ka === null || ka === "" ? 1 : -1;
+          if (typeof ka === "number" && typeof kb === "number") return (ka - kb) * factor;
+          return collator.compare(String(ka), String(kb)) * factor;
+        });
+      }
 
       function renderFilterOptions() {
         const allResponsibles = unique(
@@ -914,10 +939,12 @@
           statusFilter: unique(state.records.map(r => r.Estado)).sort(collator.compare)
         };
 
+        const filterKeys = { indicatorFilter: "indicator", responsibleFilter: "responsible", priorityFilter: "priority", statusFilter: "status" };
+        $("#deadlineFilter").value = state.filters.deadline;
         for (const [id, values] of Object.entries(sets)) {
           const select = document.getElementById(id);
           if (!select) continue;
-          const current = select.value;
+          const current = state.filters[filterKeys[id]] ?? select.value;
           const label = select.options[0].textContent;
           select.innerHTML = `<option value="">${esc(label)}</option>` + values.map(value => `<option value="${esc(value)}">${esc(value)}</option>`).join("");
           select.value = current;
@@ -937,10 +964,10 @@
         const filtered = filteredRecords();
         const pages = 1;
         state.page = 1;
-        const slice = filtered;
+        const slice = sortedRecords(filtered);
         const visible = seed.headers.filter(field => state.visibleColumns.has(field));
         const actionHeader = isEditor() ? `<th scope="col">Acción</th>` : "";
-        const header = `<thead><tr>${visible.map(field => `<th scope="col">${esc(field)}</th>`).join("")}${actionHeader}</tr></thead>`;
+        const header = `<thead><tr>${visible.map(field => `<th scope="col" aria-sort="${state.sort.field === field ? (state.sort.dir === "asc" ? "ascending" : "descending") : "none"}"><button type="button" class="sort-btn" data-sort="${esc(field)}" title="Ordenar por ${esc(field)}">${esc(field)}<span aria-hidden="true">${state.sort.field === field ? (state.sort.dir === "asc" ? " ▲" : " ▼") : ""}</span></button></th>`).join("")}${actionHeader}</tr></thead>`;
         const body = slice.length ? `<tbody>${slice.map(record => `<tr>${visible.map(field => {
           const value = displayCell(record, field);
           const cls = longColumns.has(field) ? "long" : mediumColumns.has(field) ? "medium" : numericColumns.has(field) ? "number" : "";
@@ -1491,7 +1518,7 @@
         $$(".tab").forEach(tab => tab.addEventListener("click", () => showView(tab.dataset.view)));
         $$('[data-go]').forEach(button => button.addEventListener("click", () => showView(button.dataset.go)));
         $("#globalSearch").addEventListener("input", event => { state.search = event.target.value; state.page = 1; if (state.activeView !== "activities") showView("activities"); else renderActivities(); });
-        [["indicatorFilter","indicator"],["responsibleFilter","responsible"],["priorityFilter","priority"],["statusFilter","status"]].forEach(([id,key]) => {
+        [["indicatorFilter","indicator"],["responsibleFilter","responsible"],["priorityFilter","priority"],["statusFilter","status"],["deadlineFilter","deadline"]].forEach(([id,key]) => {
           const el = $("#"+id);
           if (el) {
             el.addEventListener("change", event => { 
@@ -1502,13 +1529,33 @@
           }
         });        
         $("#clearFiltersButton").addEventListener("click", () => { 
-          state.filters = { indicator: "", responsible: "", priority: "", status: "" }; 
+          state.filters = { indicator: "", responsible: "", priority: "", status: "", deadline: "" }; 
           state.search = ""; 
           $("#globalSearch").value = ""; 
           state.page = 1; 
           renderActivities(); 
         });
-        $("#activitiesTable").addEventListener("click", event => { const button = event.target.closest("[data-edit-row]"); if (button) openEdit(button.dataset.editRow); });
+        const openDeadline = event => {
+          const item = event.target.closest("[data-deadline]");
+          if (!item || (event.type === "keydown" && event.key !== "Enter")) return;
+          state.filters = { indicator: "", responsible: "", priority: "", status: "", deadline: item.dataset.deadline };
+          state.search = ""; $("#globalSearch").value = "";
+          state.sort = { field: "", dir: "asc" };
+          showView("activities");
+        };
+        $("#priorityAlerts").addEventListener("click", openDeadline);
+        $("#priorityAlerts").addEventListener("keydown", openDeadline);
+        $("#activitiesTable").addEventListener("click", event => {
+          const sortButton = event.target.closest("[data-sort]");
+          if (sortButton) {
+            const field = sortButton.dataset.sort;
+            if (state.sort.field !== field) state.sort = { field, dir: "asc" };
+            else if (state.sort.dir === "asc") state.sort.dir = "desc";
+            else state.sort = { field: "", dir: "asc" };
+            renderActivities();
+            return;
+          }
+          const button = event.target.closest("[data-edit-row]"); if (button) openEdit(button.dataset.editRow); });
         $("#prevPage").addEventListener("click", () => { state.page--; renderActivities(); });
         $("#nextPage").addEventListener("click", () => { state.page++; renderActivities(); });
         $("#editForm").addEventListener("submit", saveEdit);
