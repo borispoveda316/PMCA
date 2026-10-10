@@ -475,6 +475,8 @@
         </div>
         <div class="filters" style="grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));">
           <div class="field" style="display: none;"><label for="phaseFilter">Fase</label><select id="phaseFilter"><option value="">Todas</option></select></div>          <div class="field"><label for="responsibleFilter">Responsable</label><select id="responsibleFilter"><option value="">Todos</option></select></div>
+          <div class="field"><label for="indicatorFilter">Indicador</label><select id="indicatorFilter"><option value="">Todos</option></select></div>
+          <div class="field"><label for="responsibleFilter">Responsable</label><select id="responsibleFilter"><option value="">Todos</option></select></div>
           <div class="field"><label for="priorityFilter">Prioridad</label><select id="priorityFilter"><option value="">Todas</option></select></div>
           <div class="field"><label for="statusFilter">Estado</label><select id="statusFilter"><option value="">Todos</option></select></div>
           <div class="filter-actions"><button id="clearFiltersButton" class="ghost-btn" type="button">Limpiar filtros</button></div>
@@ -1440,7 +1442,16 @@
         $$(".tab").forEach(tab => tab.addEventListener("click", () => showView(tab.dataset.view)));
         $$('[data-go]').forEach(button => button.addEventListener("click", () => showView(button.dataset.go)));
         $("#globalSearch").addEventListener("input", event => { state.search = event.target.value; state.page = 1; if (state.activeView !== "activities") showView("activities"); else renderActivities(); });
-        [["phaseFilter","phase"],["indicatorFilter","indicator"],["responsibleFilter","responsible"],["priorityFilter","priority"],["statusFilter","status"]].forEach(([id,key]) => $("#"+id).addEventListener("change", event => { state.filters[key] = event.target.value; state.page = 1; renderActivities(); }));
+        [["phaseFilter","phase"],["indicatorFilter","indicator"],["responsibleFilter","responsible"],["priorityFilter","priority"],["statusFilter","status"]].forEach(([id,key]) => {
+          const el = $("#"+id);
+          if (el) {
+            el.addEventListener("change", event => { 
+              state.filters[key] = event.target.value; 
+              state.page = 1; 
+              renderActivities(); 
+            });
+          }
+        });        
         $("#clearFiltersButton").addEventListener("click", () => { 
           state.filters = { phase: "", indicator: "", responsible: "", priority: "", status: "" }; 
           state.search = ""; 
