@@ -382,13 +382,6 @@
       .chart-row { grid-template-columns: minmax(115px, 1fr) 1.4fr 42px; }
       .data-grid { grid-template-columns: 1fr 1fr; }
    
-   /* ... todos los estilos CSS existentes arriba ... */
-
-  /* PEGA ESTO JUSTO ANTES DE </style> */
-  table th:nth-child(2),
-  table td:nth-child(2) {
-    display: none !important;
-  }
 
 </style>
     }
@@ -581,14 +574,20 @@
     (() => {
       "use strict";
 
-      let seed = JSON.parse(document.getElementById("seedData").textContent);
+      function withoutPhase(data) {
+        const isPhase = h => String(h).trim().toLowerCase() === "fase";
+        data.headers = data.headers.filter(h => !isPhase(h));
+        data.records.forEach(r => { delete r.Fase; });
+        return data;
+      }
+      let seed = withoutPhase(JSON.parse(document.getElementById("seedData").textContent));
       const TOKEN_KEY = "pmca-graph-token-v1";
       const PKCE_KEY = "pmca-pkce-v1";
       const PAGE_SIZE = 25;
       const graphBase = "https://graph.microsoft.com/v1.0";
       const oauthScopes = "openid profile offline_access User.Read Files.ReadWrite";
       const keyColumns = ["ID", "Criterio", "Indicador", "Elemento fundamental", "Actividad", "Responsable principal", "Fecha de inicio", "Fecha de fin", "Prioridad", "Estado", "Avance (%)", "Carga de Evidencias", "Nivel de Cumplimiento", "Observaciones"];      const longColumns = new Set(["Descripción del EF", "Fuente de información", "Descripción del Hallazgo", "Descripción de la actividad", "Medida de mitigación", "Producto / Entregable", "Medio de verificación", "Criterio de aceptación (evidencia de cumplimiento)", "Observaciones"]);
-      const mediumColumns = new Set(["Fase", "Criterio", "Indicador", "Actividad", "Responsable principal", "Carga de Evidencias"]);
+      const mediumColumns = new Set(["Criterio", "Indicador", "Actividad", "Responsable principal", "Carga de Evidencias"]);
       const dateColumns = new Set(["Fecha de inicio", "Fecha de fin"]);
       const numericColumns = new Set(["Plazo (días)", "Avance (%)"]);
       const readOnlyColumns = new Set(["Plazo (días)"]);
@@ -605,10 +604,10 @@
         base: new Map(),
         dirty: new Map(),
         search: "",
-        filters: { phase: "", indicator: "", priority: "", status: "", responsible: "" },
+        filters: { indicator: "", priority: "", status: "", responsible: "" },
         page: 1,
         activeView: "overview",
-        visibleColumns: new Set(seed.headers.filter(h => h !== "Fase")),
+        visibleColumns: new Set(seed.headers),
         config: { tenantId: "", clientId: "", shareUrl: "", sheetName: "Plan de Mejoras", adminEmails: [], adminObjectIds: [] },
         graph: { accessToken: "", refreshToken: "", expiresAt: 0, driveId: "", itemId: "", fileName: "", sessionId: "", lastModified: "", accessMode: "unknown", authorizedAdmin: false, user: null },
         remoteColumnIndex: new Map(),
@@ -637,7 +636,6 @@
       function clamp(value, min, max) { return Math.min(max, Math.max(min, value)); }
       function avg(values) { const nums = values.filter(Number.isFinite); return nums.length ? nums.reduce((a,b) => a+b, 0) / nums.length : 0; }
       function unique(values) { return [...new Set(values.filter(value => plain(value) !== ""))]; }
-      function phaseCode(value) { return plain(value).match(/^F\d+/i)?.[0]?.toUpperCase() || "Sin fase"; }
       function parseDate(value) { return value ? new Date(`${value}T00:00:00Z`) : null; }
       function fmtDate(value) { const date = parseDate(value); return date && !Number.isNaN(date.valueOf()) ? dateFmt.format(date) : "—"; }
       function excelDateToIso(serial) { if (!Number.isFinite(Number(serial))) return plain(serial); return new Date(Date.UTC(1899, 11, 30) + Number(serial) * 86400000).toISOString().slice(0,10); }
@@ -761,9 +759,6 @@
         if (duplicates.length) issues.push({ severity: "critical", title: "Identificadores duplicados", detail: duplicates.map(([id, rows]) => `${id} en filas ${rows.join(" y ")}`).join("; "), count: duplicates.length });
         if (seed.metadata?.blankHeaderColumns?.length) issues.push({ severity: "warning", title: "Encabezado original sin nombre", detail: `Columnas sin encabezado: ${seed.metadata.blankHeaderColumns.join(", ")}.`, count: seed.metadata.blankHeaderColumns.length });
         if (seed.metadata?.formulaIssue) issues.push({ severity: "critical", title: "Fórmulas de plazo vinculadas a una referencia externa", detail: seed.metadata.formulaIssue, count: state.records.length });
-        const phaseVariants = unique(state.records.map(r => r.Fase)).length;
-        const phaseCodes = unique(state.records.map(r => phaseCode(r.Fase))).length;
-        if (phaseVariants > phaseCodes) issues.push({ severity: "warning", title: "Nombres de fase no estandarizados", detail: `${phaseVariants} textos distintos representan ${phaseCodes} fases generales. Existen diferencias de espacios, meses y años.`, count: phaseVariants });
         const required = ["ID", "Indicador", "Actividad", "Responsable principal", "Fecha de inicio", "Fecha de fin", "Producto / Entregable", "Medio de verificación", "Criterio de aceptación (evidencia de cumplimiento)", "Prioridad", "Estado", "Avance (%)"];
         const incomplete = state.records.filter(record => required.some(field => record[field] === null || plain(record[field]) === ""));
         if (incomplete.length) issues.push({ severity: "critical", title: "Actividades con campos esenciales incompletos", detail: `Filas Excel: ${incomplete.slice(0,12).map(r => r._excelRow).join(", ")}${incomplete.length > 12 ? "…" : ""}.`, count: incomplete.length });
@@ -845,9 +840,8 @@
         $("#priorityAlerts").innerHTML = alerts.map(a => `<div class="alert-item ${a.cls}"><div><strong>${esc(a.title)}</strong><p>${esc(a.detail)}</p></div><span class="alert-count">${a.count}</span></div>`).join("");
         const minDate = records.map(r => r["Fecha de inicio"]).filter(Boolean).sort()[0];
         const maxDate = records.map(r => r["Fecha de fin"]).filter(Boolean).sort().at(-1);
-        const phases = unique(records.map(r => phaseCode(r.Fase))).length;
         const efCount = unique(records.map(r => r["Elemento fundamental"]).filter(v => v && v !== "NA")).length;
-        $("#planningSummary").innerHTML = [[fmtDate(minDate),"Inicio"],[fmtDate(maxDate),"Cierre"],[phases,"Fases"],[efCount,"EF únicos"]].map(([v,l]) => `<div class="data-stat"><strong>${esc(v)}</strong><span>${esc(l)}</span></div>`).join("");
+        $("#planningSummary").innerHTML = [[fmtDate(minDate),"Inicio"],[fmtDate(maxDate),"Cierre"],[efCount,"EF únicos"]].map(([v,l]) => `<div class="data-stat"><strong>${esc(v)}</strong><span>${esc(l)}</span></div>`).join("");
       }
 
       function renderIndicators() {
@@ -886,7 +880,6 @@
           state.records.flatMap(r => splitResponsible(r))
         ).sort(collator.compare);
         const sets = {
-          phaseFilter: unique(state.records.map(r => phaseCode(r.Fase))).sort(collator.compare),
           indicatorFilter: unique(state.records.map(r => r.Indicador)).sort(collator.compare),
           responsibleFilter: allResponsibles,
           priorityFilter: unique(state.records.map(r => r.Prioridad)).sort(collator.compare),
@@ -962,7 +955,6 @@
 
       function renderStatistics() {
         const priorities = countBy(state.records, "Prioridad");
-        const phases = countBy(state.records, "Fase", value => phaseCode(value));
         const indicators = aggregateIndicators().map(i => [i.name, i.activities]);
         const unitMap = new Map();
         for (const record of state.records) for (const unit of splitResponsible(record)) unitMap.set(unit, (unitMap.get(unit) || 0) + 1);
@@ -986,7 +978,6 @@
           pieCard("Porcentaje de actividades", "Distribución según el avance registrado", progressLevels, state.records.length),
           barCard("Prioridades", "Cantidad de actividades por prioridad", priorities, "amber"),
           barCard("Carga por indicador", "Número de actividades asignadas", indicators, "teal"),
-          barCard("Fases generales", "Agrupación por código F0–F3", phases, ""),
           barCard("Unidades con mayor participación", "Cada línea de responsable se cuenta como una unidad", units, "teal"),
           barCard("Inicio de actividades", "Actividades programadas por mes", monthEntries, "amber")
         ].join("");
@@ -998,7 +989,7 @@
         const totalCells = state.records.length * seed.headers.length;
         const completeness = totalCells ? 1 - missingCells / totalCells : 0;
         const duplicateCount = state.records.length - unique(state.records.map(r => r.ID)).length;
-        $("#qualitySummary").innerHTML = [[`${percentFmt.format(completeness*100)}%`,"Completitud global"],[issues.length,"Controles con observación"],[duplicateCount,"ID duplicados"],[unique(state.records.map(r=>r.Fase)).length,"Variantes de fase"]].map(([v,l]) => `<div class="data-stat"><strong>${esc(v)}</strong><span>${esc(l)}</span></div>`).join("");
+        $("#qualitySummary").innerHTML = [[`${percentFmt.format(completeness*100)}%`,"Completitud global"],[issues.length,"Controles con observación"],[duplicateCount,"ID duplicados"]].map(([v,l]) => `<div class="data-stat"><strong>${esc(v)}</strong><span>${esc(l)}</span></div>`).join("");
         $("#qualityGrid").innerHTML = issues.map(issue => `<article class="quality-item"><span class="severity ${issue.severity}">${issue.severity === "critical" ? "Crítico" : issue.severity === "warning" ? "Revisar" : "Informativo"}</span><div><h3>${esc(issue.title)}</h3><p>${esc(issue.detail)}</p></div><span class="alert-count">${issue.count}</span></article>`).join("");
       }
 
@@ -1069,7 +1060,7 @@
 
       function fieldControl(field, value) {
         const id = `field-${seed.headers.indexOf(field)}`;
-        const full = longColumns.has(field) || field === "Responsable principal" || field === "Fase";
+        const full = longColumns.has(field) || field === "Responsable principal";
         const readonly = readOnlyColumns.has(field);
         let control = "";
         if (readonly) control = `<input id="${id}" name="${esc(field)}" value="${esc(displayCell({[field]: value}, field))}" readonly>`;
@@ -1129,10 +1120,10 @@
         if (!data || !Array.isArray(data.headers) || !Array.isArray(data.records) || !data.headers.length) throw new Error("Los datos públicos no tienen una estructura válida.");
         const signature = JSON.stringify(data.records);
         if (signature === publishedSignature) return false;
-        seed = data;
+        seed = withoutPhase(data);
         publishedSignature = signature;
         state.records = data.records.map(normalizeRecord);
-        state.visibleColumns = new Set(data.headers);
+        state.visibleColumns = new Set(seed.headers);
         state.page = 1;
         snapshotBase();
         if (notify) {
@@ -1474,7 +1465,7 @@
           }
         });        
         $("#clearFiltersButton").addEventListener("click", () => { 
-          state.filters = { phase: "", indicator: "", responsible: "", priority: "", status: "" }; 
+          state.filters = { indicator: "", responsible: "", priority: "", status: "" }; 
           state.search = ""; 
           $("#globalSearch").value = ""; 
           state.page = 1; 
@@ -1513,19 +1504,6 @@
       init();
     })();
   
-    // Ocultar la columna 'Fase' desde las cabeceras del estado dinámico
-if (typeof state !== "undefined" && state.headers) {
-  state.headers = state.headers.filter(h => h.trim().toLowerCase() !== "fase");
-}
-
-// Ocultar cualquier elemento HTML de filtro relacionado con Fase
-document.addEventListener("DOMContentLoaded", () => {
-  const phaseSelect = document.getElementById("phaseFilter");
-  if (phaseSelect) {
-    const parentField = phaseSelect.closest(".field");
-    if (parentField) parentField.style.display = "none";
-  }
-});
   </script>
 </body>
 </html>

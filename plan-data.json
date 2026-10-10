@@ -5,7 +5,7 @@
     "range": "Tabla PlanMejoras",
     "generatedAt": "2026-10-10T03:40:14.559Z",
     "totalActivities": 93,
-    "totalColumns": 27,
+    "totalColumns": 26,
     "minDate": "2026-10-01",
     "maxDate": "2027-04-30",
     "duplicateIds": [],
@@ -14,7 +14,6 @@
   },
   "headers": [
     "ID",
-    "Fase",
     "Criterio",
     "Indicador",
     "Tipo de indicador",
@@ -108,7 +107,6 @@
     {
       "_excelRow": 2,
       "ID": "G-01",
-      "Fase": "F0. Diagnóstico y arranque (oct 2026)",
       "Criterio": "Gestión Interna - Gobernanza del proceso",
       "Indicador": "Gestión del proceso de cualificación",
       "Tipo de indicador": "Propio",
@@ -138,7 +136,6 @@
     {
       "_excelRow": 3,
       "ID": "G-02",
-      "Fase": "F0. Diagnóstico y arranque (oct 2026)",
       "Criterio": "Gestión Interna - Gobernanza del proceso",
       "Indicador": "Gestión del proceso de cualificación",
       "Tipo de indicador": "Propio",
@@ -168,7 +165,6 @@
     {
       "_excelRow": 4,
       "ID": "G-03",
-      "Fase": "F0. Diagnóstico y arranque (oct 2026)",
       "Criterio": "Gestión Interna - Gobernanza del proceso",
       "Indicador": "Gestión del proceso de cualificación",
       "Tipo de indicador": "Propio",
@@ -198,7 +194,6 @@
     {
       "_excelRow": 5,
       "ID": "G-04",
-      "Fase": "F0. Diagnóstico y arranque (oct 2026)",
       "Criterio": "Gestión Interna - Gobernanza del proceso",
       "Indicador": "Gestión del proceso de cualificación",
       "Tipo de indicador": "Propio",
@@ -228,7 +223,6 @@
     {
       "_excelRow": 6,
       "ID": "G-05",
-      "Fase": "F0. Diagnóstico y arranque (oct - nov 2026)",
       "Criterio": "Gestión Interna - Gobernanza del proceso",
       "Indicador": "Gestión del proceso de cualificación",
       "Tipo de indicador": "Propio",
@@ -258,7 +252,6 @@
     {
       "_excelRow": 7,
       "ID": "G-07",
-      "Fase": "F1. Diseño y aprobación normativa (nov-feb 2026)",
       "Criterio": "Gestión Interna - Gobernanza del proceso",
       "Indicador": "Gestión del proceso de cualificación",
       "Tipo de indicador": "Propio",
@@ -288,7 +281,6 @@
     {
       "_excelRow": 8,
       "ID": "G-08",
-      "Fase": "F1. Diseño y aprobación normativa (nov-may 2026)",
       "Criterio": "Gestión Interna - Gobernanza del proceso",
       "Indicador": "Gestión del proceso de cualificación",
       "Tipo de indicador": "Propio",
@@ -318,7 +310,6 @@
     {
       "_excelRow": 9,
       "ID": "G-09",
-      "Fase": "F3. Consolidación y postulación (abril 2027)",
       "Criterio": "Gestión Interna - Gobernanza del proceso",
       "Indicador": "Gestión del proceso de cualificación",
       "Tipo de indicador": "Propio",
@@ -348,7 +339,6 @@
     {
       "_excelRow": 10,
       "ID": "G-10",
-      "Fase": "F3. Consolidación y postulación (mar-may 2027)",
       "Criterio": "Gestión Interna - Gobernanza del proceso",
       "Indicador": "Gestión del proceso de cualificación",
       "Tipo de indicador": "Propio",
@@ -378,7 +368,6 @@
     {
       "_excelRow": 11,
       "ID": "G-11",
-      "Fase": "F3. Consolidación y postulación (may - jun 2027)",
       "Criterio": "Gestión Interna - Gobernanza del proceso",
       "Indicador": "Gestión del proceso de cualificación",
       "Tipo de indicador": "Propio",
@@ -408,7 +397,6 @@
     {
       "_excelRow": 12,
       "ID": "G-12",
-      "Fase": "F3. Consolidación y postulación (feb -marz 2027)",
       "Criterio": "Gestión Interna - Gobernanza del proceso",
       "Indicador": "Gestión del proceso de cualificación",
       "Tipo de indicador": "Propio",
@@ -438,7 +426,6 @@
     {
       "_excelRow": 13,
       "ID": "G-13",
-      "Fase": "F2. Implementación operativa (mar-may 2027)",
       "Criterio": "Gestión Interna - Gobernanza del proceso",
       "Indicador": "Gestión del proceso de cualificación",
       "Tipo de indicador": "Propio",
@@ -468,7 +455,6 @@
     {
       "_excelRow": 14,
       "ID": "A1.1.1",
-      "Fase": "F1. Diseño y aprobación normativa (oct-dic 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
       "Indicador": "Indicador 1: Estructura institucional",
       "Tipo de indicador": "Cualitativo",
@@ -498,7 +484,6 @@
     {
       "_excelRow": 15,
       "ID": "A1.1.2",
-      "Fase": "F1. Diseño y aprobación normativa (dic 2026)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
       "Indicador": "Indicador 1: Estructura institucional",
       "Tipo de indicador": "Cualitativo",
@@ -528,7 +513,6 @@
     {
       "_excelRow": 16,
       "ID": "A1.2.1",
-      "Fase": "F1. Diseño y aprobación normativa (nov-dic 2026)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
       "Indicador": "Indicador 1: Estructura institucional",
       "Tipo de indicador": "Cualitativo",
@@ -558,7 +542,6 @@
     {
       "_excelRow": 17,
       "ID": "A1.2.2",
-      "Fase": "F1. Diseño y aprobación normativa (dic 2026)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
       "Indicador": "Indicador 1: Estructura institucional",
       "Tipo de indicador": "Cualitativo",
@@ -588,7 +571,6 @@
     {
       "_excelRow": 18,
       "ID": "A1.3.1",
-      "Fase": "F1. Diseño y aprobación normativa (nov-dic 2026)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
       "Indicador": "Indicador 1: Estructura institucional",
       "Tipo de indicador": "Cualitativo",
@@ -618,7 +600,6 @@
     {
       "_excelRow": 19,
       "ID": "A1.4.1",
-      "Fase": "F1. Diseño y aprobación normativa (dic -ene 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
       "Indicador": "Indicador 1: Estructura institucional",
       "Tipo de indicador": "Cualitativo",
@@ -648,7 +629,6 @@
     {
       "_excelRow": 20,
       "ID": "A2.1.1",
-      "Fase": "F1. Diseño y aprobación normativa (nov-ene 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
       "Indicador": "Indicador 2: Gestión de la investigación",
       "Tipo de indicador": "Cualitativo",
@@ -678,7 +658,6 @@
     {
       "_excelRow": 21,
       "ID": "A2.1.2",
-      "Fase": "F1. Diseño y aprobación normativa (dic - ene 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
       "Indicador": "Indicador 2: Gestión de la investigación",
       "Tipo de indicador": "Cualitativo",
@@ -708,7 +687,6 @@
     {
       "_excelRow": 22,
       "ID": "A2.1.3",
-      "Fase": "F1. Diseño y aprobación normativa (dic - ene 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
       "Indicador": "Indicador 2: Gestión de la investigación",
       "Tipo de indicador": "Cualitativo",
@@ -738,7 +716,6 @@
     {
       "_excelRow": 23,
       "ID": "A2.2.1",
-      "Fase": "F1. Diseño y aprobación normativa (nov - dic 2026)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
       "Indicador": "Indicador 2: Gestión de la investigación",
       "Tipo de indicador": "Cualitativo",
@@ -768,7 +745,6 @@
     {
       "_excelRow": 24,
       "ID": "A2.2.2",
-      "Fase": "F2. Implementación operativa (feb-may 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
       "Indicador": "Indicador 2: Gestión de la investigación",
       "Tipo de indicador": "Cualitativo",
@@ -798,7 +774,6 @@
     {
       "_excelRow": 25,
       "ID": "A2.3.1",
-      "Fase": "F1. Diseño y aprobación normativa (nov - feb 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
       "Indicador": "Indicador 2: Gestión de la investigación",
       "Tipo de indicador": "Cualitativo",
@@ -828,7 +803,6 @@
     {
       "_excelRow": 26,
       "ID": "A2.4.1",
-      "Fase": "F1. Diseño y aprobación normativa (nov - dic  2026)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
       "Indicador": "Indicador 2: Gestión de la investigación",
       "Tipo de indicador": "Cualitativo",
@@ -858,7 +832,6 @@
     {
       "_excelRow": 27,
       "ID": "A2.5.3",
-      "Fase": "F2. Implementación operativa (feb - abr 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
       "Indicador": "Indicador 2: Gestión de la investigación",
       "Tipo de indicador": "Cualitativo",
@@ -888,7 +861,6 @@
     {
       "_excelRow": 28,
       "ID": "A2.6.1",
-      "Fase": "F1. Diseño y aprobación normativa (dic - ene 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
       "Indicador": "Indicador 2: Gestión de la investigación",
       "Tipo de indicador": "Cualitativo",
@@ -918,7 +890,6 @@
     {
       "_excelRow": 29,
       "ID": "A2.6.2",
-      "Fase": "F1. Diseño y aprobación normativa (feb - abr 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
       "Indicador": "Indicador 2: Gestión de la investigación",
       "Tipo de indicador": "Cualitativo",
@@ -948,7 +919,6 @@
     {
       "_excelRow": 30,
       "ID": "A2.7.1",
-      "Fase": "F2. Implementación operativa (ene- feb 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
       "Indicador": "Indicador 2: Gestión de la investigación",
       "Tipo de indicador": "Cualitativo",
@@ -978,7 +948,6 @@
     {
       "_excelRow": 31,
       "ID": "A2.7.2",
-      "Fase": "F2. Implementación operativa (feb-abr 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
       "Indicador": "Indicador 2: Gestión de la investigación",
       "Tipo de indicador": "Cualitativo",
@@ -1008,7 +977,6 @@
     {
       "_excelRow": 32,
       "ID": "A3.1.1",
-      "Fase": "F1. Diseño y aprobación normativa (nov-dic 2026)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
       "Indicador": "Indicador 3: Líneas de investigación",
       "Tipo de indicador": "Cualitativo",
@@ -1038,7 +1006,6 @@
     {
       "_excelRow": 33,
       "ID": "A3.2.1",
-      "Fase": "F2. Implementación operativa (ene-feb 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
       "Indicador": "Indicador 3: Líneas de investigación",
       "Tipo de indicador": "Cualitativo",
@@ -1068,7 +1035,6 @@
     {
       "_excelRow": 34,
       "ID": "A3.2.2",
-      "Fase": "F2. Implementación operativa (feb - mar 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
       "Indicador": "Indicador 3: Líneas de investigación",
       "Tipo de indicador": "Cualitativo",
@@ -1098,7 +1064,6 @@
     {
       "_excelRow": 35,
       "ID": "A3.3.1",
-      "Fase": "F1. Diseño y aprobación normativa (nov-dic 2026)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
       "Indicador": "Indicador 3: Líneas de investigación",
       "Tipo de indicador": "Cualitativo",
@@ -1128,7 +1093,6 @@
     {
       "_excelRow": 36,
       "ID": "A3.3.2",
-      "Fase": "F2. Implementación operativa (feb - mar 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
       "Indicador": "Indicador 3: Líneas de investigación",
       "Tipo de indicador": "Cualitativo",
@@ -1158,7 +1122,6 @@
     {
       "_excelRow": 37,
       "ID": "A4.1.1",
-      "Fase": "F1. Diseño y aprobación normativa (nov-dic 2026)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
       "Indicador": "Indicador 4: Ética",
       "Tipo de indicador": "Cualitativo",
@@ -1188,7 +1151,6 @@
     {
       "_excelRow": 38,
       "ID": "A4.1.2",
-      "Fase": "F1. Diseño y aprobación normativa (dic - ene 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
       "Indicador": "Indicador 4: Ética",
       "Tipo de indicador": "Cualitativo",
@@ -1218,7 +1180,6 @@
     {
       "_excelRow": 39,
       "ID": "A4.2.1",
-      "Fase": "F1. Diseño y aprobación normativa (dic - ene 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
       "Indicador": "Indicador 4: Ética",
       "Tipo de indicador": "Cualitativo",
@@ -1248,7 +1209,6 @@
     {
       "_excelRow": 40,
       "ID": "A4.2.2",
-      "Fase": "F2. Implementación operativa (feb - mar 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
       "Indicador": "Indicador 4: Ética",
       "Tipo de indicador": "Cualitativo",
@@ -1278,7 +1238,6 @@
     {
       "_excelRow": 41,
       "ID": "A4.3.1",
-      "Fase": "F2. Implementación operativa (ene-feb 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
       "Indicador": "Indicador 4: Ética",
       "Tipo de indicador": "Cualitativo",
@@ -1308,7 +1267,6 @@
     {
       "_excelRow": 42,
       "ID": "A4.3.2",
-      "Fase": "F2. Implementación operativa (feb-abr 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
       "Indicador": "Indicador 4: Ética",
       "Tipo de indicador": "Cualitativo",
@@ -1338,7 +1296,6 @@
     {
       "_excelRow": 43,
       "ID": "A4.4.1",
-      "Fase": "F1. Diseño y aprobación normativa (ene - feb 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
       "Indicador": "Indicador 4: Ética",
       "Tipo de indicador": "Cualitativo",
@@ -1368,7 +1325,6 @@
     {
       "_excelRow": 44,
       "ID": "A4.4.2",
-      "Fase": "F2. Implementación operativa (mar - abr 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
       "Indicador": "Indicador 4: Ética",
       "Tipo de indicador": "Cualitativo",
@@ -1398,7 +1354,6 @@
     {
       "_excelRow": 45,
       "ID": "A4.5.1",
-      "Fase": "F2. Implementación operativa (ene-feb 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
       "Indicador": "Indicador 4: Ética",
       "Tipo de indicador": "Cualitativo",
@@ -1428,7 +1383,6 @@
     {
       "_excelRow": 46,
       "ID": "A4.5.2",
-      "Fase": "F2. Implementación operativa (feb - abr 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
       "Indicador": "Indicador 4: Ética",
       "Tipo de indicador": "Cualitativo",
@@ -1458,7 +1412,6 @@
     {
       "_excelRow": 47,
       "ID": "A5.1.1",
-      "Fase": "F1. Diseño y aprobación normativa (nov - ene 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
       "Indicador": "Indicador 5: Internacionalización",
       "Tipo de indicador": "Cualitativo",
@@ -1488,7 +1441,6 @@
     {
       "_excelRow": 48,
       "ID": "A5.1.2",
-      "Fase": "F1. Diseño y aprobación normativa (dic - ene 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
       "Indicador": "Indicador 5: Internacionalización",
       "Tipo de indicador": "Cualitativo",
@@ -1518,7 +1470,6 @@
     {
       "_excelRow": 49,
       "ID": "A5.2.1",
-      "Fase": "F1. Diseño y aprobación normativa (oct 2026)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
       "Indicador": "Indicador 5: Internacionalización",
       "Tipo de indicador": "Cualitativo",
@@ -1548,7 +1499,6 @@
     {
       "_excelRow": 50,
       "ID": "A5.2.2",
-      "Fase": "F2. Implementación operativa (feb - abr 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
       "Indicador": "Indicador 5: Internacionalización",
       "Tipo de indicador": "Cualitativo",
@@ -1578,7 +1528,6 @@
     {
       "_excelRow": 51,
       "ID": "A5.3.1",
-      "Fase": "F1. Diseño y aprobación normativa (dic - ene 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
       "Indicador": "Indicador 5: Internacionalización",
       "Tipo de indicador": "Cualitativo",
@@ -1608,7 +1557,6 @@
     {
       "_excelRow": 52,
       "ID": "A5.3.2",
-      "Fase": "F2. Implementación operativa (feb - may 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
       "Indicador": "Indicador 5: Internacionalización",
       "Tipo de indicador": "Cualitativo",
@@ -1638,7 +1586,6 @@
     {
       "_excelRow": 53,
       "ID": "A5.4.1",
-      "Fase": "F1. Diseño y aprobación normativa (ene - feb 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
       "Indicador": "Indicador 5: Internacionalización",
       "Tipo de indicador": "Cualitativo",
@@ -1668,7 +1615,6 @@
     {
       "_excelRow": 54,
       "ID": "A5.4.2",
-      "Fase": "F2. Implementación operativa (feb - abr 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
       "Indicador": "Indicador 5: Internacionalización",
       "Tipo de indicador": "Cualitativo",
@@ -1698,7 +1644,6 @@
     {
       "_excelRow": 55,
       "ID": "A5.4.3",
-      "Fase": "F2. Implementación operativa (feb - abr 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
       "Indicador": "Indicador 5: Internacionalización",
       "Tipo de indicador": "Cualitativo",
@@ -1728,7 +1673,6 @@
     {
       "_excelRow": 56,
       "ID": "A5.5.1",
-      "Fase": "F2. Implementación operativa (ene-may 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
       "Indicador": "Indicador 5: Internacionalización",
       "Tipo de indicador": "Cualitativo",
@@ -1758,7 +1702,6 @@
     {
       "_excelRow": 57,
       "ID": "A5.5.2",
-      "Fase": "F3. Consolidación y postulación (abr - may 2027)",
       "Criterio": "CCI - Criterio de Carácter Institucional",
       "Indicador": "Indicador 5: Internacionalización",
       "Tipo de indicador": "Cualitativo",
@@ -1788,7 +1731,6 @@
     {
       "_excelRow": 58,
       "ID": "A6.1.1",
-      "Fase": "F2. Implementación operativa (ene- feb 2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
       "Indicador": "Indicador 6: Infraestructura y ambientes de aprendizaje",
       "Tipo de indicador": "Cualitativo",
@@ -1818,7 +1760,6 @@
     {
       "_excelRow": 59,
       "ID": "A6.2.1",
-      "Fase": "F2. Implementación operativa (feb - abr 2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
       "Indicador": "Indicador 6: Infraestructura y ambientes de aprendizaje",
       "Tipo de indicador": "Cualitativo",
@@ -1848,7 +1789,6 @@
     {
       "_excelRow": 60,
       "ID": "A6.2.2",
-      "Fase": "F2. Implementación operativa (abr-may 2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
       "Indicador": "Indicador 6: Infraestructura y ambientes de aprendizaje",
       "Tipo de indicador": "Cualitativo",
@@ -1878,7 +1818,6 @@
     {
       "_excelRow": 61,
       "ID": "A6.3.1",
-      "Fase": "F1. Diseño y aprobación normativa (dic - ene 2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
       "Indicador": "Indicador 6: Infraestructura y ambientes de aprendizaje",
       "Tipo de indicador": "Cualitativo",
@@ -1908,7 +1847,6 @@
     {
       "_excelRow": 62,
       "ID": "A6.3.2",
-      "Fase": "F2. Implementación operativa (feb - abr 2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
       "Indicador": "Indicador 6: Infraestructura y ambientes de aprendizaje",
       "Tipo de indicador": "Cualitativo",
@@ -1938,7 +1876,6 @@
     {
       "_excelRow": 63,
       "ID": "A7.1.1",
-      "Fase": "F0. Diagnóstico y arranque (oct - nov 2026)",
       "Criterio": "CCE - Criterio de Carácter Específico",
       "Indicador": "Indicador 7: Personal académico",
       "Tipo de indicador": "Mixto (cualitativo y cuantitativo)",
@@ -1968,7 +1905,6 @@
     {
       "_excelRow": 64,
       "ID": "A7.2.1",
-      "Fase": "F2. Implementación operativa (ene-feb 2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
       "Indicador": "Indicador 7: Personal académico",
       "Tipo de indicador": "Mixto (cualitativo y cuantitativo)",
@@ -1998,7 +1934,6 @@
     {
       "_excelRow": 65,
       "ID": "A7.2.2",
-      "Fase": "F2. Implementación operativa (feb - mar 2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
       "Indicador": "Indicador 7: Personal académico",
       "Tipo de indicador": "Mixto (cualitativo y cuantitativo)",
@@ -2028,7 +1963,6 @@
     {
       "_excelRow": 66,
       "ID": "A7.3.1",
-      "Fase": "F1. Diseño y aprobación normativa (nov-dic 2026)",
       "Criterio": "CCE - Criterio de Carácter Específico",
       "Indicador": "Indicador 7: Personal académico",
       "Tipo de indicador": "Mixto (cualitativo y cuantitativo)",
@@ -2058,7 +1992,6 @@
     {
       "_excelRow": 67,
       "ID": "A7.3.3",
-      "Fase": "F2. Implementación operativa (marzo2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
       "Indicador": "Indicador 7: Personal académico",
       "Tipo de indicador": "Mixto (cualitativo y cuantitativo)",
@@ -2088,7 +2021,6 @@
     {
       "_excelRow": 68,
       "ID": "A7.4.1",
-      "Fase": "F2. Implementación operativa (ene-abr 2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
       "Indicador": "Indicador 7: Personal académico",
       "Tipo de indicador": "Mixto (cualitativo y cuantitativo)",
@@ -2118,7 +2050,6 @@
     {
       "_excelRow": 69,
       "ID": "A7.4.2",
-      "Fase": "F2. Implementación operativa (abr-may 2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
       "Indicador": "Indicador 7: Personal académico",
       "Tipo de indicador": "Mixto (cualitativo y cuantitativo)",
@@ -2148,7 +2079,6 @@
     {
       "_excelRow": 70,
       "ID": "A7.5.1",
-      "Fase": "F2. Implementación operativa (ene-abr 2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
       "Indicador": "Indicador 7: Personal académico",
       "Tipo de indicador": "Mixto (cualitativo y cuantitativo)",
@@ -2178,7 +2108,6 @@
     {
       "_excelRow": 71,
       "ID": "A7.5.2",
-      "Fase": "F2. Implementación operativa (abr-may 2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
       "Indicador": "Indicador 7: Personal académico",
       "Tipo de indicador": "Mixto (cualitativo y cuantitativo)",
@@ -2208,7 +2137,6 @@
     {
       "_excelRow": 72,
       "ID": "A7.6.1",
-      "Fase": "F2. Implementación operativa (ene-mar 2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
       "Indicador": "Indicador 7: Personal académico",
       "Tipo de indicador": "Mixto (cualitativo y cuantitativo)",
@@ -2238,7 +2166,6 @@
     {
       "_excelRow": 73,
       "ID": "A7.7.1",
-      "Fase": "F2. Implementación operativa (dic - abr 2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
       "Indicador": "Indicador 7: Personal académico",
       "Tipo de indicador": "Mixto (cualitativo y cuantitativo)",
@@ -2268,7 +2195,6 @@
     {
       "_excelRow": 74,
       "ID": "A7.7.2",
-      "Fase": "F2. Implementación operativa (abr-may 2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
       "Indicador": "Indicador 7: Personal académico",
       "Tipo de indicador": "Mixto (cualitativo y cuantitativo)",
@@ -2298,7 +2224,6 @@
     {
       "_excelRow": 75,
       "ID": "A8.1.1",
-      "Fase": "F1. Diseño y aprobación normativa (nov-dic 2026)",
       "Criterio": "CCE - Criterio de Carácter Específico",
       "Indicador": "Indicador 8: Unidad de posgrado",
       "Tipo de indicador": "Cualitativo",
@@ -2328,7 +2253,6 @@
     {
       "_excelRow": 76,
       "ID": "A8.1.2",
-      "Fase": "F1. Diseño y aprobación normativa (dic - feb 2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
       "Indicador": "Indicador 8: Unidad de posgrado",
       "Tipo de indicador": "Cualitativo",
@@ -2358,7 +2282,6 @@
     {
       "_excelRow": 77,
       "ID": "A8.2.2",
-      "Fase": "F2. Implementación operativa (feb- abr 2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
       "Indicador": "Indicador 8: Unidad de posgrado",
       "Tipo de indicador": "Cualitativo",
@@ -2388,7 +2311,6 @@
     {
       "_excelRow": 78,
       "ID": "A8.3.1",
-      "Fase": "F1. Diseño y aprobación normativa (ene - feb 2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
       "Indicador": "Indicador 8: Unidad de posgrado",
       "Tipo de indicador": "Cualitativo",
@@ -2418,7 +2340,6 @@
     {
       "_excelRow": 79,
       "ID": "A8.3.2",
-      "Fase": "F2. Implementación operativa (feb - abr 2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
       "Indicador": "Indicador 8: Unidad de posgrado",
       "Tipo de indicador": "Cualitativo",
@@ -2448,7 +2369,6 @@
     {
       "_excelRow": 80,
       "ID": "A8.4.2",
-      "Fase": "F1. Diseño y aprobación normativa (dic - ene 2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
       "Indicador": "Indicador 8: Unidad de posgrado",
       "Tipo de indicador": "Cualitativo",
@@ -2478,7 +2398,6 @@
     {
       "_excelRow": 81,
       "ID": "A8.5.1",
-      "Fase": "F1. Diseño y aprobación normativa (ene - mar 2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
       "Indicador": "Indicador 8: Unidad de posgrado",
       "Tipo de indicador": "Cualitativo",
@@ -2508,7 +2427,6 @@
     {
       "_excelRow": 82,
       "ID": "A9.1.1",
-      "Fase": "F1. Diseño y aprobación normativa (nov-dic 2026)",
       "Criterio": "CCE - Criterio de Carácter Específico",
       "Indicador": "Indicador 9: Grupos de investigación",
       "Tipo de indicador": "Mixto (cualitativo y cuantitativo)",
@@ -2538,7 +2456,6 @@
     {
       "_excelRow": 83,
       "ID": "A9.2.1",
-      "Fase": "F2. Implementación operativa (ene-feb 2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
       "Indicador": "Indicador 9: Grupos de investigación",
       "Tipo de indicador": "Mixto (cualitativo y cuantitativo)",
@@ -2568,7 +2485,6 @@
     {
       "_excelRow": 84,
       "ID": "A9.3.1",
-      "Fase": "F2. Implementación operativa (feb - mar 2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
       "Indicador": "Indicador 9: Grupos de investigación",
       "Tipo de indicador": "Mixto (cualitativo y cuantitativo)",
@@ -2598,7 +2514,6 @@
     {
       "_excelRow": 85,
       "ID": "A9.3.2",
-      "Fase": "F2. Implementación operativa (feb - mar 2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
       "Indicador": "Indicador 9: Grupos de investigación",
       "Tipo de indicador": "Mixto (cualitativo y cuantitativo)",
@@ -2628,7 +2543,6 @@
     {
       "_excelRow": 86,
       "ID": "A9.4.1",
-      "Fase": "F1. Diseño y aprobación normativa (dic - ene 2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
       "Indicador": "Indicador 9: Grupos de investigación",
       "Tipo de indicador": "Mixto (cualitativo y cuantitativo)",
@@ -2658,7 +2572,6 @@
     {
       "_excelRow": 87,
       "ID": "A10.1.1",
-      "Fase": "F1. Diseño y aprobación normativa (dic - ene 2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
       "Indicador": "Indicador 10: Calidad e impacto en la investigación",
       "Tipo de indicador": "Cualitativo",
@@ -2688,7 +2601,6 @@
     {
       "_excelRow": 88,
       "ID": "A10.1.2",
-      "Fase": "F2. Implementación operativa (feb - abr 2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
       "Indicador": "Indicador 10: Calidad e impacto en la investigación",
       "Tipo de indicador": "Cualitativo",
@@ -2718,7 +2630,6 @@
     {
       "_excelRow": 89,
       "ID": "A10.2.1",
-      "Fase": "F2. Implementación operativa (feb - abr 2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
       "Indicador": "Indicador 10: Calidad e impacto en la investigación",
       "Tipo de indicador": "Cualitativo",
@@ -2748,7 +2659,6 @@
     {
       "_excelRow": 90,
       "ID": "A10.2.2",
-      "Fase": "F3. Consolidación y postulación (abr - may 2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
       "Indicador": "Indicador 10: Calidad e impacto en la investigación",
       "Tipo de indicador": "Cualitativo",
@@ -2778,7 +2688,6 @@
     {
       "_excelRow": 91,
       "ID": "A10.3.1",
-      "Fase": "F1. Diseño y aprobación normativa (dic - feb 2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
       "Indicador": "Indicador 10: Calidad e impacto en la investigación",
       "Tipo de indicador": "Cualitativo",
@@ -2808,7 +2717,6 @@
     {
       "_excelRow": 92,
       "ID": "A10.3.2",
-      "Fase": "F2. Implementación operativa (feb - may 2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
       "Indicador": "Indicador 10: Calidad e impacto en la investigación",
       "Tipo de indicador": "Cualitativo",
@@ -2838,7 +2746,6 @@
     {
       "_excelRow": 93,
       "ID": "A10.4.1",
-      "Fase": "F1. Diseño y aprobación normativa (ene - mar 2027 )",
       "Criterio": "CCE - Criterio de Carácter Específico",
       "Indicador": "Indicador 10: Calidad e impacto en la investigación",
       "Tipo de indicador": "Cualitativo",
@@ -2868,7 +2775,6 @@
     {
       "_excelRow": 94,
       "ID": "A10.4.2",
-      "Fase": "F2. Implementación operativa (mar - abr 2027)",
       "Criterio": "CCE - Criterio de Carácter Específico",
       "Indicador": "Indicador 10: Calidad e impacto en la investigación",
       "Tipo de indicador": "Cualitativo",
