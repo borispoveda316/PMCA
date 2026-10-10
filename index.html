@@ -473,9 +473,10 @@
         <div class="section-head">
           <div><h1 id="activitiesTitle">Consulta de actividades</h1><p id="activitiesHelp">La búsqueda superior revisa todas las columnas del plan.</p></div>
         </div>
-        <div class="filters">
+        <div class="filters">}}
           <div class="field"><label for="phaseFilter">Fase</label><select id="phaseFilter"><option value="">Todas</option></select></div>
           <div class="field"><label for="indicatorFilter">Indicador</label><select id="indicatorFilter"><option value="">Todos</option></select></div>
+          <div class="field"><label for="responsibleFilter">Responsable</label><select id="responsibleFilter"><option value="">Todos</option></select></div>
           <div class="field"><label for="priorityFilter">Prioridad</label><select id="priorityFilter"><option value="">Todas</option></select></div>
           <div class="field"><label for="statusFilter">Estado</label><select id="statusFilter"><option value="">Todos</option></select></div>
           <div class="filter-actions"><button id="clearFiltersButton" class="ghost-btn" type="button">Limpiar filtros</button></div>
@@ -581,7 +582,7 @@
         base: new Map(),
         dirty: new Map(),
         search: "",
-        filters: { phase: "", indicator: "", priority: "", status: "" },
+        filters: { phase: "", indicator: "", priority: "", status: "", responsible: "" },
         page: 1,
         activeView: "overview",
         visibleColumns: new Set(seed.headers),
@@ -843,26 +844,37 @@
       }
 
       function filteredRecords() {
-        const query = norm(state.search);
-        return state.records.filter(record => {
-          if (query && !seed.headers.some(field => norm(record[field]).includes(query))) return false;
-          if (state.filters.phase && phaseCode(record.Fase) !== state.filters.phase) return false;
-          if (state.filters.indicator && record.Indicador !== state.filters.indicator) return false;
-          if (state.filters.priority && record.Prioridad !== state.filters.priority) return false;
-          if (state.filters.status && record.Estado !== state.filters.status) return false;
-          return true;
-        });
-      }
+  const query = norm(state.search);
+  return state.records.filter(record => {
+    if (query && !seed.headers.some(field => norm(record[field]).includes(query))) return false;
+    if (state.filters.phase && phaseCode(record.Fase) !== state.filters.phase) return false;
+    if (state.filters.indicator && record.Indicador !== state.filters.indicator) return false;
+    if (state.filters.priority && record.Prioridad !== state.filters.priority) return false;
+    if (state.filters.status && record.Estado !== state.filters.status) return false;
+    if (state.filters.responsible) {
+      const respList = splitResponsible(record).map(norm);
+      if (!respList.includes(norm(state.filters.responsible))) return false;
+    }
+    return true;
+  });
+}
 
       function renderFilterOptions() {
+        const allResponsibles = unique(
+          state.records.flatMap(r => splitResponsible(r))
+        ).sort(collator.compare);
+
         const sets = {
           phaseFilter: unique(state.records.map(r => phaseCode(r.Fase))).sort(collator.compare),
           indicatorFilter: unique(state.records.map(r => r.Indicador)).sort(collator.compare),
+          responsibleFilter: allResponsibles,
           priorityFilter: unique(state.records.map(r => r.Prioridad)).sort(collator.compare),
           statusFilter: unique(state.records.map(r => r.Estado)).sort(collator.compare)
         };
+
         for (const [id, values] of Object.entries(sets)) {
           const select = document.getElementById(id);
+          if (!select) continue;
           const current = select.value;
           const label = select.options[0].textContent;
           select.innerHTML = `<option value="">${esc(label)}</option>` + values.map(value => `<option value="${esc(value)}">${esc(value)}</option>`).join("");
@@ -1430,8 +1442,14 @@
         $$(".tab").forEach(tab => tab.addEventListener("click", () => showView(tab.dataset.view)));
         $$('[data-go]').forEach(button => button.addEventListener("click", () => showView(button.dataset.go)));
         $("#globalSearch").addEventListener("input", event => { state.search = event.target.value; state.page = 1; if (state.activeView !== "activities") showView("activities"); else renderActivities(); });
-        [["phaseFilter","phase"],["indicatorFilter","indicator"],["priorityFilter","priority"],["statusFilter","status"]].forEach(([id,key]) => $("#"+id).addEventListener("change", event => { state.filters[key] = event.target.value; state.page = 1; renderActivities(); }));
-        $("#clearFiltersButton").addEventListener("click", () => { state.filters = {phase:"",indicator:"",priority:"",status:""}; state.search=""; $("#globalSearch").value=""; state.page=1; renderActivities(); });
+        [["phaseFilter","phase"],["indicatorFilter","indicator"],["responsibleFilter","responsible"],["priorityFilter","priority"],["statusFilter","status"]].forEach(([id,key]) => $("#"+id).addEventListener("change", event => { state.filters[key] = event.target.value; state.page = 1; renderActivities(); }));
+        $("#clearFiltersButton").addEventListener("click", () => { 
+          state.filters = { phase: "", indicator: "", responsible: "", priority: "", status: "" }; 
+          state.search = ""; 
+          $("#globalSearch").value = ""; 
+          state.page = 1; 
+          renderActivities(); 
+        });
         $("#activitiesTable").addEventListener("click", event => { const button = event.target.closest("[data-edit-row]"); if (button) openEdit(button.dataset.editRow); });
         $("#prevPage").addEventListener("click", () => { state.page--; renderActivities(); });
         $("#nextPage").addEventListener("click", () => { state.page++; renderActivities(); });
